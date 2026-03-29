@@ -15,6 +15,7 @@
                 "baby": "geometry.elephant.baby"
 			},
             "animations": {
+                "idle": "animation.elephant.idle",
                 "walk": "animation.quadruped.walk",
                 "look_at_target": "animation.common.look_at_target"
             },
