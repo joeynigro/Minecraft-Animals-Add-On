@@ -12,6 +12,9 @@
 			"geometry": {
 				"default": "geometry.squirrel"
 			},
+            "animations": {
+                "look_at_target": "animation.common.look_at_target"
+            },
 			"render_controllers": ["controller.render.default"],
 			"spawn_egg": {
 				"texture": "squirrel_spawn_egg"
