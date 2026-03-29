@@ -17,7 +17,8 @@
             "animations": {
                 "idle": "animation.elephant.idle",
                 "walk": "animation.quadruped.walk",
-                "look_at_target": "animation.common.look_at_target"
+                "look_at_target": "animation.common.look_at_target",
+                "baby_idle": "animation.elephant.baby.idle"
             },
 			"render_controllers": ["controller.render.default"],
 			"spawn_egg": {
