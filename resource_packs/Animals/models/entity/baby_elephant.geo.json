@@ -74,7 +74,7 @@
 				{
 					"name": "trunk",
 					"parent": "head",
-					"pivot": [0, 20, -12.5],
+					"pivot": [0, 20, -14],
 					"cubes": [
 						{"origin": [-2, 7, -17], "size": [4, 13, 3], "uv": [58, 28]}
 					]
