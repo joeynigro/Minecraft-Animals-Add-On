@@ -1,5 +1,8 @@
+item.cooked_venison.name=Cooked Venison
 entity.animals:beaver.name=Beaver
 item.spawn_egg.entity.animals:beaver.name=Beaver Spawn Egg
+entity.animals:deer.name=Deer
+item.spawn_egg.entity.animals:deer.name=Deer Spawn Egg
 entity.animals:elephant.name=Elephant
 item.spawn_egg.entity.animals:elephant.name=Elephant Spawn Egg
 entity.animals:grizzly_bear.name=Grizzly Bear
@@ -12,3 +15,4 @@ entity.animals:squirrel.name=Squirrel
 item.spawn_egg.entity.animals:squirrel.name=Squirrel Spawn Egg
 entity.animals:tree_frog.name=Tree Frog
 item.spawn_egg.entity.animals:tree_frog.name=Tree Frog Spawn Egg
+item.venison.name=Raw Venison
