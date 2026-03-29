@@ -1,0 +1,13 @@
+{
+	"texture_data": {
+		"baby_bear_spawn_egg": {
+			"textures": ["textures/items/baby_bear_spawn_egg"]
+		},
+		"grizzly_bear_spawn_egg": {
+			"textures": ["textures/items/grizzly_bear_spawn_egg"]
+		},
+		"slug_spawn_egg": {
+			"textures": ["textures/items/slug_spawn_egg"]
+		}
+	}
+}

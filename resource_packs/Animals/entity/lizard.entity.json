@@ -1,0 +1,21 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "animals:lizard",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/lizard"
+			},
+			"geometry": {
+				"default": "geometry.lizard"
+			},
+			"render_controllers": ["controller.render.default"],
+			"spawn_egg": {
+				"texture": "lizard_spawn_egg"
+			}
+		}
+	}
+}

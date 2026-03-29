@@ -1,0 +1,21 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "animals:squirrel",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/squirrel"
+			},
+			"geometry": {
+				"default": "geometry.squirrel"
+			},
+			"render_controllers": ["controller.render.default"],
+			"spawn_egg": {
+				"texture": "squirrel_spawn_egg"
+			}
+		}
+	}
+}
