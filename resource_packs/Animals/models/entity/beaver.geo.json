@@ -18,7 +18,7 @@
 				{
 					"name": "body",
 					"parent": "root",
-					"pivot": [0, 0, 0],
+					"pivot": [0, 5.5, 1],
 					"cubes": [
 						{"origin": [-4, 2, -5], "size": [8, 7, 12], "uv": [0, 0]}
 					]
