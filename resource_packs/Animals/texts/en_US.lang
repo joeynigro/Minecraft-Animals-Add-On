@@ -1,4 +1,14 @@
+entity.animals:beaver.name=Beaver
+item.spawn_egg.entity.animals:beaver.name=Beaver Spawn Egg
+entity.animals:elephant.name=Elephant
+item.spawn_egg.entity.animals:elephant.name=Elephant Spawn Egg
 entity.animals:grizzly_bear.name=Grizzly Bear
 item.spawn_egg.entity.animals:grizzly_bear.name=Grizzly Bear Spawn Egg
+entity.animals:lizard.name=Lizard
+item.spawn_egg.entity.animals:lizard.name=Lizard Spawn Egg
 entity.animals:slug.name=Slug
 item.spawn_egg.entity.animals:slug.name=Slug Spawn Egg
+entity.animals:squirrel.name=Squirrel
+item.spawn_egg.entity.animals:squirrel.name=Squirrel Spawn Egg
+entity.animals:tree_frog.name=Tree Frog
+item.spawn_egg.entity.animals:tree_frog.name=Tree Frog Spawn Egg
