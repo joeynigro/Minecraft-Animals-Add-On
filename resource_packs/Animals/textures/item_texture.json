@@ -1,13 +1,34 @@
 {
 	"texture_data": {
-		"baby_bear_spawn_egg": {
-			"textures": ["textures/items/baby_bear_spawn_egg"]
+		"cooked_venison": {
+			"textures": ["textures/items/cooked_venison"]
+		},
+		"beaver_spawn_egg": {
+			"textures": ["textures/items/beaver_spawn_egg"]
+		},
+		"deer_spawn_egg": {
+			"textures": ["textures/items/deer_spawn_egg"]
+		},
+		"elephant_spawn_egg": {
+			"textures": ["textures/items/elephant_spawn_egg"]
 		},
 		"grizzly_bear_spawn_egg": {
 			"textures": ["textures/items/grizzly_bear_spawn_egg"]
 		},
+		"lizard_spawn_egg": {
+			"textures": ["textures/items/lizard_spawn_egg"]
+		},
 		"slug_spawn_egg": {
 			"textures": ["textures/items/slug_spawn_egg"]
+		},
+		"squirrel_spawn_egg": {
+			"textures": ["textures/items/squirrel_spawn_egg"]
+		},
+		"tree_frog_spawn_egg": {
+			"textures": ["textures/items/tree_frog_spawn_egg"]
+		},
+		"venison": {
+			"textures": ["textures/items/venison"]
 		}
 	}
 }

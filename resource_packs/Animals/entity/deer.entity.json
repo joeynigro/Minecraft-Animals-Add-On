@@ -1,23 +1,27 @@
 {
-	"format_version": "1.10.0",
-	"minecraft:client_entity": {
-		"description": {
-			"identifier": "animals:deer",
-			"materials": {
-				"default": "entity_alphatest"
-			},
-			"textures": {
-				"default": "textures/entity/deer",
-				"baby": "textures/entity/deer_baby"
-			},
-			"geometry": {
-				"default": "geometry.deer",
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "animals:deer",
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "textures": {
+                "default": "textures/entity/deer",
+                "baby": "textures/entity/deer_baby"
+            },
+            "geometry": {
+                "default": "geometry.deer",
                 "baby": "geometry.deer.baby"
-			},
-			"render_controllers": ["controller.render.default"],
-			"spawn_egg": {
-				"texture": "deer_spawn_egg"
-			}
-		}
-	}
+            },
+            "animations": {
+                "walk": "animation.quadruped.walk",
+                "look_at_target": "animation.common.look_at_target",
+            },
+            "render_controllers": ["controller.render.default"],
+            "spawn_egg": {
+                "texture": "deer_spawn_egg"
+            }
+        }
+    }
 }

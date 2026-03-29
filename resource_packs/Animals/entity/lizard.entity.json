@@ -12,6 +12,10 @@
 			"geometry": {
 				"default": "geometry.lizard"
 			},
+            "animations": {
+                "walk": "animation.quadruped.walk",
+                "look_at_target": "animation.common.look_at_target",
+            },
 			"render_controllers": ["controller.render.default"],
 			"spawn_egg": {
 				"texture": "lizard_spawn_egg"

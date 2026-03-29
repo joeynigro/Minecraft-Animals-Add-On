@@ -14,6 +14,10 @@
 				"default": "geometry.elephant",
                 "baby": "geometry.elephant.baby"
 			},
+            "animations": {
+                "walk": "animation.quadruped.walk",
+                "look_at_target": "animation.common.look_at_target",
+            },
 			"render_controllers": ["controller.render.default"],
 			"spawn_egg": {
 				"texture": "elephant_spawn_egg"

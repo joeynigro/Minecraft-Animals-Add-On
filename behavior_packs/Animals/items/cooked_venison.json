@@ -2,11 +2,16 @@
   "format_version": "1.10",
   "minecraft:item": {
     "description": {
-      "identifier": "minecraft:cooked_venison"
+      "identifier": "animals:cooked_venison",
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.cookedFood"
+			}
     },
 
     "components": {
       "minecraft:use_duration": 32,
+	  "minecraft:icon": "cooked_venison",
       "minecraft:food": {
         "nutrition": 8,
         "saturation_modifier": "good"
