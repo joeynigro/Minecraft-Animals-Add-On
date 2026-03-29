@@ -2,17 +2,17 @@
   "format_version": "1.20.10",
   "minecraft:recipe_furnace": {
     "description": {
-    "identifier": "animals:furnace_venison"
+    "identifier": "furnace_venison"
     },
 
     "unlock": [
       {
-        "item": "animals:venison"
+        "item": "venison"
       }
     ],
     "tags": ["furnace", "smoker", "campfire", "soul_campfire"],
-    "input": "animals:venison",
-    "output": "animals:cooked_venison"
+    "input": "venison",
+    "output": "cooked_venison"
   }
   
 }
