@@ -128,7 +128,7 @@
 				{
 					"name": "right_ear",
 					"parent": "head",
-					"pivot": [-11, 62, -4],
+					"pivot": [-3, 60, -33],
 					"rotation": [0, 0, 5],
 					"cubes": [
 						{"origin": [-29.27442, 36.71476, -34], "size": [19, 30, 2], "uv": [0, 131]}
@@ -137,7 +137,7 @@
 				{
 					"name": "left_ear",
 					"parent": "head",
-					"pivot": [17, 61, -4],
+					"pivot": [3, 60, -33],
 					"rotation": [0, 0, -5],
 					"cubes": [
 						{"origin": [8.27822, 37.6276, -34], "size": [19, 30, 2], "uv": [42, 131]}
