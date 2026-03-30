@@ -1,5 +1,5 @@
 {
-  "format_version": "1.8.0",
+  "format_version": "1.10.0",
   "minecraft:client_entity": {
     "description": {
       "identifier": "animals:tree_frog",
@@ -7,7 +7,7 @@
         "default": "entity_alphatest"
       },
       "textures": {
-        "default": "textures/entity/tree_frog",
+        "default": "textures/entity/tree_frog"
       },
       "geometry": {
         "default": "geometry.frog"

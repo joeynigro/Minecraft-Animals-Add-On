@@ -15,7 +15,7 @@
             "animations": {
                 "idle": "animation.squirrel.idle",
                 "walk": "animation.squirrel.walk",
-                "walk": "animation.squirrel.jump",
+                "jump": "animation.squirrel.jump",
                 "look_at_target": "animation.common.look_at_target"
             },
             "scripts": {

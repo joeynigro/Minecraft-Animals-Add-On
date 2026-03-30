@@ -8,6 +8,64 @@
             "is_experimental": false
         },
         "components": {
+            "minecraft:behavior.breed": {
+                "priority": 4
+            },
+            "minecraft:behavior.croak": {
+                "duration": 4.5,
+                "filters": {
+                    "all_of": [{
+                            "test": "in_water",
+                            "value": false
+                        }, {
+                            "test": "in_lava",
+                            "value": false
+                        }
+                    ]
+                },
+                "interval": [
+                    10,
+                    20
+                ],
+                "priority": 9
+            },
+            "minecraft:behavior.eat_mob": {
+                "run_speed": 2,
+                "eat_animation_time": 0.3,
+                "pull_in_force": 0.75,
+                "reach_mob_distance": 1.75,
+                "eat_mob_sound": "tongue",
+                "loot_table": "loot_tables/entities/frog.json",
+                "priority": 7
+            },
+            "minecraft:behavior.jump_to_block": {
+                "cooldown_range": [
+                    5,
+                    7
+                ],
+                "priority": 10,
+                "max_velocity": 1,
+                "forbidden_blocks": [
+                    "minecraft:water"
+                ],
+                "minimum_distance": 1,
+                "minimum_path_length": 2,
+                "preferred_blocks": [
+                    "minecraft:waterlily",
+                    "minecraft:big_dripleaf"
+                ],
+                "preferred_blocks_chance": 0.5,
+                "scale_factor": 0.6,
+                "search_height": 4,
+                "search_width": 8
+            },
+            "minecraft:behavior.move_to_land": {
+                "goal_radius": 2,
+                "priority": 6,
+                "search_count": 80,
+                "search_height": 8,
+                "search_range": 30
+            },
             "minecraft:nameable": {},
             "minecraft:physics": {},
             "minecraft:pushable": {
