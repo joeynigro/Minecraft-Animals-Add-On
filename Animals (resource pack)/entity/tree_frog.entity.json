@@ -31,7 +31,7 @@
 				"animate": ["general", "croaking", "eat_mob"],
 				"pre_animation": ["variable.moving = query.ground_speed > 0 || query.vertical_speed > 0;"]
 			},
-			"render_controllers": ["controller.render.frog"]
+			"render_controllers": ["controller.render.tree_frog"]
 		}
 	}
 }
