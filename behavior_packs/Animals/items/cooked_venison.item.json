@@ -14,7 +14,7 @@
             "minecraft:icon": "cooked_venison",
             "minecraft:food": {
                 "nutrition": 8,
-                "saturation_modifier": "good"
+                "saturation_modifier": 0.8
             }
             "minecraft:use_animation": "eat"
         }
