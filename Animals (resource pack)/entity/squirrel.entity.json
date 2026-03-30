@@ -23,9 +23,9 @@
                     "look_at_target", {
                         "jump": "query.is_jumping"
                     }, {
-                        "walk": "(1.0 - query.is_jumping) * query.is_moving"
+                        "walk": "(1.0 - query.is_jumping) ? query.is_moving"
                     }, {
-                        "idle": "(1.0 - query.is_jumping) * (1.0 - query.is_moving)"
+                        "idle": "(1.0 - query.is_jumping) ? (1.0 - query.is_moving) : 0.0"
                     }
                 ]
             },
