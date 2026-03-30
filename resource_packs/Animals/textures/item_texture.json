@@ -2,9 +2,6 @@
     "resource_pack_name": "animals",
     "texture_name": "atlas.items",
 	"texture_data": {
-		"cooked_venison": {
-			"textures": "textures/items/cooked_venison"
-		},
 		"beaver_spawn_egg": {
 			"textures": "textures/items/beaver_spawn_egg"
 		},
@@ -31,6 +28,9 @@
 		},
 		"venison": {
 			"textures": "textures/items/venison"
+		},
+		"cooked_venison": {
+			"textures": "textures/items/cooked_venison"
 		}
 	}
 }
