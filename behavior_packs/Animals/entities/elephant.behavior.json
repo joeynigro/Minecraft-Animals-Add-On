@@ -88,11 +88,12 @@
 			},
 			"minecraft:behavior.tempt": {
 				"priority": 2,
-				"speed_multiplier": 1.1
+				"speed_multiplier": 1.1,
 				"items": [
 				  "apple",
 				  "melon",
 				  "hay_block"
+			    ]
 			},
 			"minecraft:behavior.hurt_by_target": {
 				"priority": 2
