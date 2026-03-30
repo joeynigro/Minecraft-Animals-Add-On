@@ -1,43 +1,37 @@
 {
-    "format_version": "1.10.0",
-    "minecraft:client_entity": {
-        "description": {
-            "identifier": "animals:tree_frog",
-            "materials": {
-                "default": "entity_alphatest"
-            },
-            "textures": {
-                "default": "textures/entity/tree_frog"
-            },
-            "geometry": {
-                "default": "geometry.frog"
-            },
-            "animations": {
-                "croak": "animation.frog.croak",
-                "jump": "animation.frog.jump",
-                "tongue": "animation.frog.tongue",
-                "walk": "animation.frog.walk",
-                "swim": "animation.frog.swim",
-                "idle_water": "animation.frog.idle.water",
-                "look_at_target": "animation.common.look_at_target"
-            },
-            "animation_controllers": [{
-                    "general": "controller.animation.frog.general"
-                }, {
-                    "croaking": "controller.animation.frog.croaking"
-                }, {
-                    "eat_mob": "controller.animation.frog.eat_mob"
-                }
-            ],
-            "scripts": {
-                "pre_animation": ["variable.moving = query.ground_speed > 0 || query.vertical_speed > 0;"]
-            },
-            "render_controllers": [
-                "controller.render.frog"
-            ],
-            "spawn_egg": {
-                "texture": "tree_frog_spawn_egg"
-            }
-        }
-    }
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "animals:tree_frog",
+			"materials": {
+				"default": "frog"
+			},
+			"textures": {
+				"default": "textures/entity/tree_frog"
+			},
+			"geometry": {
+				"default": "geometry.frog"
+			},
+			"spawn_egg": {
+				"texture": "tree_frog_spawn_egg"
+			},
+			"animations": {
+				"croak": "animation.tree_frog.croak",
+				"jump": "animation.tree_frog.jump",
+				"tongue": "animation.tree_frog.tongue",
+				"walk": "animation.tree_frog.walk",
+				"swim": "animation.tree_frog.swim",
+				"idle_water": "animation.tree_frog.idle.water",
+				"look_at_target": "animation.common.look_at_target",
+				"general": "controller.animation.frog.general",
+				"croaking": "controller.animation.frog.croaking",
+				"eat_mob": "controller.animation.frog.eat_mob"
+			},
+			"scripts": {
+				"animate": ["general", "croaking", "eat_mob"],
+				"pre_animation": ["variable.moving = query.ground_speed > 0 || query.vertical_speed > 0;"]
+			},
+			"render_controllers": ["controller.render.frog"]
+		}
+	}
 }
