@@ -5,12 +5,12 @@
             "identifier": "animals:venison",
             "menu_category": {
                 "category": "nature",
-                "group": "minecraft:itemGroup.name.rawFood"
+                "group": "itemGroup.name.rawFood"
             }
         },
         "components": {
             "minecraft:max_stack_size": 64,
-            "minecraft:icon": "venison",
+            "minecraft:icon": "raw_venison",
             "minecraft:food": {
                 "nutrition": 3,
                 "saturation_modifier": "low"
