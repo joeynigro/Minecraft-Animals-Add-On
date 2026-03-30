@@ -2,16 +2,15 @@
   "format_version": "1.10",
   "minecraft:item": {
     "description": {
-      "identifier": "venison"
-			"menu_category": {
-				"category": "nature",
-				"group": "itemGroup.name.rawFood"
-			}
+      "identifier": "animals:venison",
+      "menu_category": {
+        "category": "nature",
+        "group": "minecraft:itemGroup.name.rawFood"
+      }
     },
-
     "components": {
       "minecraft:use_duration": 32,
-	  "minecraft:icon": "venison",
+      "minecraft:icon": "venison",
       "minecraft:food": {
         "nutrition": 3,
         "saturation_modifier": "low"

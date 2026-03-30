@@ -2,7 +2,7 @@
   "format_version": "1.10",
   "minecraft:item": {
     "description": {
-      "identifier": "cooked_venison",
+      "identifier": "animals:cooked_venison",
 			"menu_category": {
 				"category": "equipment",
 				"group": "itemGroup.name.cookedFood"
