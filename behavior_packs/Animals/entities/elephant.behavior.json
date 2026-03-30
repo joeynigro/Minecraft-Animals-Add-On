@@ -10,9 +10,6 @@
 		"component_groups": {
 			"minecraft:baby": {
 				"minecraft:is_baby": {},
-				"minecraft:scale": {
-					"value": 0.5
-				},
 				"minecraft:ageable": {
 					"duration": 1200,
 					"feed_items": ["wheat", "apple", "melon", "hay_block"],
