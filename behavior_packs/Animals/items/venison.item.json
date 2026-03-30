@@ -15,11 +15,11 @@
                 "nutrition": 3,
                 "saturation_modifier": "low"
             },
-            "minecraft:use_animation": "eat",
 			"minecraft:use_modifiers": {
 				"movement_modifier": 1.5,
 				"use_duration": 0.35
 			},
+            "minecraft:use_animation": "eat",
 			"minecraft:fuel": {
 				"duration": 4
 			}
