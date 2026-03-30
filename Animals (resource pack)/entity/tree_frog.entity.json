@@ -13,7 +13,7 @@
         "default": "geometry.frog"
       },
       "spawn_egg": {
-        "texture": "spawn_egg_tree_frog"
+        "texture": "tree_frog_spawn_egg"
       },
       "scripts": {
         "pre_animation": [
