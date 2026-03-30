@@ -1,31 +1,33 @@
 {
-    "format_version": "1.10.0",
-    "minecraft:client_entity": {
-        "description": {
-            "identifier": "animals:slug",
-            "materials": {
-                "default": "entity_alphatest"
-            },
-            "textures": {
-                "default": "textures/entity/slug"
-            },
-            "geometry": {
-                "default": "geometry.slug"
-            },
-            "animations": {
-                "walk": "animation.slug.walk"
-            },
-            "scripts": {
-                "animate": [
-                    [
-                        "walk": "query.modified_move_speed"
-                    ]
-                ],
-            }
-            "render_controllers": ["controller.render.default"],
-            "spawn_egg": {
-                "texture": "slug_spawn_egg"
-            }
-        }
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "animals:slug",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/slug"
+      },
+      "geometry": {
+        "default": "geometry.slug"
+      },
+      "animations": {
+        "walk": "animation.slug.walk"
+      },
+      "scripts": {
+        "animate": [
+          {
+            "walk": "query.modified_move_speed"
+          }
+        ]
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ],
+      "spawn_egg": {
+        "texture": "slug_spawn_egg"
+      }
     }
+  }
 }
