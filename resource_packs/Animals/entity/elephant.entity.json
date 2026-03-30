@@ -1,29 +1,41 @@
 {
-	"format_version": "1.10.0",
-	"minecraft:client_entity": {
-		"description": {
-			"identifier": "animals:elephant",
-			"materials": {
-				"default": "entity_alphatest"
-			},
-			"textures": {
-				"default": "textures/entity/elephant",
-				"baby": "textures/entity/elephant_baby"
-			},
-			"geometry": {
-				"default": "geometry.elephant",
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "animals:elephant",
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "textures": {
+                "default": "textures/entity/elephant",
+                "baby": "textures/entity/elephant_baby"
+            },
+            "geometry": {
+                "default": "geometry.elephant",
                 "baby": "geometry.elephant.baby"
-			},
+            },
             "animations": {
                 "idle": "animation.elephant.idle",
                 "walk": "animation.quadruped.walk",
                 "look_at_target": "animation.common.look_at_target",
                 "baby_idle": "animation.elephant.baby.idle"
             },
-			"render_controllers": ["controller.render.default"],
-			"spawn_egg": {
-				"texture": "elephant_spawn_egg"
-			}
-		}
-	}
-}
+            "scripts": {
+                "animate": [
+                    "look_at_target", {
+                        [
+                            "walk": "query.modified_move_speed"
+                        }, {
+                            "idle": "!query.is_baby ? (1.0 - math.min(query.modified_move_speed, 1.0)) : 0.0"
+                        }, {
+                            "baby_idle": "query.is_baby ? (1.0 - math.min(query.modified_move_speed, 1.0)) : 0.0"
+                        }
+                    ]
+                },
+                "render_controllers": ["controller.render.default"],
+                "spawn_egg": {
+                    "texture": "elephant_spawn_egg"
+                }
+            }
+        }
+    }
