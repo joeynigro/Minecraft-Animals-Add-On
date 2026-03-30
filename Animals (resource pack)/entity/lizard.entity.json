@@ -26,7 +26,7 @@
                     }
                 ]
             },
-			"render_controllers": ["controller.render.lizard"],
+			"render_controllers": ["controller.render.default"],
 			"spawn_egg": {
 				"texture": "lizard_spawn_egg"
 			}
