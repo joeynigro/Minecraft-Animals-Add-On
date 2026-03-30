@@ -66,7 +66,7 @@
 				{
 					"name": "head",
 					"parent": "body",
-					"pivot": [0, 8, -4],
+					"pivot": [0, 9, -4],
 					"cubes": [
 						{"origin": [-1, 8, -6], "size": [2, 5, 3], "uv": [14, 12]},
 						{"origin": [-1, 13, -8], "size": [2, 3, 5], "uv": [0, 12]}
