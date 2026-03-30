@@ -5,7 +5,7 @@
             "identifier": "animals:venison",
             "menu_category": {
                 "category": "nature",
-                "group": "itemGroup.name.rawFood"
+                "group": "minecraft:itemGroup.name.rawFood"
             }
         },
         "components": {
