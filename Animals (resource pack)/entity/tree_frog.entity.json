@@ -11,10 +11,7 @@
       },
       "geometry": {
         "default": "geometry.frog"
-      },
-      "spawn_egg": {
-        "texture": "tree_frog_spawn_egg"
-      },
+      }
       "scripts": {
         "pre_animation": [
           "variable.moving = query.ground_speed > 0 || query.vertical_speed > 0;"
@@ -42,7 +39,10 @@
       ],
       "render_controllers": [
         "controller.render.frog"
-      ]
+      ],
+      "spawn_egg": {
+        "texture": "tree_frog_spawn_egg"
+      }
     }
   }
 }
