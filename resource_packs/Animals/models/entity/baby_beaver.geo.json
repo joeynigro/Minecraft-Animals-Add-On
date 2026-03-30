@@ -26,9 +26,25 @@
 				{
 					"name": "head",
 					"parent": "body",
-					"pivot": [0, 3, -3],
+					"pivot": [0, 3, -2],
 					"cubes": [
 						{"origin": [-1, 2, -5], "size": [2, 2, 3], "uv": [0, 15]}
+					]
+				},
+				{
+					"name": "right_ear",
+					"parent": "head",
+					"pivot": [-0.5, 3.5, -2.5],
+					"cubes": [
+						{"origin": [-1.5, 3.5, -2.5], "size": [1, 1, 0], "uv": [18, 2]}
+					]
+				},
+				{
+					"name": "left_ear",
+					"parent": "head",
+					"pivot": [1.5, 3.5, -2.5],
+					"cubes": [
+						{"origin": [0.5, 3.5, -2.5], "size": [1, 1, 0], "uv": [18, 2]}
 					]
 				},
 				{
