@@ -23,7 +23,7 @@
         ]
       },
       "render_controllers": [
-        "controller.render.default"
+        "controller.render.slug"
       ],
       "spawn_egg": {
         "texture": "slug_spawn_egg"
