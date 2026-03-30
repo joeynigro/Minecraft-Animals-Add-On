@@ -4,7 +4,7 @@
 		"description": {
 			"identifier": "animals:tree_frog",
 			"materials": {
-				"default": "frog"
+				"default": "entity_alphatest"
 			},
 			"textures": {
 				"default": "textures/entity/tree_frog"
