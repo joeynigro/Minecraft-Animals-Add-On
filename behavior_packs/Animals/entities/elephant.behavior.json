@@ -72,7 +72,6 @@
 			},
 			"minecraft:movement.basic": {},
 			"minecraft:jump.static": {},
-			"minecraft:can_climb": {},
 			"minecraft:follow_range": {
 				"value": 48
 			},
@@ -118,11 +117,6 @@
 			"minecraft:pushable": {
 				"is_pushable": false,
 				"is_pushable_by_piston": false
-			},
-			"minecraft:leashable": {
-				"soft_distance": 4,
-				"hard_distance": 6,
-				"max_distance": 10
 			},
 			"minecraft:conditional_bandwidth_optimization": {}
 		},

@@ -15,10 +15,20 @@
                 "baby": "geometry.beaver.baby"
             },
             "animations": {
+                "idle": "animation.beaver.idle",
                 "walk": "animation.quadruped.walk",
                 "look_at_target": "animation.common.look_at_target"
             },
-            "render_controllers": ["controller.render.default"],
+            "scripts": {
+                "animate": [
+                    "look_at_target", {
+                        "walk": "query.modified_move_speed"
+                    }, {
+                        "idle": "1.0 - math.min(query.modified_move_speed, 1.0)"
+                    }
+                ]
+            },
+            "render_controllers": ["controller.render.beaver"],
             "spawn_egg": {
                 "texture": "beaver_spawn_egg"
             }

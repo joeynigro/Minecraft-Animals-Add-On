@@ -2,7 +2,7 @@
 	"format_version": "1.16.0",
 	"minecraft:entity": {
 		"description": {
-			"identifier": "animals:deer",
+			"identifier": "animals:beaver",
 			"is_spawnable": true,
 			"is_summonable": true,
 			"is_experimental": false
@@ -15,7 +15,7 @@
 				},
 				"minecraft:ageable": {
 					"duration": 1200,
-					"feed_items": ["wheat", "apple"],
+					"feed_items": ["stick", "apple", "wheat],
 					"grow_up": {
 						"event": "minecraft:ageable_grow_up",
 						"target": "self"
@@ -29,9 +29,6 @@
 			"minecraft:adult": {
 				"minecraft:experience_reward": {
 					"on_death": "query.last_hit_by_player ? Math.Random(1,3) : 0"
-				},
-				"minecraft:loot": {
-					"table": "loot_tables/entities/deer.json"
 				}
 			}
 		},
@@ -42,7 +39,7 @@
 			},
 			"minecraft:nameable": {},
 			"minecraft:health": {
-				"value": 20
+				"value": 16
 			},
 			"minecraft:hurt_on_condition": {
 				"damage_conditions": [
@@ -59,20 +56,18 @@
 				]
 			},
 			"minecraft:collision_box": {
-				"width": 0.9,
-				"height": 1.5
+				"width": 0.8,
+				"height": 0.9
 			},
 			"minecraft:movement": {
-				"value": 0.28
+				"value": 0.18
 			},
 			"minecraft:navigation.walk": {
 				"avoid_damage_blocks": true
 			},
+			"minecraft:navigation.swim": {},
 			"minecraft:movement.basic": {},
 			"minecraft:jump.static": {},
-			"minecraft:follow_range": {
-				"value": 48
-			},
 			"minecraft:despawn": {
 				"despawn_from_distance": {}
 			},
@@ -81,14 +76,15 @@
 			},
 			"minecraft:behavior.panic": {
 				"priority": 1,
-				"speed_multiplier": 1.5
+				"speed_multiplier": 1.3
 			},
 			"minecraft:behavior.tempt": {
 				"priority": 2,
-				"speed_multiplier": 1.2,
+				"speed_multiplier": 1.1,
 				"items": [
-				  "wheat",
-				  "apple"
+				  "stick",
+				  "apple",
+				  "wheat"
 			    ]
 			},
 			"minecraft:behavior.hurt_by_target": {
@@ -100,20 +96,20 @@
 			},
 			"minecraft:behavior.random_stroll": {
 				"priority": 6,
-				"speed_multiplier": 1.0
+				"speed_multiplier": 0.8
 			},
 			"minecraft:behavior.look_at_player": {
 				"priority": 7,
-				"target_distance": 8,
-				"probability": 0.02
+				"target_distance": 6,
+				"probability": 0.1
 			},
 			"minecraft:behavior.random_look_around": {
 				"priority": 8
 			},
 			"minecraft:physics": {},
 			"minecraft:pushable": {
-				"is_pushable": false,
-				"is_pushable_by_piston": false
+				"is_pushable": true,
+				"is_pushable_by_piston": true
 			},
 			"minecraft:conditional_bandwidth_optimization": {}
 		},
