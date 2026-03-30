@@ -13,8 +13,8 @@
 			"minecraft:icon": "venison",
 			"minecraft:food": {
 				"nutrition": 3,
-                "saturation_modifier": 0.3
-            },
+				"saturation_modifier": 0.3
+			},
 			"minecraft:use_modifiers": {
 				"movement_modifier": 1.5,
 				"use_duration": 0.35
