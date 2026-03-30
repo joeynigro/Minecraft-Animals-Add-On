@@ -19,10 +19,7 @@
 				"movement_modifier": 1.5,
 				"use_duration": 0.35
 			},
-            "minecraft:use_animation": "eat",
-			"minecraft:fuel": {
-				"duration": 4
-			}
+            "minecraft:use_animation": "eat"
         }
     }
 }
