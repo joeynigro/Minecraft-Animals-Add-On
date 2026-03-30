@@ -24,7 +24,7 @@
                     "look_at_target", {
                         "walk": "query.modified_move_speed"
                     }, {
-                        "idle": "(1.0 - math.min(query.modified_move_speed, 1.0)) : 0.0"
+                        "idle": "1.0 - math.min(query.modified_move_speed, 1.0)"
                     }
                 ]
             },
