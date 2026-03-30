@@ -17,7 +17,7 @@
             "animations": {
                 "idle": "animation.beaver.idle",
                 "walk": "animation.quadruped.walk",
-                "swim": "animation.quadruped.swim",
+                "swim": "animation.beaver.swim",
                 "look_at_target": "animation.common.look_at_target"
             },
             "scripts": {
