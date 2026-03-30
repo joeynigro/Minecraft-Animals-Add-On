@@ -17,14 +17,17 @@
             "animations": {
                 "idle": "animation.beaver.idle",
                 "walk": "animation.quadruped.walk",
+                "swim": "animation.quadruped.swim",
                 "look_at_target": "animation.common.look_at_target"
             },
             "scripts": {
                 "animate": [
                     "look_at_target", {
-                        "walk": "query.modified_move_speed"
+                        "swim": "query.is_in_water"
                     }, {
-                        "idle": "1.0 - math.min(query.modified_move_speed, 1.0)"
+                        "walk": "!query.is_in_water * query.modified_move_speed"
+                    }, {
+                        "idle": "!query.is_in_water * (1.0 - math.min(query.modified_move_speed, 1.0))"
                     }
                 ]
             },
