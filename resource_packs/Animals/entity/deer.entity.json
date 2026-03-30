@@ -28,7 +28,7 @@
                     }
                 ]
             },
-            "render_controllers": ["controller.deer.default"],
+            "render_controllers": ["controller.render.deer"],
             "spawn_egg": {
                 "texture": "deer_spawn_egg"
             }
