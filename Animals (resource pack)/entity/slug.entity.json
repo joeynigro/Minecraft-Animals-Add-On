@@ -18,7 +18,7 @@
       "scripts": {
         "animate": [
           {
-            "walk": "query.modified_move_speed : 0.0"
+            "walk": "query.modified_move_speed > 0.01"
           }
         ]
       },
