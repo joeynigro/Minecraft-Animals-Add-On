@@ -34,6 +34,7 @@
             },
             "minecraft:movement.basic": {},
             "minecraft:jump.static": {},
+			"minecraft:can_climb": {},
             "minecraft:navigation.walk": {
                 "avoid_damage_blocks": true
             },
