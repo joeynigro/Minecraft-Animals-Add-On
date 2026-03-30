@@ -1,0 +1,52 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:spawn_rules": {
+    "description": {
+      "identifier": "animals:lizard",
+      "population_control": "animal"
+    },
+    "conditions": [
+      {
+        "minecraft:spawns_on_surface": {},
+                "minecraft:spawns_on_block_filter": [{
+                        "name": "minecraft:sand"
+                    }, {
+                        "name": "minecraft:red_sand"
+                    },
+                        "name": "minecraft:grass_block"
+                    }, {
+                        "name": "minecraft:dirt"
+                    }, {
+                        "name": "minecraft:terracotta"
+                    }
+                ],
+        "minecraft:spawns_on_block_prevented_filter": [
+          "minecraft:water",
+          "minecraft:lava",
+          "minecraft:leaves"
+        ],
+        "minecraft:brightness_filter": {
+          "min": 7,
+          "max": 15,
+          "adjust_for_weather": false
+        },
+        "minecraft:weight": {
+          "default": 18
+        },
+        "minecraft:herd": {
+          "min_size": 1,
+          "max_size": 3,
+          "event":"minecraft:entity_born",
+          "event_skip_count": 1
+        },
+        "minecraft:density_limit": {
+          "surface": 4,
+          "underground": 0
+        },
+        "minecraft:biome_filter": [
+          {"test": "has_biome_tag", "operator":"==", "value": "savanna"},
+          {"test": "has_biome_tag", "operator":"==", "value": "jungle"}
+      }
+    ]
+  }
+}
