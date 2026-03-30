@@ -32,6 +32,9 @@
             "minecraft:movement": {
                 "value": 0.32
             },
+            "minecraft:walk_animation_speed": {
+                "value": 1.4
+            }
             "minecraft:movement.basic": {},
             "minecraft:jump.static": {},
             "minecraft:can_climb": {},
