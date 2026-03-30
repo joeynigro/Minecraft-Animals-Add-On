@@ -23,19 +23,17 @@
             "scripts": {
                 "animate": [
                     "look_at_target", {
-                        [
-                            "walk": "query.modified_move_speed"
-                        }, {
-                            "idle": "!query.is_baby ? (1.0 - math.min(query.modified_move_speed, 1.0)) : 0.0"
-                        }, {
-                            "baby_idle": "query.is_baby ? (1.0 - math.min(query.modified_move_speed, 1.0)) : 0.0"
-                        }
-                    ]
-                ],
-                "render_controllers": ["controller.render.default"],
-                "spawn_egg": {
-                    "texture": "elephant_spawn_egg"
-                }
+                        "walk": "query.modified_move_speed"
+                    }, {
+                        "idle": "!query.is_baby ? (1.0 - math.min(query.modified_move_speed, 1.0)) : 0.0"
+                    }, {
+                        "baby_idle": "query.is_baby ? (1.0 - math.min(query.modified_move_speed, 1.0)) : 0.0"
+                    }
+                ]
+            },
+            "render_controllers": ["controller.render.default"],
+            "spawn_egg": {
+                "texture": "elephant_spawn_egg"
             }
         }
     }

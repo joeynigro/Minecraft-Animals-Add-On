@@ -20,11 +20,12 @@
                     [
                         "walk": "query.modified_move_speed"
                     ]
-                },
+                ],
                 "render_controllers": ["controller.render.default"],
                 "spawn_egg": {
                     "texture": "slug_spawn_egg"
                 }
             }
         }
+    }
 }
