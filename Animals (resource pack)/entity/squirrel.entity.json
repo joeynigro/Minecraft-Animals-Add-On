@@ -21,11 +21,11 @@
             "scripts": {
                 "animate": [
                     "look_at_target", {
-                        "walk": "query.modified_move_speed"
+                        "walk": "(1.0 - query.is_jumping) * query.is_moving"
                     }, {
                         "jump": "query.is_jumping"
                     }, {
-                        "idle": "1.0 - math.min(query.modified_move_speed, 1.0)"
+                        "idle": "(1.0 - query.is_jumping) * (1.0 - query.is_moving)"
                     }
                 ]
             },
