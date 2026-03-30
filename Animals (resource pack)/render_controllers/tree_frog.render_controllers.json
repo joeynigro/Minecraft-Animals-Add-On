@@ -1,0 +1,11 @@
+{
+  "format_version": "1.10.0",
+  "render_controllers": {
+    "controller.render.tree_frog": {
+      "geometry": "Geometry.default",
+			"part_visibility": [ { "croaking_body": "!query.is_eating_mob" } ],
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.default" ]
+    }
+  }
+}
