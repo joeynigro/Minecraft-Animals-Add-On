@@ -19,7 +19,14 @@
                 "movement_modifier": 0.35,
                 "use_duration": 1.6
             },
-            "minecraft:use_animation": "eat"
+            "minecraft:use_animation": "eat",
+            "minecraft:tags": {
+                "tags": [
+                    "minecraft:is_food",
+                    "minecraft:is_meat",
+                    "minecraft:is_cooked"
+                ]
+            }
         }
     }
 }
