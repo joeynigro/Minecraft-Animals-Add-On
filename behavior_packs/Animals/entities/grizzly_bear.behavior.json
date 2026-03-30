@@ -116,7 +116,7 @@
 			},
 			"minecraft:nameable": {},
 			"minecraft:health": {
-				"value": 30
+				"value": 34
 			},
 			"minecraft:hurt_on_condition": {
 				"damage_conditions": [
@@ -137,7 +137,7 @@
 				"height": 1.4
 			},
 			"minecraft:movement": {
-				"value": 0.25
+				"value": 0.18
 			},
 			"minecraft:water_movement": {
 				"drag_factor": 0.98
@@ -174,8 +174,8 @@
 			},
 			"minecraft:physics": {},
 			"minecraft:pushable": {
-				"is_pushable": true,
-				"is_pushable_by_piston": true
+				"is_pushable": false,
+				"is_pushable_by_piston": false
 			},
 			"minecraft:behavior.panic": {
 				"priority": 2,
