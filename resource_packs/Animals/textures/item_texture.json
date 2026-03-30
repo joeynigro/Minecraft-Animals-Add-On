@@ -30,7 +30,7 @@
 			"textures": "textures/items/tree_frog_spawn_egg"
 		},
 		"venison": {
-			"textures": "textures/items/raw_venison"
+			"textures": "textures/items/venison"
 		}
 	}
 }
