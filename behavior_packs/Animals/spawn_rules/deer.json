@@ -16,11 +16,11 @@
                         "name": "minecraft:podzol"
                     }
                 ],
-        "minecraft:spawns_on_block_prevented_filter": [
-          "minecraft:water",
-          "minecraft:lava",
-          "minecraft:leaves"
-        ],
+                "minecraft:spawns_on_block_prevented_filter": [
+                    "minecraft:water",
+                    "minecraft:lava",
+                    "minecraft:leaves"
+                ],
         "minecraft:brightness_filter": {
           "min": 7,
           "max": 15,

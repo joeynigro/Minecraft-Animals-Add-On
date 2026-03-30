@@ -1,24 +1,38 @@
 {
-	"format_version": "1.10.0",
-	"minecraft:client_entity": {
-		"description": {
-			"identifier": "animals:squirrel",
-			"materials": {
-				"default": "entity_alphatest"
-			},
-			"textures": {
-				"default": "textures/entity/squirrel"
-			},
-			"geometry": {
-				"default": "geometry.squirrel"
-			},
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "animals:squirrel",
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "textures": {
+                "default": "textures/entity/squirrel"
+            },
+            "geometry": {
+                "default": "geometry.squirrel"
+            },
             "animations": {
+                "idle": "animation.squirrel.idle",
+                "walk": "animation.squirrel.walk",
+                "walk": "animation.squirrel.jump",
                 "look_at_target": "animation.common.look_at_target"
             },
-			"render_controllers": ["controller.render.default"],
-			"spawn_egg": {
-				"texture": "squirrel_spawn_egg"
-			}
-		}
-	}
+            "scripts": {
+                "animate": [
+                    "look_at_target", {
+                        "walk": "query.modified_move_speed"
+                    }, {
+                        "jump": "query.is_jumping"
+                    }, {
+                        "idle": "1.0 - math.min(query.modified_move_speed, 1.0)"
+                    }
+                ]
+            },
+            "render_controllers": ["controller.render.default"],
+            "spawn_egg": {
+                "texture": "squirrel_spawn_egg"
+            }
+        }
+    }
 }
