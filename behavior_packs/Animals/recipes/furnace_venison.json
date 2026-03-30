@@ -4,12 +4,6 @@
     "description": {
     "identifier": "animals:furnace_venison"
     },
-
-    "unlock": [
-      {
-        "item": "venison"
-      }
-    ],
     "tags": ["furnace", "smoker", "campfire", "soul_campfire"],
     "input": "animals:venison",
     "output": "animals:cooked_venison"
