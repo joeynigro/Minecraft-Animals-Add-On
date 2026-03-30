@@ -23,7 +23,7 @@
                     "look_at_target", {
                         "jump": "query.is_jumping"
                     }, {
-                        "walk": "!query.is_jumping ? query.modified_move_speed * 4.0"
+                        "walk": "!query.is_jumping ? query.modified_move_speed : 4.0"
                     }, {
                         "idle": "!query.is_jumping ? (1.0 - query.modified_move_speed) : 0.0"
                     }
