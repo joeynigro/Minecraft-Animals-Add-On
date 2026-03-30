@@ -86,7 +86,7 @@
 				{
 					"name": "tail",
 					"parent": "body",
-					"pivot": [0, 2.5, 0],
+					"pivot": [0, 2.5, 3],
 					"cubes": [
 						{"origin": [-1.5, 2, 3], "size": [3, 1, 6], "uv": [0, 0]}
 					]
