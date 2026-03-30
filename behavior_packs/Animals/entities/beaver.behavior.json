@@ -15,7 +15,7 @@
 				},
 				"minecraft:ageable": {
 					"duration": 1200,
-					"feed_items": ["stick", "apple", "wheat],
+					"feed_items": ["stick", "apple", "wheat"],
 					"grow_up": {
 						"event": "minecraft:ageable_grow_up",
 						"target": "self"
