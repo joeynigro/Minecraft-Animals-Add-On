@@ -15,6 +15,9 @@
 		"lizard_spawn_egg": {
 			"textures": "textures/items/lizard_spawn_egg"
 		},
+		"penguin_spawn_egg": {
+			"textures": "textures/items/penguin_spawn_egg"
+		},
 		"slug_spawn_egg": {
 			"textures": "textures/items/slug_spawn_egg"
 		},

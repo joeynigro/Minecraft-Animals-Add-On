@@ -29,7 +29,7 @@ Kangaroo
 Jellyfish
 Otter
 Owl
-Penguin
+Penguin ✔️
 Platypus
 Raccoon
 Red-Eyed Tree Frog ✔️
