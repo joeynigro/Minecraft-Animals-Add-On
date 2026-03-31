@@ -42,7 +42,7 @@ Slug ✔️
 Snail
 Snake
 Sting Ray
-Squirrel
+Squirrel ✔️
 Starfish
 Tiger
 
@@ -58,7 +58,7 @@ Yellowfin Tuna
 
 Meat Animals:
 Clam
-Deer✔️
+Deer ✔️
 Goose
 Octopus
 Red Crab
