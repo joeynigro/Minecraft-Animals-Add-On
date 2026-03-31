@@ -12,14 +12,14 @@ Canary
 Capybara
 Cardinal
 Dragonfly
-Elephant✔️
+Elephant ✔️
 Fennec Fox
 Flamingo
 Giraffe
 Gorilla
 Gray Rat
-Green Lizard✔️
-Grizzly Bear✔️
+Green Lizard ✔️
+Grizzly Bear ✔️✔️
 Hamster
 Hippo
 Hyena
@@ -31,13 +31,13 @@ Owl
 Penguin
 Platypus
 Raccoon
-Red-Eyed Tree Frog✔️
+Red-Eyed Tree Frog ✔️
 Rhino
 Seal
 Secretarybird
 Shark
 Sloth
-Slug✔️
+Slug ✔️
 Snail
 Snake
 Sting Ray
