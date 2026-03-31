@@ -25,6 +25,7 @@ Hippo
 Hyena
 Lion
 Lemur
+Kangaroo
 Jellyfish
 Otter
 Owl
@@ -59,7 +60,6 @@ Meat Animals:
 Clam
 Deer✔️
 Goose
-Kangaroo
 Octopus
 Red Crab
 Turkey
