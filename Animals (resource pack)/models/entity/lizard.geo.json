@@ -26,7 +26,7 @@
 				{
 					"name": "leg0",
 					"parent": "body",
-					"pivot": [-3, 5, 3.5],
+					"pivot": [-3, 4, 3.5],
 					"cubes": [
 						{"origin": [-5, -1, 2], "size": [0, 5, 3], "pivot": [-2, 0, 0], "rotation": [0, 0, 25], "uv": [18, 26]}
 					]
@@ -42,7 +42,7 @@
 				{
 					"name": "leg2",
 					"parent": "body",
-					"pivot": [-3, 5, -3.5],
+					"pivot": [-3, 4, -3.5],
 					"cubes": [
 						{"origin": [-5, -1, -5], "size": [0, 5, 3], "pivot": [-2, 0, 0], "rotation": [0, 0, 25], "uv": [12, 26]}
 					]
