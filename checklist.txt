@@ -1,0 +1,72 @@
+Miscellaneous Animals:
+Alligator
+Anteater
+Beaver ✔️
+Black Skunk
+Bluejay
+Brown Hedgehog
+Brown Monkey
+Budgie
+Butterfly
+Canary
+Capybara
+Cardinal
+Dragonfly
+Elephant✔️
+Fennec Fox
+Flamingo
+Giraffe
+Gorilla
+Gray Rat
+Green Lizard✔️
+Grizzly Bear✔️
+Hamster
+Hippo
+Hyena
+Lion
+Lemur
+Jellyfish
+Otter
+Owl
+Penguin
+Platypus
+Raccoon
+Red-Eyed Tree Frog✔️
+Rhino
+Seal
+Secretarybird
+Shark
+Sloth
+Slug✔️
+Snail
+Snake
+Sting Ray
+Squirrel
+Starfish
+Tiger
+
+Fish:
+Anchovy
+Catfish
+Flounder
+Mahi Mahi
+Rainbow Trout
+Sea Bass
+Swordfish
+Yellowfin Tuna
+
+Meat Animals:
+Clam
+Deer✔️
+Goose
+Kangaroo
+Octopus
+Red Crab
+Turkey
+
+Tamable Dogs:
+Beagle
+Corgi
+Dalmatian
+Husky
+Labrador Retriever
