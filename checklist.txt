@@ -46,6 +46,13 @@ Squirrel ✔️
 Starfish
 Tiger
 
+Dogs:
+Beagle
+Corgi
+Dalmatian
+Husky
+Labrador Retriever
+
 Fish:
 Anchovy
 Catfish
@@ -63,10 +70,3 @@ Goose
 Octopus
 Red Crab
 Turkey
-
-Tamable Dogs:
-Beagle
-Corgi
-Dalmatian
-Husky
-Labrador Retriever
