@@ -3,6 +3,9 @@
 		"beaver_spawn_egg": {
 			"textures": "textures/items/beaver_spawn_egg"
 		},
+		"cooked_venison": {
+			"textures": "textures/items/cooked_venison"
+		},
 		"deer_spawn_egg": {
 			"textures": "textures/items/deer_spawn_egg"
 		},
@@ -29,9 +32,6 @@
 		},
 		"venison": {
 			"textures": "textures/items/venison"
-		},
-		"cooked_venison": {
-			"textures": "textures/items/cooked_venison"
 		}
 	}
 }
