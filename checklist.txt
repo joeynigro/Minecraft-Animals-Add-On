@@ -19,7 +19,7 @@ Giraffe
 Gorilla
 Gray Rat
 Green Lizard ✔️
-Grizzly Bear ✔️✔️
+Grizzly Bear ✔️
 Hamster
 Hippo
 Hyena
