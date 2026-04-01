@@ -12,6 +12,9 @@
 		"elephant_spawn_egg": {
 			"textures": "textures/items/elephant_spawn_egg"
 		},
+		"giraffe_spawn_egg": {
+			"textures": "textures/items/giraffe_spawn_egg"
+		},
 		"grizzly_bear_spawn_egg": {
 			"textures": "textures/items/grizzly_bear_spawn_egg"
 		},
