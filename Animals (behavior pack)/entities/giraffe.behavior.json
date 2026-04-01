@@ -46,7 +46,7 @@
 			},
 			"minecraft:navigation.walk": {
 				"avoid_damage_blocks": true,
-				"can_path_over_water": false
+				"can_path_over_water": false,
 				"can_open_doors": false
 			},
 			"minecraft:movement.basic": {},
