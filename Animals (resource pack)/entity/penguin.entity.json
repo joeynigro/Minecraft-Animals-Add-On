@@ -1,0 +1,40 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "animals:penguin",
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "textures": {
+                "default": "textures/entity/penguin",
+                "baby": "textures/entity/penguin_baby"
+            },
+            "geometry": {
+                "default": "geometry.penguin",
+                "baby": "geometry.penguin.baby"
+            },
+            "animations": {
+                "idle": "animation.penguin.idle",
+                "walk": "animation.penguin.walk",
+                "swim": "animation.penguin.swim",
+                "look_at_target": "animation.common.look_at_target"
+            },
+            "scripts": {
+                "animate": [
+                    "look_at_target", {
+                        "swim": "query.is_in_water"
+                    }, {
+                        "walk": "!query.is_in_water ? query.modified_move_speed"
+                    }, {
+                        "idle": "!query.is_in_water ? (1.0 - math.min(query.modified_move_speed, 1.0)) : 0.0"
+                    }
+                ]
+            },
+            "render_controllers": ["controller.render.penguin"],
+            "spawn_egg": {
+                "texture": "penguin_spawn_egg"
+            }
+        }
+    }
+}
