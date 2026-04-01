@@ -1,0 +1,41 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "animals:giraffe",
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "textures": {
+                "default": "textures/entity/giraffe",
+                "baby": "textures/entity/giraffe_baby"
+            },
+            "geometry": {
+                "default": "geometry.giraffe",
+                "baby": "geometry.giraffe.baby"
+            },
+            "animations": {
+                "idle": "animation.giraffe.idle",
+                "walk": "animation.giraffe.walk",
+                "eat": "animation.giraffe.eat",
+                "look": "animation.giraffe.look",
+                "look_at_target": "animation.common.look_at_target"
+            },
+            "scripts": {
+                "animate": [
+                    "look_at_target", {
+                        "eat": "query.is_eating"
+                    }, {
+                        "walk": "query.modified_move_speed"
+                    }, {
+                        "idle": "1.0 - math.min(query.modified_move_speed, 1.0)"
+                    }
+                ]
+            },
+            "render_controllers": ["controller.render.giraffe"],
+            "spawn_egg": {
+                "texture": "giraffe_spawn_egg"
+            }
+        }
+    }
+}

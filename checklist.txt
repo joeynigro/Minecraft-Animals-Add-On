@@ -15,7 +15,7 @@ Dragonfly
 Elephant ✔️
 Fennec Fox
 Flamingo
-Giraffe
+Giraffe ✔️
 Gorilla
 Gray Rat
 Green Lizard ✔️

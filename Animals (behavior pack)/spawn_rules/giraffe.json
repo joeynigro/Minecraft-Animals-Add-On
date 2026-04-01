@@ -1,0 +1,50 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:spawn_rules": {
+    "description": {
+      "identifier": "animals:giraffe",
+      "population_control": "animal"
+    },
+    "conditions": [
+      {
+        "minecraft:spawns_on_surface": {},
+                "minecraft:spawns_on_block_filter": [{
+                        "name": "minecraft:grass_block"
+                    }, {
+                        "name": "minecraft:dirt"
+                    }, {
+                        "name": "minecraft:coarse_dirt"
+                    }, {
+                        "name": "minecraft:sand"
+                    }
+                ],
+        "minecraft:spawns_on_block_prevented_filter": [
+          "minecraft:water",
+          "minecraft:lava",
+          "minecraft:leaves"
+        ],
+        "minecraft:brightness_filter": {
+          "min": 55,
+          "max": 140,
+          "adjust_for_weather": false
+        },
+        "minecraft:weight": {
+          "default": 12
+        },
+        "minecraft:herd": {
+          "min_size": 1,
+          "max_size": 1,
+          "event":"minecraft:entity_born",
+          "event_skip_count": 1
+        },
+        "minecraft:density_limit": {
+          "surface": 4,
+          "underground": 0
+        },
+        "minecraft:biome_filter": [
+          {"test": "has_biome_tag", "operator":"==", "value": "savanna"},
+          {"test": "has_biome_tag", "operator":"==", "value": "plains"}
+      }
+    ]
+  }
+}
