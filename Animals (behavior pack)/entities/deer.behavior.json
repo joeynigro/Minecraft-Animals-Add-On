@@ -37,8 +37,8 @@
 		},
 		"components": {
 			"minecraft:breathable": {
-				"total_supply": 15,
-				"suffocate_time": 0
+				"total_supply": 200,
+				"suffocate_time": 5
 			},
 			"minecraft:nameable": {},
 			"minecraft:health": {
@@ -68,6 +68,10 @@
 			"minecraft:navigation.walk": {
 				"avoid_damage_blocks": true
 			},
+			"minecraft:navigation.swim": {
+				"can_path_over_water": true,
+				"avoid_damage_blocks": true
+			},
 			"minecraft:movement.basic": {},
 			"minecraft:jump.static": {},
 			"minecraft:follow_range": {
@@ -75,9 +79,6 @@
 			},
 			"minecraft:despawn": {
 				"despawn_from_distance": {}
-			},
-			"minecraft:behavior.float": {
-				"priority": 0
 			},
 			"minecraft:behavior.panic": {
 				"priority": 1,
