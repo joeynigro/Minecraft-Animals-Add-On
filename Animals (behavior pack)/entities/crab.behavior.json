@@ -39,9 +39,6 @@
 				"can_path_over_water": false,
 				"can_open_doors": false
             },
-			"minecraft:behavior.float": {
-				"priority": 0
-			},
 			"minecraft:behavior.panic": {
 				"priority": 1,
 				"speed_multiplier": 1.4
