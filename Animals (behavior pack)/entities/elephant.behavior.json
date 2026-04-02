@@ -114,6 +114,22 @@
 				"is_pushable": false,
 				"is_pushable_by_piston": false
 			},
+			"minecraft:healable": {
+				"items": [
+				    {
+						"item": "apple",
+						"heal_amount": 4
+				    },
+				    {
+						"item": "melon",
+						"heal_amount": 3
+				    },
+				    {
+						"item": "hay_block",
+						"heal_amount": 10
+				    }
+				]
+			},
 			"minecraft:conditional_bandwidth_optimization": {}
 		},
 		"events": {
