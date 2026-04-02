@@ -22,7 +22,7 @@
                     "look_at_target", {
                         "walk": "query.modified_move_speed > 0.01"
                     }, {
-                        "idle": "query.modified_move_speed <= 0.01""
+                        "idle": "query.modified_move_speed <= 0.01"
                     }
                 ]
             },
