@@ -34,8 +34,8 @@
 		},
 		"components": {
 			"minecraft:breathable": {
-				"total_supply": 20,
-				"suffocate_time": 0
+				"total_supply": 300,
+				"suffocate_time": 10
 			},
 			"minecraft:nameable": {},
 			"minecraft:health": {

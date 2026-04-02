@@ -8,6 +8,10 @@
             "is_experimental": false
         },
         "components": {
+			"minecraft:breathable": {
+				"total_supply": 15,
+				"suffocate_time": 0
+			},
 			"minecraft:nameable": {},
             "minecraft:physics": {},
             "minecraft:pushable": {

@@ -34,7 +34,7 @@
                 "breathes_water": true,
                 "suffocate_time": 0,
                 "generates_bubbles": false,
-                "total_supply": 15
+                "total_supply": 20
             },
             "minecraft:navigation.generic": {
                 "avoid_damage_blocks": true,

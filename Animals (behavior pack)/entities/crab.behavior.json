@@ -8,6 +8,13 @@
             "is_experimental": false
         },
         "components": {
+            "minecraft:breathable": {
+                "breathes_air": true,
+                "breathes_water": true,
+                "suffocate_time": 0,
+                "generates_bubbles": false,
+                "total_supply": 20
+            },
 			"minecraft:nameable": {},
             "minecraft:physics": {},
             "minecraft:pushable": {
