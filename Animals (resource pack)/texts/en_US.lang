@@ -1,6 +1,9 @@
-item.animals:cooked_venison=Cooked Venison
 entity.animals:beaver.name=Beaver
 item.spawn_egg.entity.animals:beaver.name=Beaver Spawn Egg
+item.animals:crab=Raw Crab
+item.animals:cooked_crab=Cooked Crab
+entity.animals:crab.name=Crab
+item.spawn_egg.entity.animals:crab.name=Crab Spawn Egg
 entity.animals:deer.name=Deer
 item.spawn_egg.entity.animals:deer.name=Deer Spawn Egg
 entity.animals:elephant.name=Elephant
@@ -20,3 +23,4 @@ item.spawn_egg.entity.animals:squirrel.name=Squirrel Spawn Egg
 entity.animals:tree_frog.name=Tree Frog
 item.spawn_egg.entity.animals:tree_frog.name=Tree Frog Spawn Egg
 item.animals:venison=Raw Venison
+item.animals:cooked_venison=Cooked Venison

@@ -1,0 +1,11 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_furnace": {
+    "description": {
+    "identifier": "animals:furnace_crab"
+    },
+    "tags": ["furnace", "smoker", "campfire", "soul_campfire"],
+    "input": "animals:crab",
+    "output": "animals:cooked_crab"
+  }
+}

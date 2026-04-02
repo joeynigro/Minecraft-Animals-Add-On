@@ -3,8 +3,17 @@
 		"beaver_spawn_egg": {
 			"textures": "textures/items/beaver_spawn_egg"
 		},
+		"cooked_crab": {
+			"textures": "textures/items/cooked_crab"
+		},
 		"cooked_venison": {
 			"textures": "textures/items/cooked_venison"
+		},
+		"crab": {
+			"textures": "textures/items/crab"
+		},
+		"crab_spawn_egg": {
+			"textures": "textures/items/crab_spawn_egg"
 		},
 		"deer_spawn_egg": {
 			"textures": "textures/items/deer_spawn_egg"
