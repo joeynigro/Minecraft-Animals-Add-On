@@ -20,9 +20,9 @@
             "scripts": {
                 "animate": [
                     "look_at_target", {
-                        "walk": "query.modified_move_speed"
+                        "walk": "query.modified_move_speed > 0.01"
                     }, {
-                        "idle": "1.0 - math.min(query.modified_move_speed, 1.0)"
+                        "idle": "query.modified_move_speed <= 0.01"
                     }
                 ]
             },
