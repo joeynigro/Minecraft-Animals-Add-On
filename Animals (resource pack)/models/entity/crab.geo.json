@@ -84,7 +84,7 @@
 				{
 					"name": "right_claw_tip",
 					"parent": "right_claw",
-					"pivot": [-5.5, 2, -1],
+					"pivot": [-5.5, 3, -1],
 					"cubes": [
 						{"origin": [-7, 3, -5], "size": [3, 1, 4], "uv": [16, 14]}
 					]
@@ -100,7 +100,7 @@
 				{
 					"name": "left_claw_tip",
 					"parent": "left_claw",
-					"pivot": [4, 6, -1],
+					"pivot": [4, 4, -1],
 					"cubes": [
 						{"origin": [4, 4, -6], "size": [3, 2, 5], "uv": [0, 16]}
 					]
