@@ -46,7 +46,7 @@ Squirrel ✔️
 Starfish
 Tiger
 
-Dogs:
+Tameable Dogs:
 Beagle
 Chihuahua
 Corgi
