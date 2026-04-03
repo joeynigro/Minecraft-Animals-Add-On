@@ -48,10 +48,14 @@ Tiger
 
 Dogs:
 Beagle
+Chihuahua
 Corgi
+Dachshund
 Dalmatian
+German Shepherd
 Husky
 Labrador Retriever
+Poodle
 
 Fish:
 Anchovy
