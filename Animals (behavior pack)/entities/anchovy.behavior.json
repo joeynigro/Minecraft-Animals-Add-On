@@ -17,7 +17,15 @@
             "minecraft:nameable": {},
             "minecraft:physics": {
                 "has_gravity": false
-			},
+            },
+            "minecraft:collision_box": {
+                "width": 0.4,
+                "height": 0.3
+            },
+            "minecraft:pushable": {
+                "is_pushable": false,
+                "is_pushable_by_piston": false
+            },
             "minecraft:despawn": {
                 "despawn_from_distance": {}
             },
@@ -26,10 +34,10 @@
                 "max": 6
             },
             "minecraft:movement": {
-                "value": 1.2
+                "value": 0.1
             },
             "minecraft:underwater_movement": {
-                "value": 0.6
+                "value": 0.1
             },
             "minecraft:movement.basic": {},
             "minecraft:navigation.generic": {
