@@ -1,3 +1,7 @@
+item.animals:anchovy=Raw Anchovy
+item.animals:cooked_anchovy=Cooked Anchovy
+entity.animals:anchovy.name=Anchovy
+item.spawn_egg.entity.animals:anchovy.name=Anchovy Spawn Egg
 entity.animals:beaver.name=Beaver
 item.spawn_egg.entity.animals:beaver.name=Beaver Spawn Egg
 item.animals:crab=Raw Crab
@@ -12,6 +16,8 @@ entity.animals:giraffe.name=Giraffe
 item.spawn_egg.entity.animals:giraffe.name=Giraffe Spawn Egg
 entity.animals:grizzly_bear.name=Grizzly Bear
 item.spawn_egg.entity.animals:grizzly_bear.name=Grizzly Bear Spawn Egg
+entity.animals:lemur.name=Lemur
+item.spawn_egg.entity.animals:lemur.name=Lemur Spawn Egg
 entity.animals:lizard.name=Lizard
 item.spawn_egg.entity.animals:lizard.name=Lizard Spawn Egg
 entity.animals:penguin.name=Penguin

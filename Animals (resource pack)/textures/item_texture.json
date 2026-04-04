@@ -1,7 +1,16 @@
 {
 	"texture_data": {
+		"anchovy": {
+			"textures": "textures/items/anchovy"
+		},
+		"anchovy_spawn_egg": {
+			"textures": "textures/items/anchovy_spawn_egg"
+		},
 		"beaver_spawn_egg": {
 			"textures": "textures/items/beaver_spawn_egg"
+		},
+		"cooked_anchovy": {
+			"textures": "textures/items/cooked_anchovy"
 		},
 		"cooked_crab": {
 			"textures": "textures/items/cooked_crab"
