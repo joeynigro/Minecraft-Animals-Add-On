@@ -129,7 +129,7 @@
                 "max_height": 0.5,
                 "block_distance": 2,
                 "block_weight": 0.75
-            }
+            },
             "minecraft:nameable": {},
             "minecraft:conditional_bandwidth_optimization": {}
         }
