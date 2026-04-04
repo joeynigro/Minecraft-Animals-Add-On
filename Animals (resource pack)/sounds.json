@@ -1,6 +1,15 @@
 {
 	"entity_sounds": {
 		"entities": {
+			"animals:elephant": {
+				"events": {
+					"ambient": "mob.elephant.idle",
+					"death": "mob.elephant.death",
+					"hurt": "mob.elephant.hurt",
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			}
 			"animals:grizzly_bear": {
 				"events": {
 					"ambient": "mob.polarbear.idle",
