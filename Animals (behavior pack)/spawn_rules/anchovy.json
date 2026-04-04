@@ -17,10 +17,6 @@
           "min": 0,
           "max": 15
         },
-        "minecraft:difficulty_filter": {
-          "min": "peaceful",
-          "max": "hard"
-        },
         "minecraft:weight": {
           "default": 75
         },
@@ -40,13 +36,7 @@
             "test": "has_biome_tag",
             "operator": "==",
             "value": "ocean"
-          },
-          {
-            "test": "has_biome_tag",
-            "operator": "!=",
-            "value": "warm"
           }
-        ]
       }
     ]
   }
