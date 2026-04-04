@@ -20,6 +20,11 @@
                     "general": "controller.animation.fish.general"
                 }
             ],
+            "scripts": {
+                "animate": [
+                    "general"
+                ]
+            },
 			"render_controllers": ["controller.render.anchovy"],
 			"spawn_egg": {
 				"texture": "anchovy_spawn_egg"
