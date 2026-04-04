@@ -36,13 +36,16 @@
 		"grizzly_bear_spawn_egg": {
 			"textures": "textures/items/grizzly_bear_spawn_egg"
 		},
+		"lemur_spawn_egg": {
+			"textures": "textures/items/lemur_spawn_egg"
+		},
 		"lizard_spawn_egg": {
 			"textures": "textures/items/lizard_spawn_egg"
 		},
 		"penguin_spawn_egg": {
 			"textures": "textures/items/penguin_spawn_egg"
 		},
-		"scretary_bird_spawn_egg": {
+		"secretary_bird_spawn_egg": {
 			"textures": "textures/items/secretary_bird_spawn_egg"
 		},
 		"slug_spawn_egg": {
