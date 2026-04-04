@@ -51,6 +51,9 @@
 		"slug_spawn_egg": {
 			"textures": "textures/items/slug_spawn_egg"
 		},
+		"snake_spawn_egg": {
+			"textures": "textures/items/snake_spawn_egg"
+		},
 		"squirrel_spawn_egg": {
 			"textures": "textures/items/squirrel_spawn_egg"
 		},
