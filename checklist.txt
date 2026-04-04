@@ -17,7 +17,6 @@ Fennec Fox
 Flamingo
 Giraffe ✔️
 Gorilla
-Gray Rat
 Great White Shark
 Green Lizard ✔️
 Grizzly Bear ✔️
@@ -33,6 +32,7 @@ Owl
 Penguin ✔️
 Platypus
 Raccoon
+Rat
 Red-Eyed Tree Frog ✔️
 Rhino
 Seal
