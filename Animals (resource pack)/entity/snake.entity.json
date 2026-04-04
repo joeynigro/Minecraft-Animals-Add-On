@@ -1,0 +1,35 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "animals:snake",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/snake"
+			},
+			"geometry": {
+				"default": "geometry.snake"
+			},
+            "animations": {
+                "idle": "animation.snake.idle",
+                "walk": "animation.snake.walk",
+                "look_at_target": "animation.common.look_at_target"
+            },
+            "scripts": {
+                "animate": [
+                    "look_at_target", {
+                        "walk": "query.modified_move_speed > 0.01"
+                    }, {
+                        "idle": "query.modified_move_speed <= 0.01"
+                    }
+                ]
+            },
+			"render_controllers": ["controller.render.snake"],
+			"spawn_egg": {
+				"texture": "snake_spawn_egg"
+			}
+		}
+	}
+}

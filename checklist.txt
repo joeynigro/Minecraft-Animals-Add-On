@@ -39,7 +39,7 @@ Secretary Bird ✔️
 Sloth
 Slug ✔️
 Snail
-Snake
+Snake ✔️
 Sting Ray
 Squirrel ✔️
 Starfish
@@ -52,7 +52,6 @@ Corgi
 Dachshund
 Dalmatian
 German Shepherd
-Husky
 Labrador Retriever
 Poodle
 
@@ -70,6 +69,5 @@ Meat Animals:
 Clam
 Deer ✔️
 Goose
-Octopus
 Red Crab️ ✔️
 Turkey
