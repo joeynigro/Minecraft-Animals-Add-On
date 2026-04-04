@@ -42,6 +42,9 @@
 		"penguin_spawn_egg": {
 			"textures": "textures/items/penguin_spawn_egg"
 		},
+		"scretary_bird_spawn_egg": {
+			"textures": "textures/items/secretary_bird_spawn_egg"
+		},
 		"slug_spawn_egg": {
 			"textures": "textures/items/slug_spawn_egg"
 		},
