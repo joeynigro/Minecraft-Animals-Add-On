@@ -16,8 +16,8 @@
                 "saturation_modifier": 0.2
             },
             "minecraft:use_modifiers": {
-                "movement_modifier": 1.6,
-                "use_duration": 0.35
+                "movement_modifier": 0.35,
+                "use_duration": 1.6
             },
             "minecraft:use_animation": "eat",
             "minecraft:tags": {
