@@ -1,17 +1,23 @@
 {
-	"format_version": "1.10.0",
-	"minecraft:client_entity": {
-		"description": {
-			"identifier": "animals:anchovy",
-			"materials": {
-				"default": "entity_alphatest"
-			},
-			"textures": {
-				"default": "textures/entity/anchovy"
-			},
-			"geometry": {
-				"default": "geometry.anchovy"
-			},
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "animals:anchovy",
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "textures": {
+                "default": "textures/entity/anchovy"
+            },
+            "geometry": {
+                "default": "geometry.anchovy"
+            },
+            "scripts": {
+                "pre_animation": [
+                    "variable.ZRot = !query.is_in_water ? Math.cos((query.time_stamp + query.frame_alpha) * 14.32) * 90 : 0.0;",
+                    "variable.AnimationAmountBlend = Math.lerp(variable.AnimationAmountPrev, variable.AnimationAmount, query.frame_alpha);"
+                ]
+            },
             "animations": {
                 "flop": "animation.anchovy.flop",
                 "swim": "animation.anchovy.swim"
@@ -20,10 +26,10 @@
                     "general": "controller.animation.fish.general"
                 }
             ],
-			"render_controllers": ["controller.render.anchovy"],
-			"spawn_egg": {
-				"texture": "anchovy_spawn_egg"
-			}
-		}
-	}
+            "render_controllers": ["controller.render.anchovy"],
+            "spawn_egg": {
+                "texture": "anchovy_spawn_egg"
+            }
+        }
+    }
 }
