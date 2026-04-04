@@ -1,133 +1,137 @@
 {
-	"format_version": "1.16.0",
-	"minecraft:entity": {
-		"description": {
-			"identifier": "animals:anchovy",
-			"is_spawnable": true,
-			"is_summonable": true,
-			"is_experimental": false
-		},
-		"components": {
-			"minecraft:experience_reward": {
-				"on_death": "query.last_hit_by_player ? Math.Random(1,2) : 0"
-			},
-			"minecraft:collision_box": {
-				"width": 0.25,
-				"height": 0.25
-			},
-			"minecraft:health": {
-				"value": 3,
-				"max": 3
-			},
-			"minecraft:hurt_on_condition": {
-				"damage_conditions": [
-					{
-						"filters": {
-							"test": "in_lava",
-							"subject": "self",
-							"operator": "==",
-							"value": true
-						},
-						"cause": "lava",
-						"damage_per_tick": 4
-					}
-				]
-			},
-			"minecraft:loot": {
-				"table": "loot_tables/entities/anchovy.json"
-			},
-			"minecraft:breathable": {
-				"total_supply": 15,
-				"suffocate_time": 0,
-				"breathes_air": false,
-				"breathes_water": true
-			},
-			"minecraft:movement": {
-				"value": 0.14
-			},
-			"minecraft:underwater_movement": {
-				"value": 0.18
-			},
-			"minecraft:navigation.generic": {
-				"is_amphibious": false,
-				"can_path_over_water": false,
-				"can_swim": true,
-				"can_walk": false,
-				"can_breach": false,
-				"can_sink": false
-			},
-			"minecraft:physics": {
-				"has_gravity": false
-			},
-			"minecraft:pushable": {
-				"is_pushable": true,
-				"is_pushable_by_piston": true
-			},
-			"minecraft:movement.sway": {
-				"sway_amplitude": 0
-			},
-			"minecraft:despawn": {
-				"despawn_from_distance": {
-					"min_distance": 40,
-					"max_distance": 56
-				}
-			},
-			"minecraft:behavior.swim_idle": {
-				"priority": 5,
-				"idle_time": 2,
-				"success_rate": 0.05
-			},
-			"minecraft:behavior.random_swim": {
-				"priority": 3,
-				"speed_multiplier": 1.2,
-				"xz_dist": 10,
-				"y_dist": 2,
-				"interval": 0
-			},
-			"minecraft:behavior.swim_wander": {
-				"priority": 4,
-				"interval": 0.08,
-				"look_ahead": 3,
-				"speed_multiplier": 1.15,
-				"wander_time": 3
-			},
-			"minecraft:behavior.avoid_mob_type": {
-				"priority": 1,
-				"entity_types": [
-					{
-						"filters": {
-							"test": "is_family",
-							"subject": "other",
-							"value": "player"
-						},
-						"max_dist": 8,
-						"walk_speed_multiplier": 1.8,
-						"sprint_speed_multiplier": 2.4
-					}
-				]
-			},
-			"minecraft:flocking": {
-				"in_water": true,
-				"match_variants": false,
-				"use_center_of_mass": true,
-				"low_flock_limit": 6,
-				"high_flock_limit": 16,
-				"goal_weight": 2.8,
-				"loner_chance": 0.02,
-				"influence_radius": 4,
-				"breach_influence": 4,
-				"separation_weight": 1.2,
-				"separation_threshold": 0.7,
-				"cohesion_weight": 3.2,
-				"cohesion_threshold": 2.6,
-				"innner_cohesion_threshold": 1.6,
-				"min_height": 0.5,
-				"max_height": 3,
-				"block_distance": 2,
-				"block_weight": 0.75
-			},
-			"minecraft:nameable": {},
-			"minecraft:conditional_bandwidth_optimization": {}
-		}
-	}
+    "format_version": "1.16.0",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "animals:anchovy",
+            "is_spawnable": true,
+            "is_summonable": true,
+            "is_experimental": false
+        },
+        "components": {
+            "minecraft:experience_reward": {
+                "on_death": "query.last_hit_by_player ? Math.Random(1,2) : 0"
+            },
+            "minecraft:collision_box": {
+                "width": 0.25,
+                "height": 0.25
+            },
+            "minecraft:health": {
+                "value": 3,
+                "max": 3
+            },
+            "minecraft:hurt_on_condition": {
+                "damage_conditions": [{
+                        "filters": {
+                            "test": "in_lava",
+                            "subject": "self",
+                            "operator": "==",
+                            "value": true
+                        },
+                        "cause": "lava",
+                        "damage_per_tick": 4
+                    }
+                ]
+            },
+            "minecraft:loot": {
+                "table": "loot_tables/entities/anchovy.json"
+            },
+            "minecraft:breathable": {
+                "total_supply": 15,
+                "suffocate_time": 0,
+                "breathes_air": false,
+                "breathes_water": true
+            },
+            "minecraft:movement": {
+                "value": 0.14
+            },
+            "minecraft:underwater_movement": {
+                "value": 0.18
+            },
+            "minecraft:navigation.swim": {
+                "can_path_over_water": false
+            },
+            "minecraft:physics": {},
+            "minecraft:pushable": {
+                "is_pushable": true,
+                "is_pushable_by_piston": true
+            },
+            "minecraft:movement.sway": {
+                "sway_amplitude": 0
+            },
+            "minecraft:despawn": {
+                "despawn_from_distance": {
+                    "min_distance": 40,
+                    "max_distance": 56
+                }
+            },
+            "minecraft:behavior.swim_idle": {
+                "priority": 5,
+                "idle_time": 1,
+                "success_rate": 0.02
+            },
+            "minecraft:behavior.avoid_mob_type": {
+                "priority": 1,
+                "entity_types": [{
+                        "filters": {
+                            "test": "is_family",
+                            "subject": "other",
+                            "value": "player"
+                        },
+                        "max_dist": 8,
+                        "walk_speed_multiplier": 1.8,
+                        "sprint_speed_multiplier": 2.4
+                    }
+                ]
+            },
+            "minecraft:navigation.generic": {
+                "is_amphibious": false,
+                "can_path_over_water": false,
+                "can_swim": true,
+                "can_walk": false,
+                "can_breach": false,
+                "can_sink": false
+            },
+            "minecraft:behavior.random_swim": {
+                "priority": 3,
+                "speed_multiplier": 1.2,
+                "xz_dist": 12,
+                "y_dist": 0,
+                "interval": 0
+            },
+            "minecraft:behavior.swim_wander": {
+                "priority": 4,
+                "interval": 0.08,
+                "look_ahead": 4,
+                "speed_multiplier": 1.15,
+                "wander_time": 3
+            },
+            "minecraft:behavior.swim_idle": {
+                "priority": 5,
+                "idle_time": 1,
+                "success_rate": 0.02
+            },
+            "minecraft:flocking": {
+                "in_water": true,
+                "match_variants": false,
+                "use_center_of_mass": true,
+                "low_flock_limit": 10,
+                "high_flock_limit": 24,
+                "goal_weight": 3.2,
+                "loner_chance": 0.01,
+                "influence_radius": 4,
+                "breach_influence": 0.5,
+                "separation_weight": 1.2,
+                "separation_threshold": 0.7,
+                "cohesion_weight": 4.2,
+                "cohesion_threshold": 3.2,
+                "innner_cohesion_threshold": 1.6,
+                "min_height": 0.0,
+                "max_height": 0.5,
+                "block_distance": 2,
+                "block_weight": 0.75
+            }
+            "minecraft:nameable": {},
+            "minecraft:conditional_bandwidth_optimization": {}
+        }
+    }
 }

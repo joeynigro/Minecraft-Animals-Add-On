@@ -27,8 +27,8 @@
                     "max": 64
                 },
                 "minecraft:herd": {
-                    "min_size": 4,
-                    "max_size": 7
+                    "min_size": 8,
+                    "max_size": 16
                 },
                 "minecraft:biome_filter": [{
                         "test": "has_biome_tag",
