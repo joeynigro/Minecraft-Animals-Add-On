@@ -15,7 +15,9 @@
                 "breathes_water": true
             },
             "minecraft:nameable": {},
-            "minecraft:physics": {},
+            "minecraft:physics": {
+                "has_gravity": false
+			},
             "minecraft:despawn": {
                 "despawn_from_distance": {}
             },
@@ -30,8 +32,13 @@
                 "value": 0.6
             },
             "minecraft:movement.basic": {},
-            "minecraft:navigation.swim": {
-                "can_path_over_water": true
+            "minecraft:navigation.generic": {
+                "is_amphibious": false,
+                "can_path_over_water": false,
+                "can_swim": true,
+                "can_walk": false,
+                "can_breach": false,
+                "can_sink": false
             },
             "minecraft:behavior.random_swim": {
                 "priority": 2,
