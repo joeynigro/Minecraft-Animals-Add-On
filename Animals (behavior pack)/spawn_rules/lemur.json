@@ -1,0 +1,50 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:spawn_rules": {
+    "description": {
+      "identifier": "animals:lemur",
+      "population_control": "animal"
+    },
+    "conditions": [
+      {
+        "minecraft:spawns_on_surface": {},
+                "minecraft:spawns_on_block_filter": [{
+                        "name": "minecraft:grass_block"
+                    }, {
+                        "name": "minecraft:dirt"
+                    }, {
+                        "name": "minecraft:podzol"
+                    }, {
+                        "name": "minecraft:moss_block"
+                    }
+                ],
+        "minecraft:spawns_on_block_prevented_filter": [
+          "minecraft:water",
+          "minecraft:lava",
+          "minecraft:leaves"
+        ],
+        "minecraft:brightness_filter": {
+          "min": 7,
+          "max": 15,
+          "adjust_for_weather": false
+        },
+        "minecraft:weight": {
+          "default": 16
+        },
+        "minecraft:herd": {
+          "min_size": 2,
+          "max_size": 5,
+          "event":"minecraft:entity_born",
+          "event_skip_count": 1
+        },
+        "minecraft:density_limit": {
+          "surface": 5,
+          "underground": 0
+        },
+        "minecraft:biome_filter": [
+          {"test": "has_biome_tag", "operator":"==", "value": "jungle"},
+          {"test": "has_biome_tag", "operator":"==", "value": "forest"}
+      }
+    ]
+  }
+}

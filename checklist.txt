@@ -23,7 +23,7 @@ Hamster
 Hippo
 Hyena
 Lion
-Lemur
+Lemur ✔️
 Kangaroo
 Jellyfish
 Otter
