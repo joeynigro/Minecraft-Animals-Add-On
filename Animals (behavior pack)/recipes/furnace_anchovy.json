@@ -1,0 +1,12 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_furnace": {
+    "description": {
+    "identifier": "animals:furnace_anchovy"
+    },
+    "tags": ["furnace", "smoker", "campfire", "soul_campfire"],
+    "input": "animals:anchovy",
+    "output": "animals:cooked_anchovy"
+  }
+  
+}

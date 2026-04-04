@@ -1,0 +1,29 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "animals:anchovy",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/anchovy"
+			},
+			"geometry": {
+				"default": "geometry.anchovy"
+			},
+            "animations": {
+                "flop": "animation.anchovy.flop",
+                "swim": "animation.anchovy.swim"
+            },
+            "animation_controllers": [{
+                    "general": "controller.animation.fish.general"
+                }
+            ],
+			"render_controllers": ["controller.render.anchovy"],
+			"spawn_egg": {
+				"texture": "anchovy_spawn_egg"
+			}
+		}
+	}
+}
