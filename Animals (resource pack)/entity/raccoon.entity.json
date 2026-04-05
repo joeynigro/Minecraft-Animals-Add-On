@@ -1,0 +1,35 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "animals:raccoon",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/raccoon"
+			},
+			"geometry": {
+				"default": "geometry.raccoon"
+			},
+            "animations": {
+                "idle": "animation.raccoon.idle",
+                "walk": "animation.quadruped.walk",
+                "look_at_target": "animation.common.look_at_target"
+            },
+            "scripts": {
+                "animate": [
+                    "look_at_target", {
+                        "walk": "query.modified_move_speed > 0.01"
+                    }, {
+                        "idle": "query.modified_move_speed <= 0.01"
+                    }
+                ]
+            },
+			"render_controllers": ["controller.render.raccoon"],
+			"spawn_egg": {
+				"texture": "raccoon_spawn_egg"
+			}
+		}
+	}
+}
