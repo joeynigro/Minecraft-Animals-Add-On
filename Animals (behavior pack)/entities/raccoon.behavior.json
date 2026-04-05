@@ -77,7 +77,7 @@
             },
             "minecraft:behavior.float": {
                 "priority": 0
-            }
+            },
             "minecraft:behavior.panic": {
                 "priority": 1,
                 "speed_multiplier": 1.4
