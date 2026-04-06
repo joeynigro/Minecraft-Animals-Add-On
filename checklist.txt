@@ -30,7 +30,7 @@ Otter
 Owl
 Penguin ✔️
 Platypus
-Raccoon
+Raccoon ✔️
 Rat
 Red-Eyed Tree Frog ✔️
 Rhino
