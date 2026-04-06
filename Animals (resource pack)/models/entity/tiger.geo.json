@@ -6,7 +6,7 @@
 				"identifier": "geometry.tiger",
 				"texture_width": 128,
 				"texture_height": 128,
-				"visible_bounds_width": 5,
+				"visible_bounds_width": 6,
 				"visible_bounds_height": 3.5,
 				"visible_bounds_offset": [0, 1.25, 0]
 			},
@@ -71,7 +71,7 @@
 				{
 					"name": "tail",
 					"parent": "body",
-					"pivot": [0, 23, 14],
+					"pivot": [0, 24, 14],
 					"cubes": [
 						{"origin": [-1, 22, 14], "size": [2, 2, 8], "uv": [70, 69]}
 					]
