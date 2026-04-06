@@ -107,7 +107,7 @@
         },
         "minecraft:behavior.look_at_player": {
             "priority": 7,
-            "target_distance": 6,
+            "target_distance": 6
         },
         "minecraft:behavior.random_look_around": {
             "priority": 8
