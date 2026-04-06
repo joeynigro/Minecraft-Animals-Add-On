@@ -9,11 +9,13 @@
       },
 
       "textures": {
-        "default": "textures/entity/tiger"
+        "default": "textures/entity/tiger",
+        "baby": "textures/entity/tiger_baby"
       },
 
       "geometry": {
-        "default": "geometry.tiger"
+        "default": "geometry.tiger",
+        "baby": "geometry.tiger.baby"
       },
 
       "animations": {
