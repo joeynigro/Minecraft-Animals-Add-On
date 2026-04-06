@@ -1,48 +1,48 @@
 {
-  "format_version": "1.10.0",
-  "minecraft:client_entity": {
-    "description": {
-      "identifier": "animals:tiger",
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "animals:tiger",
 
-      "materials": {
-        "default": "entity_alphatest"
-      },
+            "materials": {
+                "default": "entity_alphatest"
+            },
 
-      "textures": {
-        "default": "textures/entity/tiger",
-        "baby": "textures/entity/tiger_baby"
-      },
+            "textures": {
+                "default": "textures/entity/tiger",
+                "baby": "textures/entity/tiger_baby"
+            },
 
-      "geometry": {
-        "default": "geometry.tiger",
-        "baby": "geometry.tiger.baby"
-      },
+            "geometry": {
+                "default": "geometry.tiger",
+                "baby": "geometry.tiger.baby"
+            },
 
-      "animations": {
-        "idle": "animation.tiger.idle",
-        "walk": "animation.quadruped.walk",
-        "attack": "animation.tiger.attack",
-        "sleep": "animation.tiger.sleep",
-        "look_at_target": "animation.common.look_at_target"
-      },
+            "animations": {
+                "idle": "animation.tiger.idle",
+                "walk": "animation.quadruped.walk",
+                "attack": "animation.tiger.attack",
+                "sleep": "animation.tiger.sleep",
+                "look_at_target": "animation.common.look_at_target"
+            },
 
-      "scripts": {
-        "animate": [
-          "idle",
-          { "walk": "query.modified_move_speed > 0.1" },
-          { "attack": "query.is_attacking" },
-          { "sleep": "query.is_sleeping" },
-          "look_at_target"
-        ]
-      },
+            "scripts": {
+                "animate": [
+                    "look_at_target", {
+                        "walk": "query.modified_move_speed > 0.01"
+                    }, {
+                        "idle": "query.modified_move_speed <= 0.01"
+                    }
+                ]
+            },
 
-      "render_controllers": [
-        "controller.render.tiger"
-      ],
+            "render_controllers": [
+                "controller.render.tiger"
+            ],
 
-      "spawn_egg": {
-        "texture": "tiger_spawn_egg"
-      }
+            "spawn_egg": {
+                "texture": "tiger_spawn_egg"
+            }
+        }
     }
-  }
 }
