@@ -1,0 +1,46 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "animals:tiger",
+
+      "materials": {
+        "default": "entity_alphatest"
+      },
+
+      "textures": {
+        "default": "textures/entity/tiger"
+      },
+
+      "geometry": {
+        "default": "geometry.tiger"
+      },
+
+      "animations": {
+        "idle": "animation.tiger.idle",
+        "walk": "animation.quadruped.walk",
+        "attack": "animation.tiger.attack",
+        "sleep": "animation.tiger.sleep",
+        "look_at_target": "animation.common.look_at_target"
+      },
+
+      "scripts": {
+        "animate": [
+          "idle",
+          { "walk": "query.modified_move_speed > 0.1" },
+          { "attack": "query.is_attacking" },
+          { "sleep": "query.is_sleeping" },
+          "look_at_target"
+        ]
+      },
+
+      "render_controllers": [
+        "controller.render.tiger"
+      ],
+
+      "spawn_egg": {
+        "texture": "tiger_spawn_egg"
+      }
+    }
+  }
+}

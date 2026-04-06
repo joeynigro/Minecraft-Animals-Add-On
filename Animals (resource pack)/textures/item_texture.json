@@ -60,6 +60,9 @@
 		"squirrel_spawn_egg": {
 			"textures": "textures/items/squirrel_spawn_egg"
 		},
+		"tiger_spawn_egg": {
+			"textures": "textures/items/tiger_spawn_egg"
+		},
 		"tree_frog_spawn_egg": {
 			"textures": "textures/items/tree_frog_spawn_egg"
 		},
