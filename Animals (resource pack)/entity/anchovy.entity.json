@@ -14,9 +14,12 @@
             },
             "animations": {
                 "flop": "animation.anchovy.flop",
-                "swim": "animation.anchovy.swim",
-				"general": "controller.animation.fish.general"
+                "swim": "animation.anchovy.swim"
             },
+            "animation_controllers": [{
+                    "general": "controller.animation.fish.general"
+                }
+            ],
             "render_controllers": ["controller.render.anchovy"],
             "spawn_egg": {
                 "texture": "anchovy_spawn_egg"
