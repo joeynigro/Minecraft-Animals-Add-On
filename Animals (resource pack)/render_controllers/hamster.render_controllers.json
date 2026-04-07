@@ -4,7 +4,7 @@
     "controller.render.hamster": {
       "arrays": {
         "textures": {
-          "Array.default": [
+          "Array.skins": [
             "Texture.all_black",
             "Texture.black",
             "Texture.brown",
@@ -17,7 +17,7 @@
       },
       "geometry": "Geometry.default",
       "materials": [ { "*": "Material.default" } ],
-      "textures": [ "Array.default[query.variant])" ]
+      "textures": [ "Array.skins[query.variant]" ]
     }
   }
 }
