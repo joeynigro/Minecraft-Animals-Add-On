@@ -93,6 +93,45 @@
             "minecraft:behavior.random_look_around": {
                 "priority": 7
             }
+        },
+        "minecraft:entity_spawned": {
+            "randomize": [{
+                    "weight": 1,
+                    "add": {
+                        "component_groups": ["animals:hamster_all_black"]
+                    }
+                }, {
+                    "weight": 1,
+                    "add": {
+                        "component_groups": ["animals:hamster_black"]
+                    }
+                }, {
+                    "weight": 2,
+                    "add": {
+                        "component_groups": ["animals:hamster_brown"]
+                    }
+                }, {
+                    "weight": 2,
+                    "add": {
+                        "component_groups": ["animals:hamster_gray"]
+                    }
+                }, {
+                    "weight": 2,
+                    "add": {
+                        "component_groups": ["animals:hamster_orange"]
+                    }
+                }, {
+                    "weight": 2,
+                    "add": {
+                        "component_groups": ["animals:hamster_peach"]
+                    }
+                }, {
+                    "weight": 1,
+                    "add": {
+                        "component_groups": ["animals:hamster_white"]
+                    }
+                }
+            ]
         }
     }
 }
