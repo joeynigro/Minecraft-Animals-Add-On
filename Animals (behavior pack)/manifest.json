@@ -2,14 +2,14 @@
 	"format_version": 2,
 	"header": {
 		"name": "Animals",
-		"description": "Animals Behavior Pack",
+		"description": "by Kidz Play Zone",
 		"uuid": "dff4941f-ad7b-184d-cdd7-7af63e37e8b9",
 		"version": [1, 0, 0],
 		"min_engine_version": [1, 16, 0]
 	},
 	"modules": [
 		{
-			"description": "Behavior",
+			"description": "by Kidz Play Zone",
 			"version": [1, 0, 0],
 			"uuid": "9bb6c15d-4b91-37c6-5b08-df28462acaf2",
 			"type": "data"
