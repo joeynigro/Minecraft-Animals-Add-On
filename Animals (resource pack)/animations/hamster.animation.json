@@ -1,0 +1,20 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.hamster.sniff": {
+			"loop": true,
+			"animation_length": 1.2083,
+			"bones": {
+				"head": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.2917": [-2, 0, 0],
+						"0.5833": [0, 0, 0],
+						"0.9167": [-2, 0, 0],
+						"1.2083": [0, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

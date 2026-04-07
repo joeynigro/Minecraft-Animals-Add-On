@@ -4,10 +4,10 @@
 			"textures": "textures/items/anchovy"
 		},
 		"anchovy_spawn_egg": {
-			"textures": "textures/items/anchovy_spawn_egg"
+			"textures": "textures/items/spawn_eggs/anchovy_spawn_egg"
 		},
 		"beaver_spawn_egg": {
-			"textures": "textures/items/beaver_spawn_egg"
+			"textures": "textures/items/spawn_eggs/beaver_spawn_egg"
 		},
 		"cooked_anchovy": {
 			"textures": "textures/items/cooked_anchovy"
@@ -22,49 +22,49 @@
 			"textures": "textures/items/crab"
 		},
 		"crab_spawn_egg": {
-			"textures": "textures/items/crab_spawn_egg"
+			"textures": "textures/items/spawn_eggs/crab_spawn_egg"
 		},
 		"deer_spawn_egg": {
-			"textures": "textures/items/deer_spawn_egg"
+			"textures": "textures/items/spawn_eggs/deer_spawn_egg"
 		},
 		"elephant_spawn_egg": {
-			"textures": "textures/items/elephant_spawn_egg"
+			"textures": "textures/items/spawn_eggs/elephant_spawn_egg"
 		},
 		"giraffe_spawn_egg": {
-			"textures": "textures/items/giraffe_spawn_egg"
+			"textures": "textures/items/spawn_eggs/giraffe_spawn_egg"
 		},
 		"grizzly_bear_spawn_egg": {
-			"textures": "textures/items/grizzly_bear_spawn_egg"
+			"textures": "textures/items/spawn_eggs/grizzly_bear_spawn_egg"
 		},
 		"lemur_spawn_egg": {
-			"textures": "textures/items/lemur_spawn_egg"
+			"textures": "textures/items/spawn_eggs/lemur_spawn_egg"
 		},
 		"lizard_spawn_egg": {
-			"textures": "textures/items/lizard_spawn_egg"
+			"textures": "textures/items/spawn_eggs/lizard_spawn_egg"
 		},
 		"penguin_spawn_egg": {
-			"textures": "textures/items/penguin_spawn_egg"
+			"textures": "textures/items/spawn_eggs/penguin_spawn_egg"
 		},
 		"raccoon_spawn_egg": {
-			"textures": "textures/items/raccoon_spawn_egg"
+			"textures": "textures/items/spawn_eggs/raccoon_spawn_egg"
 		},
 		"secretary_bird_spawn_egg": {
-			"textures": "textures/items/secretary_bird_spawn_egg"
+			"textures": "textures/items/spawn_eggs/secretary_bird_spawn_egg"
 		},
 		"slug_spawn_egg": {
-			"textures": "textures/items/slug_spawn_egg"
+			"textures": "textures/items/spawn_eggs/slug_spawn_egg"
 		},
 		"snake_spawn_egg": {
-			"textures": "textures/items/snake_spawn_egg"
+			"textures": "textures/items/spawn_eggs/snake_spawn_egg"
 		},
 		"squirrel_spawn_egg": {
-			"textures": "textures/items/squirrel_spawn_egg"
+			"textures": "textures/items/spawn_eggs/squirrel_spawn_egg"
 		},
 		"tiger_spawn_egg": {
-			"textures": "textures/items/tiger_spawn_egg"
+			"textures": "textures/items/spawn_eggs/tiger_spawn_egg"
 		},
 		"tree_frog_spawn_egg": {
-			"textures": "textures/items/tree_frog_spawn_egg"
+			"textures": "textures/items/spawn_eggs/tree_frog_spawn_egg"
 		},
 		"venison": {
 			"textures": "textures/items/venison"

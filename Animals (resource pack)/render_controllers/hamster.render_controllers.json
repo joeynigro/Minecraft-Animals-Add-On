@@ -1,0 +1,23 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.hamster": {
+      "arrays": {
+        "textures": {
+          "Array.default": [
+            "Texture.all_black",
+            "Texture.black",
+            "Texture.brown",
+            "Texture.gray",
+            "Texture.orange",
+            "Texture.peach",
+            "Texture.white"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Array.default[query.variant])" ]
+    }
+  }
+}

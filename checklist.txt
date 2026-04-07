@@ -19,7 +19,7 @@ Gorilla
 Great White Shark
 Green Lizard ✔️
 Grizzly Bear ✔️
-Hamster
+Hamster ✔️
 Hippo
 Hyena
 Lion
