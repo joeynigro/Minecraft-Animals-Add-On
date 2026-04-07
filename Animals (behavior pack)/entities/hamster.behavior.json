@@ -8,37 +8,37 @@
             "is_experimental": false
         },
         "component_groups": {
-            "animals:all_black": {
+            "animals:hamster_all_black": {
                 "minecraft:variant": {
                     "value": 0
                 }
             },
-            "animals:black": {
+            "animals:hamster_black": {
                 "minecraft:variant": {
                     "value": 1
                 }
             },
-            "animals:brown": {
+            "animals:hamster_brown": {
                 "minecraft:variant": {
                     "value": 2
                 }
             },
-            "animals:gray": {
+            "animals:hamster_gray": {
                 "minecraft:variant": {
                     "value": 3
                 }
             },
-            "animals:orange": {
+            "animals:hamster_orange": {
                 "minecraft:variant": {
                     "value": 4
                 }
             },
-            "animals:peach": {
+            "animals:hamster_peach": {
                 "minecraft:variant": {
                     "value": 5
                 }
             },
-            "animals:white": {
+            "animals:hamster_white": {
                 "minecraft:variant": {
                     "value": 6
                 }
