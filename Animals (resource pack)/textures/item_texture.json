@@ -36,6 +36,9 @@
 		"grizzly_bear_spawn_egg": {
 			"textures": "textures/items/spawn_eggs/grizzly_bear_spawn_egg"
 		},
+		"hamster_spawn_egg": {
+			"textures": "textures/items/spawn_eggs/hamster_spawn_egg"
+		},
 		"lemur_spawn_egg": {
 			"textures": "textures/items/spawn_eggs/lemur_spawn_egg"
 		},
