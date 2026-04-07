@@ -43,7 +43,7 @@ Snake ✔️
 Sting Ray
 Squirrel ✔️
 Starfish
-Tiger
+Tiger ✔️
 
 Tameable Dogs:
 Beagle
