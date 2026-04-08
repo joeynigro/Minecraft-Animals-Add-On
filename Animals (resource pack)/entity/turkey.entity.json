@@ -1,0 +1,36 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "animals:turkey",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/turkey"
+			},
+			"geometry": {
+				"default": "geometry.turkey"
+			},
+            "animations": {
+                "idle": "animation.turkey.idle",
+                "walk": "animation.turkey.walk",
+                "peck": "animation.turkey.peck",
+                "look_at_target": "animation.common.look_at_target"
+            },
+            "scripts": {
+                "animate": [
+                    "look_at_target", {
+                        "walk": "query.modified_move_speed > 0.01"
+                    }, {
+                        "idle": "query.modified_move_speed <= 0.01"
+                    }
+                ]
+            },
+			"render_controllers": ["controller.render.turkey"],
+			"spawn_egg": {
+				"texture": "raccoon_spawn_egg"
+			}
+		}
+	}
+}

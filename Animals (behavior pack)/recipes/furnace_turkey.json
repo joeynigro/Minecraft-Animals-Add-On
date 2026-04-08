@@ -1,0 +1,11 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_furnace": {
+    "description": {
+    "identifier": "animals:furnace_turkey"
+    },
+    "tags": ["furnace", "smoker", "campfire", "soul_campfire"],
+    "input": "animals:turkey",
+    "output": "animals:cooked_turkey"
+  }
+}
