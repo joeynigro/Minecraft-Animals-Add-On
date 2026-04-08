@@ -117,7 +117,7 @@
                         "animals:normal"
                     ]
                 }
-            }
+            },
             "minecraft:environment_sensor": {
                 "triggers": [{
                         "test": "is_panicking",
