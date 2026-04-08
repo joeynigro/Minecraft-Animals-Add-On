@@ -36,7 +36,7 @@
 				{
 					"name": "left_wing",
 					"parent": "body",
-					"pivot": [4.5, 13, -2],
+					"pivot": [4.5, 10, -2],
 					"rotation": [-25, 0, 0],
 					"cubes": [
 						{"origin": [4.5, 7, -2], "size": [1, 6, 9], "uv": [0, 38]}
@@ -45,7 +45,7 @@
 				{
 					"name": "right_wing",
 					"parent": "body",
-					"pivot": [-4.5, 13, -2],
+					"pivot": [-4.5, 10, -2],
 					"rotation": [-25, 0, 0],
 					"cubes": [
 						{"origin": [-5.5, 7, -2], "size": [1, 6, 9], "uv": [20, 38]}
