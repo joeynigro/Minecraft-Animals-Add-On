@@ -15,7 +15,7 @@
           ],
           "transitions": [
             {
-              "rolling_up": "query.is_panicking"
+              "rolling_up": "query.mark_variant == 1"
             }
           ]
         },
@@ -43,7 +43,7 @@
           ],
           "transitions": [
             {
-              "unrolling": "!query.is_panicking"
+              "unrolling": "query.mark_variant == 0"
             }
           ]
         },
