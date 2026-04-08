@@ -118,6 +118,16 @@
                     ]
                 }
             }
+            "minecraft:environment_sensor": {
+                "triggers": [{
+                        "test": "is_panicking",
+                        "subject": "self",
+                        "on_detect": {
+                            "event": "animals:roll_up"
+                        }
+                    }
+                ]
+            }
         }
     }
 }
