@@ -12,12 +12,18 @@
       "animals:normal": {
         "minecraft:movement": {
           "value": 0.1
+        },
+        "minecraft:mark_variant": {
+          "value": 0
         }
       },
 
       "animals:rolled_up": {
         "minecraft:movement": {
           "value": 0.0
+        },
+        "minecraft:mark_variant": {
+          "value": 1
         },
         "minecraft:damage_sensor": {
           "triggers": [
@@ -29,8 +35,8 @@
           ]
         },
         "minecraft:timer": {
-          "time": 3.0,
           "looping": false,
+          "time": 3.0,
           "time_down_event": {
             "event": "animals:unroll"
           }
@@ -62,7 +68,9 @@
         "triggers": [
           {
             "cause": "all",
-            "event": "animals:roll_up"
+            "on_damage": {
+              "event": "animals:roll_up"
+            }
           }
         ]
       },
@@ -86,20 +94,6 @@
         "avoid_water": true,
         "avoid_damage_blocks": true,
         "can_open_doors": false
-      },
-
-      "minecraft:environment_sensor": {
-        "triggers": [
-          {
-            "filters": {
-              "test": "is_panicking",
-              "subject": "self",
-              "operator": "==",
-              "value": true
-            },
-            "event": "animals:roll_up"
-          }
-        ]
       },
 
       "minecraft:behavior.float": {
