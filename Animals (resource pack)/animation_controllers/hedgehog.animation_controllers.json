@@ -1,0 +1,67 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.hedgehog.roll_state": {
+      "initial_state": "normal",
+      "states": {
+        "normal": {
+          "on_entry": [
+            "variable.use_rolled_up_model = 0;"
+          ],
+          "animations": [
+            {
+              "walk": "query.modified_move_speed > 0.01"
+            }
+          ],
+          "transitions": [
+            {
+              "rolling_up": "query.is_panicking"
+            }
+          ]
+        },
+
+        "rolling_up": {
+          "on_entry": [
+            "variable.use_rolled_up_model = 0;"
+          ],
+          "animations": [
+            "roll_up"
+          ],
+          "transitions": [
+            {
+              "rolled": "query.all_animations_finished"
+            }
+          ]
+        },
+
+        "rolled": {
+          "on_entry": [
+            "variable.use_rolled_up_model = 1;"
+          ],
+          "animations": [
+            "rolled_idle"
+          ],
+          "transitions": [
+            {
+              "unrolling": "!query.is_panicking"
+            }
+          ]
+        },
+
+        "unrolling": {
+          "on_entry": [
+            "variable.use_rolled_up_model = 1;"
+          ],
+          "animations": [
+            "unroll"
+          ],
+          "transitions": [
+            {
+              "normal": "query.all_animations_finished"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

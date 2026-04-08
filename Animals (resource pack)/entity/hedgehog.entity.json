@@ -1,0 +1,39 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "animals:hedgehog",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/hedgehog"
+      },
+      "geometry": {
+        "default": "geometry.hedgehog"
+      },
+      "animations": {
+        "walk": "animation.quadruped.walk",
+        "roll_up": "animation.hedgehog.roll_up",
+        "unroll": "animation.hedgehog.unroll",
+        "rolled_idle": "animation.hedgehog.rolled_idle"
+      },
+      "scripts": {
+        "initialize": [
+          "variable.use_rolled_up_model = 0;"
+        ]
+      },
+      "animation_controllers": [
+        {
+          "roll_state": "controller.animation.hedgehog.roll_state"
+        }
+      ],
+      "render_controllers": [
+        "controller.render.hedgehog"
+      ],
+      "spawn_egg": {
+        "texture": "hedgehog_spawn_egg"
+      }
+    }
+  }
+}

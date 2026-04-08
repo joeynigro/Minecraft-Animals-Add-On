@@ -16,7 +16,7 @@ Gorilla
 Great White Shark
 Grizzly Bear ✔️
 Hamster ✔️
-Hedgehog
+Hedgehog ✔️
 Hippo
 Hyena
 Jellyfish

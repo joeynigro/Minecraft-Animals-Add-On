@@ -45,6 +45,9 @@
 		"hamster_spawn_egg": {
 			"textures": "textures/items/spawn_eggs/hamster_spawn_egg"
 		},
+		"hedgehog_spawn_egg": {
+			"textures": "textures/items/spawn_eggs/hedgehog_spawn_egg"
+		},
 		"lemur_spawn_egg": {
 			"textures": "textures/items/spawn_eggs/lemur_spawn_egg"
 		},
