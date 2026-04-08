@@ -1,0 +1,35 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "animals:fennec_fox",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/fennec_fox"
+			},
+			"geometry": {
+				"default": "geometry.fennec_fox"
+			},
+            "animations": {
+                "idle": "animation.fennec_fox.idle",
+                "walk": "animation.quadruped.walk",
+                "look_at_target": "animation.common.look_at_target"
+            },
+            "scripts": {
+                "animate": [
+                    "look_at_target", {
+                        "walk": "query.modified_move_speed"
+                    }, {
+                        "idle": "1.0 - math.min(query.modified_move_speed, 1.0)"
+                    }
+                ]
+            },
+			"render_controllers": ["controller.render.fennec_fox"],
+			"spawn_egg": {
+				"texture": "raccoon_spawn_egg"
+			}
+		}
+	}
+}

@@ -12,7 +12,7 @@ Capybara
 Cardinal
 Dragonfly
 Elephant ✔️
-Fennec Fox
+Fennec Fox ✔️
 Flamingo
 Giraffe ✔️
 Gorilla

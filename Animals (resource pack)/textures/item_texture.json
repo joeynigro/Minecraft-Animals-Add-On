@@ -30,6 +30,9 @@
 		"elephant_spawn_egg": {
 			"textures": "textures/items/spawn_eggs/elephant_spawn_egg"
 		},
+		"fennec_fox_spawn_egg": {
+			"textures": "textures/items/spawn_eggs/fennec_fox_spawn_egg"
+		},
 		"giraffe_spawn_egg": {
 			"textures": "textures/items/spawn_eggs/giraffe_spawn_egg"
 		},
