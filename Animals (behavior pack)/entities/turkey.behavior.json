@@ -18,9 +18,6 @@
                 "is_pushable": true,
                 "is_pushable_by_piston": true
             },
-            "minecraft:scale": {
-                "value": 0.9
-            },
             "minecraft:despawn": {
                 "despawn_from_distance": {}
             },
