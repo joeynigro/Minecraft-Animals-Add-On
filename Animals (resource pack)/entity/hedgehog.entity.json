@@ -13,7 +13,7 @@
                 "default": "geometry.hedgehog"
             },
             "animations": {
-                "walk": "animation.quadruped.walk",
+                "walk": "animation.hedgehog.walk",
                 "roll_up": "animation.hedgehog.roll_up",
                 "unroll": "animation.hedgehog.unroll",
                 "rolled_idle": "animation.hedgehog.rolled_idle",
