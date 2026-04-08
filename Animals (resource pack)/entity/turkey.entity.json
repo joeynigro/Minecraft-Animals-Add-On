@@ -29,7 +29,7 @@
             },
 			"render_controllers": ["controller.render.turkey"],
 			"spawn_egg": {
-				"texture": "raccoon_spawn_egg"
+				"texture": "turkey_spawn_egg"
 			}
 		}
 	}
