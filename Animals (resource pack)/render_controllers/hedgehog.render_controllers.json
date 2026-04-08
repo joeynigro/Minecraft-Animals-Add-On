@@ -7,6 +7,8 @@
       "textures": [ "Texture.default" ],
       "part_visibility": [
         { "body": "!variable.use_rolled_up_model" },
+        { "left_ear": "!variable.use_rolled_up_model" },
+        { "right_ear": "!variable.use_rolled_up_model" },
         { "body_rolled_up": "variable.use_rolled_up_model" }
       ]
     }
