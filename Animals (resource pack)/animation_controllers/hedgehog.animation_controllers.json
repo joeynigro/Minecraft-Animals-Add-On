@@ -10,7 +10,7 @@
           ],
           "animations": [
             {
-              "walk": "query.modified_move_speed > 0.01"
+              "walk": "query.modified_move_speed"
             }
           ],
           "transitions": [
