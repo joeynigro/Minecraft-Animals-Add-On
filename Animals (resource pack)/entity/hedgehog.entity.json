@@ -23,8 +23,9 @@
                 "initialize": [
                     "variable.use_rolled_up_model = 0;"
                 ],
-                "animate": [{
-                        "walk": "query.modified_move_speed > 0.01"
+                "animate": [
+                    "roll_state", {
+                        "walk": "query.modified_move_speed > 0.01 && variable.use_rolled_up_model == 0"
                     }
                 ]
             },
