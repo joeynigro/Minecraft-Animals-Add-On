@@ -1,10 +1,7 @@
 Miscellaneous Animals:
 Alligator
 Beaver ✔️
-Black Skunk
 Bluejay
-Brown Hedgehog
-Brown Monkey
 Budgie
 Butterfly
 Canary
@@ -17,15 +14,17 @@ Flamingo
 Giraffe ✔️
 Gorilla
 Great White Shark
-Green Lizard ✔️
 Grizzly Bear ✔️
 Hamster ✔️
+Hedgehog
 Hippo
 Hyena
-Lion
-Lemur ✔️
-Kangaroo
 Jellyfish
+Kangaroo
+Lion
+Lizard ✔️
+Lemur ✔️
+Monkey
 Otter
 Owl
 Penguin ✔️
@@ -36,6 +35,7 @@ Red-Eyed Tree Frog ✔️
 Rhino
 Seal
 Secretary Bird ✔️
+Skunk
 Sloth
 Slug ✔️
 Snail
@@ -67,8 +67,8 @@ Yellowfin Tuna
 
 Meat Animals:
 Clam
+Crab️ ✔️
 Deer ✔️
 Duck
 Goose
-Red Crab️ ✔️
 Turkey ✔️
