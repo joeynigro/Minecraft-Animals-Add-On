@@ -7,7 +7,6 @@
             "is_summonable": true,
             "is_experimental": false
         },
-
         "component_groups": {
             "animals:normal": {
                 "minecraft:movement": {
@@ -28,7 +27,6 @@
                 }
             }
         },
-
         "components": {
             "minecraft:health": {
                 "value": 8,
