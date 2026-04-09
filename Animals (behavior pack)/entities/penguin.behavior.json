@@ -38,7 +38,9 @@
             },
 			"minecraft:breathable": {
 				"total_supply": 300,
-				"suffocate_time": 10
+				"suffocate_time": 10,
+                "breathes_air": true,
+                "breathes_water": true
 			},
 			"minecraft:nameable": {},
 			"minecraft:health": {

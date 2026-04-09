@@ -60,6 +60,9 @@
 		"penguin_spawn_egg": {
 			"textures": "textures/items/spawn_eggs/penguin_spawn_egg"
 		},
+		"platypus_spawn_egg": {
+			"textures": "textures/items/spawn_eggs/platypus_spawn_egg"
+		},
 		"raccoon_spawn_egg": {
 			"textures": "textures/items/spawn_eggs/raccoon_spawn_egg"
 		},

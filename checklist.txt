@@ -28,7 +28,7 @@ Monkey
 Otter
 Owl
 Penguin ✔️
-Platypus
+Platypus ✔️
 Raccoon ✔️
 Rat
 Red-Eyed Tree Frog ✔️
