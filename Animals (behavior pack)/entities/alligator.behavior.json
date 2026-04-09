@@ -1,126 +1,223 @@
 {
-  "format_version": "1.16.0",
-  "minecraft:entity": {
-    "description": {
-      "identifier": "animals:alligator",
-      "is_spawnable": true,
-      "is_summonable": true,
-      "is_experimental": false
-    },
+    "format_version": "1.16.0",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "animals:alligator",
+            "is_spawnable": true,
+            "is_summonable": true,
+            "is_experimental": false
+        },
 
-    "components": {
-      "minecraft:nameable": {},
-
-      "minecraft:health": {
-        "value": 24,
-        "max": 24
-      },
-
-      "minecraft:collision_box": {
-        "width": 1.3,
-        "height": 0.9
-      },
-
-      "minecraft:physics": {},
-
-      "minecraft:movement.basic": {},
-
-      "minecraft:jump.static": {},
-
-      "minecraft:breathable": {
-        "total_supply": 15,
-        "suffocate_time": 0,
-        "breathes_air": true,
-        "breathes_water": true
-      },
-
-      "minecraft:movement": {
-        "value": 0.16
-      },
-
-      "minecraft:underwater_movement": {
-        "value": 0.1
-      },
-
-      "minecraft:navigation.walk": {
-        "can_path_over_water": false,
-        "avoid_damage_blocks": true
-      },
-
-      "minecraft:navigation.swim": {
-        "can_path_over_water": true,
-        "avoid_damage_blocks": true
-      },
-
-      "minecraft:behavior.nearest_attackable_target": {
-        "priority": 1,
-        "must_see": true,
-        "entity_types": [
-          {
-            "filters": {
-              "any_of": [
-                {
-                  "test": "is_family",
-                  "subject": "other",
-                  "value": "player"
+        "component_groups": {
+            "animals:adult": {
+                "minecraft:behavior.melee_attack": {
+                    "priority": 3,
+                    "track_target": true,
+                    "reach_multiplier": 1.5
                 },
-                {
-                  "test": "is_family",
-                  "subject": "other",
-                  "value": "animal"
+                "minecraft:attack": {
+                    "damage": 6
                 }
-              ]
             },
-            "max_dist": 10
-          }
-        ]
-      },
+            "animals:baby": {
+                "minecraft:is_baby": {},
+                "minecraft:scale": {
+                    "value": 0.5
+                },
+                "minecraft:ageable": {
+                    "duration": 1200,
+                    "feed_items": [
+                        "minecraft:fish",
+                        "minecraft:salmon"
+                    ],
+                    "grow_up": {
+                        "event": "minecraft:ageable_grow_up"
+                    }
+                },
+                "minecraft:behavior.follow_parent": {
+                    "priority": 5,
+                    "speed_multiplier": 1.1
+                }
+            }
+        },
 
-      "minecraft:behavior.hurt_by_target": {
-        "priority": 2
-      },
+        "components": {
+            "minecraft:nameable": {},
+            "minecraft:health": {
+                "value": 24,
+                "max": 24
+            },
+            "minecraft:collision_box": {
+                "width": 1.3,
+                "height": 0.9
+            },
+            "minecraft:physics": {},
+            "minecraft:movement.basic": {},
+            "minecraft:jump.static": {},
+            "minecraft:breathable": {
+                "total_supply": 15,
+                "suffocate_time": 0,
+                "breathes_air": true,
+                "breathes_water": true
+            },
+            "minecraft:movement": {
+                "value": 0.16
+            },
+            "minecraft:underwater_movement": {
+                "value": 0.1
+            },
+            "minecraft:navigation.walk": {
+                "can_path_over_water": false,
+                "avoid_damage_blocks": true
+            },
+            "minecraft:navigation.swim": {
+                "can_path_over_water": true,
+                "avoid_damage_blocks": true
+            },
+            "minecraft:behavior.nearest_attackable_target": {
+                "priority": 1,
+                "must_see": true,
+                "entity_types": [{
+                        "filters": {
+                            "any_of": [{
+                                    "test": "is_family",
+                                    "subject": "other",
+                                    "value": "player"
+                                }, {
+                                    "test": "is_family",
+                                    "subject": "other",
+                                    "value": "chicken"
+                                }, {
+                                    "test": "is_family",
+                                    "subject": "other",
+                                    "value": "rabbit"
+                                }, {
+                                    "test": "is_family",
+                                    "subject": "other",
+                                    "value": "pig"
+                                }, {
+                                    "test": "is_family",
+                                    "subject": "other",
+                                    "value": "sheep"
+                                }, {
+                                    "test": "is_family",
+                                    "subject": "other",
+                                    "value": "fish"
+                                }, {
+                                    "test": "is_family",
+                                    "subject": "other",
+                                    "value": "anchovy"
+                                }, {
+                                    "test": "is_family",
+                                    "subject": "other",
+                                    "value": "crab"
+                                }, {
+                                    "test": "is_family",
+                                    "subject": "other",
+                                    "value": "deer"
+                                }, {
+                                    "test": "is_family",
+                                    "subject": "other",
+                                    "value": "turkey"
+                                }, {
+                                    "test": "is_family",
+                                    "subject": "other",
+                                    "value": "penguin"
+                                }, {
+                                    "test": "is_family",
+                                    "subject": "other",
+                                    "value": "squirrel"
+                                }, {
+                                    "test": "is_family",
+                                    "subject": "other",
+                                    "value": "lizard"
+                                }, {
+                                    "test": "is_family",
+                                    "subject": "other",
+                                    "value": "hamster"
+                                }, {
+                                    "test": "is_family",
+                                    "subject": "other",
+                                    "value": "raccoon"
+                                }
+                            ]
+                        },
+                        "max_dist": 10
+                    }
+                ]
+            }
+            "minecraft:behavior.hurt_by_target": {
+                "priority": 2
+            },
+            "minecraft:behavior.melee_attack": {
+                "priority": 3,
+                "track_target": true,
+                "reach_multiplier": 1.5
+            },
+            "minecraft:attack": {
+                "damage": 6
+            },
+            "minecraft:behavior.random_stroll": {
+                "priority": 8,
+                "speed_multiplier": 0.8
+            },
+            "minecraft:behavior.random_swim": {
+                "priority": 9,
+                "speed_multiplier": 0.8
+            },
+            "minecraft:behavior.look_at_player": {
+                "priority": 10,
+                "look_distance": 8
+            },
+            "minecraft:behavior.random_look_around": {
+                "priority": 11
+            },
+            "minecraft:damage_sensor": {
+                "triggers": [{
+                        "cause": "fall",
+                        "deals_damage": false
+                    }
+                ]
+            },
+            "minecraft:loot": {
+                "table": "loot_tables/entities/alligator.json"
+            },
+            "minecraft:experience_reward": {
+                "on_death": "query.last_hit_by_player ? 4 : 0"
+            }
+        },
 
-      "minecraft:behavior.melee_attack": {
-        "priority": 3,
-        "track_target": true,
-        "reach_multiplier": 1.5
-      },
-
-      "minecraft:attack": {
-        "damage": 6
-      },
-
-      "minecraft:behavior.random_stroll": {
-        "priority": 8,
-        "speed_multiplier": 0.8
-      },
-
-      "minecraft:behavior.random_swim": {
-        "priority": 9,
-        "speed_multiplier": 0.8
-      },
-
-      "minecraft:behavior.look_at_player": {
-        "priority": 10,
-        "look_distance": 8
-      },
-
-      "minecraft:behavior.random_look_around": {
-        "priority": 11
-      },
-
-      "minecraft:damage_sensor": {
-        "triggers": [
-          {
-            "cause": "fall",
-            "deals_damage": false
-          }
-        ]
-      },
-
-      "minecraft:experience_reward": {
-        "on_death": "query.last_hit_by_player ? 4 : 0"
-      }
+        "events": {
+            "minecraft:entity_spawned": {
+                "randomize": [{
+                        "weight": 85,
+                        "add": {
+                            "component_groups": [
+                                "animals:adult"
+                            ]
+                        }
+                    }, {
+                        "weight": 15,
+                        "add": {
+                            "component_groups": [
+                                "animals:baby"
+                            ]
+                        }
+                    }
+                ]
+            },
+            "minecraft:ageable_grow_up": {
+                "remove": {
+                    "component_groups": [
+                        "animals:baby"
+                    ]
+                },
+                "add": {
+                    "component_groups": [
+                        "animals:adult"
+                    ]
+                }
+            }
+        }
     }
-  }
 }

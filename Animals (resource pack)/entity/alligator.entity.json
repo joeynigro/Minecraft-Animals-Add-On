@@ -7,10 +7,12 @@
                 "default": "entity_alphatest"
             },
             "textures": {
-                "default": "textures/entity/alligator"
+                "default": "textures/entity/alligator",
+                "baby": "textures/entity/alligator_baby"
             },
             "geometry": {
-                "default": "geometry.alligator"
+                "default": "geometry.alligator",
+                "baby": "geometry.alligator.baby"
             },
             "animations": {
                 "idle": "animation.alligator.idle",
