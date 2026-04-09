@@ -160,38 +160,38 @@
                 "minecraft:experience_reward": {
                     "on_death": "query.last_hit_by_player ? 4 : 0"
                 }
-            },
+            }
+        },
 
-            "events": {
-                "minecraft:entity_spawned": {
-                    "randomize": [{
-                            "weight": 85,
-                            "add": {
-                                "component_groups": [
-                                    "animals:adult"
-                                ]
-                            }
-                        }, {
-                            "weight": 15,
-                            "add": {
-                                "component_groups": [
-                                    "animals:baby"
-                                ]
-                            }
+        "events": {
+            "minecraft:entity_spawned": {
+                "randomize": [{
+                        "weight": 85,
+                        "add": {
+                            "component_groups": [
+                                "animals:adult"
+                            ]
                         }
+                    }, {
+                        "weight": 15,
+                        "add": {
+                            "component_groups": [
+                                "animals:baby"
+                            ]
+                        }
+                    }
+                ]
+            },
+            "minecraft:ageable_grow_up": {
+                "remove": {
+                    "component_groups": [
+                        "animals:baby"
                     ]
                 },
-                "minecraft:ageable_grow_up": {
-                    "remove": {
-                        "component_groups": [
-                            "animals:baby"
-                        ]
-                    },
-                    "add": {
-                        "component_groups": [
-                            "animals:adult"
-                        ]
-                    }
+                "add": {
+                    "component_groups": [
+                        "animals:adult"
+                    ]
                 }
             }
         }
