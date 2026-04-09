@@ -1,28 +1,34 @@
 {
-	"format_version": "1.10.0",
-	"minecraft:client_entity": {
-		"description": {
-			"identifier": "animals:crab",
-			"materials": {
-				"default": "entity_alphatest"
-			},
-			"textures": {
-				"default": "textures/entity/crab"
-			},
-			"geometry": {
-				"default": "geometry.crab"
-			},
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "animals:crab",
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "textures": {
+                "default": "textures/entity/crab"
+            },
+            "geometry": {
+                "default": "geometry.crab"
+            },
             "animations": {
                 "idle": "animation.crab.idle",
                 "walk": "animation.crab.walk",
                 "snap": "animation.crab.snap",
-				"move": "controller.animation.crab.move",
-				"attack": "controller.animation.crab.attack"
+                "move": "controller.animation.crab.move",
+                "attack": "controller.animation.crab.attack"
             },
-			"render_controllers": ["controller.render.crab"],
-			"spawn_egg": {
-				"texture": "crab_spawn_egg"
-			}
-		}
-	}
+            "scripts": {
+                "animate": [{
+                        "walk": "query.modified_move_speed > 0.01"
+                    }
+                ]
+            },
+            "render_controllers": ["controller.render.crab"],
+            "spawn_egg": {
+                "texture": "crab_spawn_egg"
+            }
+        }
+    }
 }
