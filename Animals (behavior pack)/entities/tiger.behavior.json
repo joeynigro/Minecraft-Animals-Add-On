@@ -48,11 +48,31 @@
                                 "any_of": [{
                                         "test": "is_family",
                                         "subject": "other",
-                                        "value": "animals:deer"
+                                        "value": "deer"
                                     }, {
                                         "test": "is_family",
                                         "subject": "other",
                                         "value": "pig"
+                                    }, {
+                                        "test": "is_family",
+                                        "subject": "other",
+                                        "value": "sheep"
+                                    }, {
+                                        "test": "is_family",
+                                        "subject": "other",
+                                        "value": "rabbit"
+                                    }, {
+                                        "test": "is_family",
+                                        "subject": "other",
+                                        "value": "chicken"
+                                    }, {
+                                        "test": "is_family",
+                                        "subject": "other",
+                                        "value": "medium_animal"
+                                    }, {
+                                        "test": "is_family",
+                                        "subject": "other",
+                                        "value": "small_animal"
                                     }
                                 ]
                             },
@@ -64,6 +84,10 @@
         },
 
         "components": {
+            "minecraft:type_family": {
+                "family": ["tiger", "predator", "animal"]
+            },
+
             "minecraft:breathable": {
                 "total_supply": 15,
                 "suffocate_time": 0

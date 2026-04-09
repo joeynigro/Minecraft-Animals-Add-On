@@ -33,6 +33,9 @@
 			}
 		},
 		"components": {
+            "minecraft:type_family": {
+                "family": ["lemur", "animal"]
+            },
 			"minecraft:breathable": {
 				"total_supply": 60,
 				"suffocate_time": 0

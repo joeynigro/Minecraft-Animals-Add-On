@@ -36,6 +36,9 @@
 			}
 		},
 		"components": {
+            "minecraft:type_family": {
+                "family": ["elephant", "large_animal", "animal"]
+            },
 			"minecraft:breathable": {
 				"total_supply": 15,
 				"suffocate_time": 0

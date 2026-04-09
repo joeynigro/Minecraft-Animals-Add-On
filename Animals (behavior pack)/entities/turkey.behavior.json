@@ -8,6 +8,9 @@
             "is_experimental": false
         },
         "components": {
+            "minecraft:type_family": {
+                "family": ["turkey", "bird", "animal"]
+            },
             "minecraft:breathable": {
                 "total_supply": 15,
                 "suffocate_time": 0

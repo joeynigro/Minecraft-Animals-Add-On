@@ -8,6 +8,9 @@
             "is_experimental": false
         },
         "components": {
+            "minecraft:type_family": {
+                "family": ["anchovy", "fish", "aquatic", "animal"]
+            },
             "minecraft:experience_reward": {
                 "on_death": "query.last_hit_by_player ? Math.Random(1,2) : 0"
             },

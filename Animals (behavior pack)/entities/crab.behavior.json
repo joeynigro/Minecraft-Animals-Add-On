@@ -8,6 +8,9 @@
             "is_experimental": false
         },
         "components": {
+            "minecraft:type_family": {
+                "family": ["crab", "aquatic", "animal"]
+            },
             "minecraft:breathable": {
                 "breathes_air": true,
                 "breathes_water": true,

@@ -42,6 +42,9 @@
         },
 
         "components": {
+            "minecraft:type_family": {
+                "family": ["alligator", "reptile", "predator", "animal"]
+            },
             "minecraft:nameable": {},
             "minecraft:health": {
                 "value": 24,
@@ -86,6 +89,10 @@
                                 }, {
                                     "test": "is_family",
                                     "subject": "other",
+                                    "value": "small_animal"
+                                }, {
+                                    "test": "is_family",
+                                    "subject": "other",
                                     "value": "chicken"
                                 }, {
                                     "test": "is_family",
@@ -94,23 +101,15 @@
                                 }, {
                                     "test": "is_family",
                                     "subject": "other",
-                                    "value": "pig"
-                                }, {
-                                    "test": "is_family",
-                                    "subject": "other",
-                                    "value": "sheep"
-                                }, {
-                                    "test": "is_family",
-                                    "subject": "other",
                                     "value": "fish"
                                 }, {
                                     "test": "is_family",
                                     "subject": "other",
-                                    "value": "anchovy"
+                                    "value": "frog"
                                 }, {
                                     "test": "is_family",
                                     "subject": "other",
-                                    "value": "crab"
+                                    "value": "turtle"
                                 }, {
                                     "test": "is_family",
                                     "subject": "other",
@@ -118,103 +117,81 @@
                                 }, {
                                     "test": "is_family",
                                     "subject": "other",
-                                    "value": "turkey"
-                                }, {
-                                    "test": "is_family",
-                                    "subject": "other",
-                                    "value": "penguin"
-                                }, {
-                                    "test": "is_family",
-                                    "subject": "other",
-                                    "value": "squirrel"
-                                }, {
-                                    "test": "is_family",
-                                    "subject": "other",
-                                    "value": "lizard"
-                                }, {
-                                    "test": "is_family",
-                                    "subject": "other",
-                                    "value": "hamster"
-                                }, {
-                                    "test": "is_family",
-                                    "subject": "other",
                                     "value": "raccoon"
                                 }
+                            },
+                            "max_dist": 8
+                        }
+                    ]
+                    "minecraft:behavior.hurt_by_target": {
+                        "priority": 2
+                    },
+                    "minecraft:behavior.melee_attack": {
+                        "priority": 3,
+                        "track_target": true,
+                        "reach_multiplier": 1.5
+                    },
+                    "minecraft:attack": {
+                        "damage": 6
+                    },
+                    "minecraft:behavior.random_stroll": {
+                        "priority": 8,
+                        "speed_multiplier": 0.8
+                    },
+                    "minecraft:behavior.random_swim": {
+                        "priority": 9,
+                        "speed_multiplier": 0.8
+                    },
+                    "minecraft:behavior.look_at_player": {
+                        "priority": 10,
+                        "look_distance": 8
+                    },
+                    "minecraft:behavior.random_look_around": {
+                        "priority": 11
+                    },
+                    "minecraft:damage_sensor": {
+                        "triggers": [{
+                                "cause": "fall",
+                                "deals_damage": false
+                            }
+                        ]
+                    },
+                    "minecraft:experience_reward": {
+                        "on_death": "query.last_hit_by_player ? 4 : 0"
+                    }
+                },
+
+                "events": {
+                    "minecraft:entity_spawned": {
+                        "randomize": [{
+                                "weight": 85,
+                                "add": {
+                                    "component_groups": [
+                                        "animals:adult"
+                                    ]
+                                }
+                            }, {
+                                "weight": 15,
+                                "add": {
+                                    "component_groups": [
+                                        "animals:baby"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    "minecraft:ageable_grow_up": {
+                        "remove": {
+                            "component_groups": [
+                                "animals:baby"
                             ]
                         },
-                        "max_dist": 10
-                    }
-                ]
-            }
-            "minecraft:behavior.hurt_by_target": {
-                "priority": 2
-            },
-            "minecraft:behavior.melee_attack": {
-                "priority": 3,
-                "track_target": true,
-                "reach_multiplier": 1.5
-            },
-            "minecraft:attack": {
-                "damage": 6
-            },
-            "minecraft:behavior.random_stroll": {
-                "priority": 8,
-                "speed_multiplier": 0.8
-            },
-            "minecraft:behavior.random_swim": {
-                "priority": 9,
-                "speed_multiplier": 0.8
-            },
-            "minecraft:behavior.look_at_player": {
-                "priority": 10,
-                "look_distance": 8
-            },
-            "minecraft:behavior.random_look_around": {
-                "priority": 11
-            },
-            "minecraft:damage_sensor": {
-                "triggers": [{
-                        "cause": "fall",
-                        "deals_damage": false
-                    }
-                ]
-            },
-            "minecraft:experience_reward": {
-                "on_death": "query.last_hit_by_player ? 4 : 0"
-            }
-        },
-
-        "events": {
-            "minecraft:entity_spawned": {
-                "randomize": [{
-                        "weight": 85,
                         "add": {
                             "component_groups": [
                                 "animals:adult"
                             ]
                         }
-                    }, {
-                        "weight": 15,
-                        "add": {
-                            "component_groups": [
-                                "animals:baby"
-                            ]
-                        }
                     }
-                ]
-            },
-            "minecraft:ageable_grow_up": {
-                "remove": {
-                    "component_groups": [
-                        "animals:baby"
-                    ]
-                },
-                "add": {
-                    "component_groups": [
-                        "animals:adult"
-                    ]
                 }
             }
         }
-    }
-}

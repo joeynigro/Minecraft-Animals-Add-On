@@ -36,6 +36,9 @@
 			}
 		},
 		"components": {
+            "minecraft:type_family": {
+                "family": ["deer", "animal"]
+            },
 			"minecraft:breathable": {
 				"total_supply": 200,
 				"suffocate_time": 5
