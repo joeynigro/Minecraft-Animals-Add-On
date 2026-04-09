@@ -23,7 +23,6 @@
         "baby_walk": "animation.alligator.baby.walk",
         "baby_swim": "animation.alligator.baby.swim",
         "look_at_target": "animation.common.look_at_target",
-        "move": "controller.animation.alligator.move",
         "attack": "controller.animation.alligator.attack"
       },
       "scripts": {
