@@ -1,42 +1,57 @@
 {
-    "format_version": "1.10.0",
-    "minecraft:client_entity": {
-        "description": {
-            "identifier": "animals:alligator",
-            "materials": {
-                "default": "entity_alphatest"
-            },
-            "textures": {
-                "default": "textures/entity/alligator",
-                "baby": "textures/entity/alligator_baby"
-            },
-            "geometry": {
-                "default": "geometry.alligator",
-                "baby": "geometry.alligator.baby"
-            },
-            "animations": {
-                "idle": "animation.alligator.idle",
-                "walk": "animation.alligator.walk",
-                "swim": "animation.alligator.swim",
-                "bite": "animation.alligator.bite",
-                "death": "animation.alligator.death",
-                "look_at_target": "animation.common.look_at_target",
-                "move": "controller.animation.alligator.move",
-                "attack": "controller.animation.alligator.attack"
-            },
-            "scripts": {
-                "animate": [
-                    "look_at_target", {
-                        "walk": "query.modified_move_speed > 0.01"
-                    }, {
-                        "idle": "query.ground_speed <= 0.01"
-                    }
-                ]
-            },
-            "render_controllers": ["controller.render.alligator"],
-            "spawn_egg": {
-                "texture": "alligator_spawn_egg"
-            }
-        }
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "animals:alligator",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/alligator",
+        "baby": "textures/entity/alligator_baby"
+      },
+      "geometry": {
+        "default": "geometry.alligator",
+        "baby": "geometry.alligator.baby"
+      },
+      "animations": {
+        "idle": "animation.alligator.idle",
+        "walk": "animation.alligator.walk",
+        "swim": "animation.alligator.swim",
+        "bite": "animation.alligator.bite",
+        "death": "animation.alligator.death",
+        "baby_walk": "animation.alligator.baby.walk",
+        "baby_swim": "animation.alligator.baby.swim",
+        "look_at_target": "animation.common.look_at_target",
+        "move": "controller.animation.alligator.move",
+        "attack": "controller.animation.alligator.attack"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          {
+            "baby_swim": "query.is_baby && query.is_in_water"
+          },
+          {
+            "baby_walk": "query.is_baby && !query.is_in_water && query.ground_speed > 0.01"
+          },
+          {
+            "swim": "!query.is_baby && query.is_in_water"
+          },
+          {
+            "walk": "!query.is_baby && !query.is_in_water && query.ground_speed > 0.01"
+          },
+          {
+            "idle": "!query.is_in_water && query.ground_speed <= 0.01"
+          }
+        ]
+      },
+      "render_controllers": [
+        "controller.render.alligator"
+      ],
+      "spawn_egg": {
+        "texture": "alligator_spawn_egg"
+      }
     }
+  }
 }
