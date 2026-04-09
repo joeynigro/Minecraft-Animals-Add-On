@@ -1,5 +1,8 @@
 {
 	"texture_data": {
+		"alligator_spawn_egg": {
+			"textures": "textures/items/spawn_eggs/alligator_spawn_egg"
+		},
 		"anchovy": {
 			"textures": "textures/items/anchovy"
 		},

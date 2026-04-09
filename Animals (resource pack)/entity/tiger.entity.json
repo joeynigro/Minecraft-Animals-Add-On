@@ -23,16 +23,13 @@
                 "walk": "animation.quadruped.walk",
                 "attack": "animation.tiger.attack",
                 "sleep": "animation.tiger.sleep",
-                "look_at_target": "animation.common.look_at_target"
+                "look_at_target": "animation.common.look_at_target",
+				"main": "controller.animation.tiger.main"
             },
 
             "scripts": {
                 "animate": [
-                    "look_at_target", {
-                        "walk": "query.modified_move_speed"
-                    }, {
-                        "idle": "1.0 - math.min(query.modified_move_speed, 1.0)"
-                    }
+                    "look_at_target"
                 ]
             },
 

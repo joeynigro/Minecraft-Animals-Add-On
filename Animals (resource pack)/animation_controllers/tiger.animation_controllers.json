@@ -1,0 +1,74 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.tiger.main": {
+      "initial_state": "idle",
+      "states": {
+        "idle": {
+          "animations": [
+            "idle"
+          ],
+          "transitions": [
+            {
+              "attack": "query.is_angry"
+            },
+            {
+              "sleep": "query.is_sleeping"
+            },
+            {
+              "walk": "query.modified_move_speed > 0.01"
+            }
+          ]
+        },
+        "walk": {
+          "animations": [
+            "walk"
+          ],
+          "transitions": [
+            {
+              "attack": "query.is_angry"
+            },
+            {
+              "sleep": "query.is_sleeping"
+            },
+            {
+              "idle": "query.modified_move_speed <= 0.01"
+            }
+          ]
+        },
+        "sleep": {
+          "animations": [
+            "sleep"
+          ],
+          "transitions": [
+            {
+              "attack": "query.is_angry"
+            },
+            {
+              "walk": "!query.is_sleeping && query.modified_move_speed > 0.01"
+            },
+            {
+              "idle": "!query.is_sleeping && query.modified_move_speed <= 0.01"
+            }
+          ]
+        },
+        "attack": {
+          "animations": [
+            "attack"
+          ],
+          "transitions": [
+            {
+              "walk": "!query.is_angry && query.modified_move_speed > 0.01"
+            },
+            {
+              "sleep": "!query.is_angry && query.is_sleeping"
+            },
+            {
+              "idle": "!query.is_angry && query.modified_move_speed <= 0.01"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

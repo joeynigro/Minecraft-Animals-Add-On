@@ -1,3 +1,5 @@
+entity.animals:alligator.name=Alligator
+item.spawn_egg.entity.animals:alligator.name=Alligator Spawn Egg
 item.animals:anchovy=Raw Anchovy
 item.animals:cooked_anchovy=Cooked Anchovy
 entity.animals:anchovy.name=Anchovy

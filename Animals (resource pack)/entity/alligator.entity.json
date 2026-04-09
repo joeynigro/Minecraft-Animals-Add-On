@@ -1,0 +1,36 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "animals:alligator",
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "textures": {
+                "default": "textures/entity/alligator"
+            },
+            "geometry": {
+                "default": "geometry.alligator"
+            },
+            "animations": {
+                "idle": "animation.alligator.idle",
+                "walk": "animation.alligator.walk",
+                "swim": "animation.alligator.swim",
+                "bite": "animation.alligator.bite",
+                "death": "animation.alligator.death",
+                "look_at_target": "animation.common.look_at_target",
+                "move": "controller.animation.alligator.move",
+                "attack": "controller.animation.alligator.attack"
+            },
+            "scripts": {
+                "animate": [
+                    "look_at_target"
+                ]
+            },
+            "render_controllers": ["controller.render.alligator"],
+            "spawn_egg": {
+                "texture": "alligator_spawn_egg"
+            }
+        }
+    }
+}

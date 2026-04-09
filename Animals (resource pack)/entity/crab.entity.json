@@ -15,16 +15,9 @@
             "animations": {
                 "idle": "animation.crab.idle",
                 "walk": "animation.crab.walk",
-                "snap": "animation.crab.snap"
-            },
-            "scripts": {
-                "animate": [
-                    "look_at_target", {
-                        "walk": "query.modified_move_speed > 0.01"
-                    }, {
-                        "idle": "query.modified_move_speed <= 0.01"
-                    }
-                ]
+                "snap": "animation.crab.snap",
+				"move": "controller.animation.crab.move",
+				"attack": "controller.animation.crab.attack"
             },
 			"render_controllers": ["controller.render.crab"],
 			"spawn_egg": {
