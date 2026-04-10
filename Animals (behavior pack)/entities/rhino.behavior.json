@@ -24,23 +24,6 @@
                         "target": "self"
                     }
                 }
-            },
-            "animals:adult": {
-                "minecraft:breedable": {
-                    "require_tame": false,
-                    "breeds_with": {
-                        "mate_type": "animals:rhino",
-                        "baby_type": "animals:rhino",
-                        "breed_event": {
-                            "event": "animals:on_breed",
-                            "target": "baby"
-                        }
-                    },
-                    "items": [
-                        "minecraft:wheat",
-                        "minecraft:apple"
-                    ]
-                }
             }
         },
         "components": {
