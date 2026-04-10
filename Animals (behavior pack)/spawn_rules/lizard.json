@@ -12,7 +12,7 @@
                         "name": "minecraft:sand"
                     }, {
                         "name": "minecraft:red_sand"
-                    },
+                    }, {
                         "name": "minecraft:grass_block"
                     }, {
                         "name": "minecraft:dirt"
@@ -46,6 +46,7 @@
         "minecraft:biome_filter": [
           {"test": "has_biome_tag", "operator":"==", "value": "savanna"},
           {"test": "has_biome_tag", "operator":"==", "value": "jungle"}
+		]
       }
     ]
   }

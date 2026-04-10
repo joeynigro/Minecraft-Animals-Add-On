@@ -43,7 +43,7 @@
                     "underground": 0
                 },
                 "minecraft:biome_filter": [
-                    "any of": {
+                    {
                         "test": "has_biome_tag",
                         "operator": "==",
                         "value": "frozen"
