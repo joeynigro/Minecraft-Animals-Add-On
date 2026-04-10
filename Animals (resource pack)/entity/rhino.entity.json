@@ -1,0 +1,42 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "animals:rhino",
+
+            "materials": {
+                "default": "entity_alphatest"
+            },
+
+            "textures": {
+                "default": "textures/entity/rhino"
+            },
+
+            "geometry": {
+                "default": "geometry.rhino"
+            },
+
+            "animations": {
+                "walk": "animation.quadruped.walk",
+                "attack": "animation.rhino.attack",
+                "look_at_target": "animation.common.look_at_target",
+            },
+
+            "scripts": {
+                "animate": [
+                    "look_at_target", {
+                        "walk": "query.modified_move_speed > 0.01"
+                    }
+                ]
+            },
+
+            "render_controllers": [
+                "controller.render.rhino"
+            ],
+
+            "spawn_egg": {
+                "texture": "rhino_spawn_egg"
+            }
+        }
+    }
+}

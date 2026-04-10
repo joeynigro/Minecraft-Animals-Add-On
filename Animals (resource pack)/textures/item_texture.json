@@ -66,6 +66,9 @@
 		"raccoon_spawn_egg": {
 			"textures": "textures/items/spawn_eggs/raccoon_spawn_egg"
 		},
+		"rhino_spawn_egg": {
+			"textures": "textures/items/spawn_eggs/rhino_spawn_egg"
+		},
 		"secretary_bird_spawn_egg": {
 			"textures": "textures/items/spawn_eggs/secretary_bird_spawn_egg"
 		},
