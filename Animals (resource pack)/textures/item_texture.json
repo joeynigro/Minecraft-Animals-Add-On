@@ -9,6 +9,9 @@
 		"anchovy_spawn_egg": {
 			"textures": "textures/items/spawn_eggs/anchovy_spawn_egg"
 		},
+		"antler": {
+			"textures": "textures/items/antler"
+		},
 		"beaver_spawn_egg": {
 			"textures": "textures/items/spawn_eggs/beaver_spawn_egg"
 		},
@@ -38,6 +41,9 @@
 		},
 		"fennec_fox_spawn_egg": {
 			"textures": "textures/items/spawn_eggs/fennec_fox_spawn_egg"
+		},
+		"fur": {
+			"textures": "textures/items/fur"
 		},
 		"giraffe_spawn_egg": {
 			"textures": "textures/items/spawn_eggs/giraffe_spawn_egg"
@@ -86,6 +92,9 @@
 		},
 		"tiger_spawn_egg": {
 			"textures": "textures/items/spawn_eggs/tiger_spawn_egg"
+		},
+		"tooth": {
+			"textures": "textures/items/tooth"
 		},
 		"tree_frog_spawn_egg": {
 			"textures": "textures/items/spawn_eggs/tree_frog_spawn_egg"

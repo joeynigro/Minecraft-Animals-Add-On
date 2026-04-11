@@ -41,6 +41,9 @@
                     "track_target": false,
                     "reach_multiplier": 1.5
                 },
+				"minecraft:loot": {
+					"table": "loot_tables/entities/tiger.json"
+				},
                 "minecraft:behavior.nearest_attackable_target": {
                     "priority": 3,
                     "entity_types": [{

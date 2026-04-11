@@ -17,7 +17,10 @@
                 },
                 "minecraft:attack": {
                     "damage": 6
-                }
+                },
+				"minecraft:loot": {
+					"table": "loot_tables/entities/alligator.json"
+				}
             },
             "animals:baby": {
                 "minecraft:is_baby": {},
