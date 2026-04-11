@@ -45,16 +45,6 @@ Squirrel ✔️
 Starfish
 Tiger ✔️
 
-Tameable Dogs:
-Beagle
-Chihuahua
-Corgi
-Dachshund
-Dalmatian
-German Shepherd
-Labrador Retriever
-Poodle
-
 Fish:
 Anchovy ✔️
 Catfish
@@ -72,3 +62,13 @@ Deer ✔️
 Duck
 Goose
 Turkey ✔️
+
+Tameable Dogs:
+Beagle
+Chihuahua
+Corgi
+Dachshund
+Dalmatian
+German Shepherd
+Labrador Retriever
+Poodle
