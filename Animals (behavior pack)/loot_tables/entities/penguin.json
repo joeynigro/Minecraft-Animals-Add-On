@@ -1,21 +1,33 @@
 {
-    "pools": [{
+    "pools": [
+        {
             "rolls": 1,
-            "entries": [{
+            "entries": [
+                {
                     "type": "item",
                     "name": "cod",
                     "weight": 1,
-                    "functions": [{
+                    "functions": [
+                        {
                             "function": "set_count",
                             "count": {
                                 "min": 0,
                                 "max": 2
                             }
+                        },
+                        {
+                            "function": "looting_enchant",
+                            "count": {
+                                "min": 0,
+                                "max": 1
+                            }
                         }
                     ]
-                }, {
+                },
+                {
                     "function": "furnace_smelt",
-                    "conditions": [{
+                    "conditions": [
+                        {
                             "condition": "entity_properties",
                             "entity": "this",
                             "properties": {
