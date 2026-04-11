@@ -1,0 +1,43 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.skunk.idle": {
+			"loop": true,
+			"animation_length": 3,
+			"bones": {
+				"tail": {
+					"rotation": {
+						"0.0": [-20, -2, 0],
+						"1.5": [-20, 2, 0],
+						"3.0": [-20, -2, 0]
+					}
+				}
+			}
+		},
+		"animation.skunk.spray": {
+			"animation_length": 4,
+			"bones": {
+				"tail": {
+					"rotation": {
+						"0.0": [85, 0, 0],
+						"1.0": [100, 0, 0],
+						"2.0": [70, 0, 0],
+						"4.0": [85, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.skunk.warn": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.5,
+			"bones": {
+				"tail": {
+					"rotation": {
+						"0.0": [-20, 0, 0],
+						"0.5": [85, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

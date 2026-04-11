@@ -72,6 +72,9 @@
 		"secretary_bird_spawn_egg": {
 			"textures": "textures/items/spawn_eggs/secretary_bird_spawn_egg"
 		},
+		"skunk_spawn_egg": {
+			"textures": "textures/items/spawn_eggs/skunk_spawn_egg"
+		},
 		"slug_spawn_egg": {
 			"textures": "textures/items/spawn_eggs/slug_spawn_egg"
 		},

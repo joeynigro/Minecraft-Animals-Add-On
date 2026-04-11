@@ -1,0 +1,48 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "animals:skunk",
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "textures": {
+                "default": "textures/entity/skunk",
+                "baby": "textures/entity/skunk_baby"
+            },
+            "geometry": {
+                "default": "geometry.skunk",
+                "baby": "geometry.skunk.baby"
+            },
+            "animations": {
+                "idle": "animation.skunk.idle",
+                "walk": "animation.quadruped.walk",
+                "warn": "animation.skunk.warn",
+                "spray": "animation.skunk.spray",
+                "baby_idle": "animation.skunk.baby.idle",
+                "look_at_target": "animation.common.look_at_target"
+            },
+            "scripts": {
+                "animate": [
+                    "look_at_target", {
+                        "baby_idle": "query.is_baby && (1.0 - math.min(query.modified_move_speed, 1.0)) : 0.0"
+                    }, {
+                        "spray": "!query.is_baby && query.has_target && query.target_distance < 2.5"
+                    }, {
+                        "warn": "!query.is_baby && query.has_target && query.target_distance >= 2.5 && query.target_distance < 4.0"
+                    }, {
+                        "idle": "!query.is_baby && (1.0 - math.min(query.modified_move_speed, 1.0)) : 0.0"
+                    }, {
+                        "walk": "query.modified_move_speed"
+                    }
+                ]
+            },
+            "render_controllers": [
+                "controller.render.skunk"
+            ],
+            "spawn_egg": {
+                "texture": "skunk_spawn_egg"
+            }
+        }
+    }
+}
