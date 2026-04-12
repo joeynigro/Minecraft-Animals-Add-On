@@ -8,7 +8,7 @@
             "is_experimental": false
         },
         "component_groups": {
-            "animals:baby": {
+            "minecraft:baby": {
                 "minecraft:is_baby": {},
                 "minecraft:scale": {
                     "value": 0.7
@@ -26,22 +26,7 @@
                 }
             },
 
-            "animals:adult": {
-                "minecraft:breedable": {
-                    "require_tame": false,
-                    "breeds_with": {
-                        "mate_type": "animals:skunk",
-                        "baby_type": "animals:skunk",
-                        "breed_event": {
-                            "event": "animals:on_breed",
-                            "target": "baby"
-                        }
-                    },
-                    "items": [
-                        "minecraft:sweet_berries",
-                        "minecraft:apple"
-                    ]
-                },
+            "minecraft:adult": {
                 "minecraft:attack": {
                     "damage": 0
                 },
@@ -87,7 +72,6 @@
                 "minecraft:timer": {
                     "looping": false,
                     "time": 1.0,
-                    "randomInterval": false,
                     "time_down_event": {
                         "event": "animals:start_spraying",
                         "target": "self"
@@ -119,7 +103,6 @@
                 "minecraft:timer": {
                     "looping": false,
                     "time": 1.5,
-                    "randomInterval": false,
                     "time_down_event": {
                         "event": "animals:stop_spraying",
                         "target": "self"
@@ -200,14 +183,14 @@
                         "weight": 80,
                         "add": {
                             "component_groups": [
-                                "animals:adult"
+                                "minecraft:adult"
                             ]
                         }
                     }, {
                         "weight": 20,
                         "add": {
                             "component_groups": [
-                                "animals:baby"
+                                "minecraft:baby"
                             ]
                         }
                     }
@@ -217,20 +200,12 @@
             "minecraft:ageable_grow_up": {
                 "remove": {
                     "component_groups": [
-                        "animals:baby"
+                        "minecraft:baby"
                     ]
                 },
                 "add": {
                     "component_groups": [
-                        "animals:adult"
-                    ]
-                }
-            },
-
-            "animals:on_breed": {
-                "add": {
-                    "component_groups": [
-                        "animals:baby"
+                        "minecraft:adult"
                     ]
                 }
             },
