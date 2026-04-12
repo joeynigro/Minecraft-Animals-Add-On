@@ -50,11 +50,10 @@
                         }
                     ]
                 },
-                "minecraft:behavior.delayed_attack": {
+                "minecraft:behavior.melee_attack": {
                     "priority": 4,
-                    "attack_duration": 1.0,
-                    "hit_delay_pct": 0.5,
-                    "track_target": true
+                    "track_target": true,
+                    "reach_multiplier": 1.5
                 }
             }
         },
