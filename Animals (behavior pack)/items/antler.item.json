@@ -3,7 +3,9 @@
     "minecraft:item": {
         "description": {
             "identifier": "animals:antler",
-            "category": "equipment"
+			"menu_category": {
+                "category": "equipment"
+            }
         },
         "components": {
             "minecraft:icon": {
