@@ -87,7 +87,6 @@
                 "minecraft:timer": {
                     "looping": false,
                     "time": 1.0,
-                    "randomInterval": false,
                     "time_down_event": {
                         "event": "animals:start_spraying",
                         "target": "self"
@@ -119,7 +118,6 @@
                 "minecraft:timer": {
                     "looping": false,
                     "time": 1.5,
-                    "randomInterval": false,
                     "time_down_event": {
                         "event": "animals:stop_spraying",
                         "target": "self"
