@@ -22,7 +22,8 @@
         },
         "walk": {
           "animations": [
-            "walk"
+            "walk",
+			"idle"
           ],
           "transitions": [
             {
