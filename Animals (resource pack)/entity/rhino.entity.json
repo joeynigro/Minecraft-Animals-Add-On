@@ -19,7 +19,7 @@
             "animations": {
                 "walk": "animation.quadruped.walk",
                 "attack": "animation.rhino.attack",
-                "look_at_target": "animation.common.look_at_target",
+                "look_at_target": "animation.common.look_at_target"
             },
 
             "scripts": {
