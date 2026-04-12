@@ -25,13 +25,13 @@
             "scripts": {
                 "animate": [
                     "look_at_target", {
-                        "baby_idle": "query.is_baby && (1.0 - math.min(query.modified_move_speed, 1.0)) : 0.0"
+                        "baby_idle": "query.is_baby ? (1.0 - math.min(query.modified_move_speed, 1.0)) : 0.0"
                     }, {
                         "spray": "!query.is_baby && query.has_target && query.target_distance < 2.5"
                     }, {
                         "warn": "!query.is_baby && query.has_target && query.target_distance >= 2.5 && query.target_distance < 4.0"
                     }, {
-                        "idle": "!query.is_baby && (1.0 - math.min(query.modified_move_speed, 1.0)) : 0.0"
+                        "idle": "!query.is_baby ? (1.0 - math.min(query.modified_move_speed, 1.0)) : 0.0"
                     }, {
                         "walk": "query.modified_move_speed"
                     }
