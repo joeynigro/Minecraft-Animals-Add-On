@@ -91,7 +91,8 @@
             "minecraft:behavior.nearest_attackable_target": {
                 "priority": 5,
                 "must_see": true,
-                "entity_types": [{
+                "entity_types": [
+                    {
                         "filters": {
                             "test": "is_family",
                             "subject": "other",
@@ -110,18 +111,26 @@
             },
             "minecraft:experience_reward": {
                 "on_death": "query.last_hit_by_player ? Math.Random(1,3) : 0"
-            }
+            },
+            "minecraft:physics": {},
+            "minecraft:pushable": {
+                "is_pushable": false,
+                "is_pushable_by_piston": false
+            },
+            "minecraft:conditional_bandwidth_optimization": {}
         },
         "events": {
             "minecraft:entity_spawned": {
-                "randomize": [{
+                "randomize": [
+                    {
                         "weight": 85,
                         "add": {
                             "component_groups": [
                                 "minecraft:adult"
                             ]
                         }
-                    }, {
+                    },
+                    {
                         "weight": 15,
                         "add": {
                             "component_groups": [
