@@ -9,13 +9,17 @@
         },
         "components": {
             "minecraft:type_family": {
-                "family": ["lizard", "reptile", "animal"]
+                "family": [
+                    "lizard",
+                    "reptile",
+                    "animal"
+                ]
             },
-			"minecraft:breathable": {
-				"total_supply": 15,
-				"suffocate_time": 0
-			},
-			"minecraft:nameable": {},
+            "minecraft:breathable": {
+                "total_supply": 15,
+                "suffocate_time": 0
+            },
+            "minecraft:nameable": {},
             "minecraft:physics": {},
             "minecraft:pushable": {
                 "is_pushable": true,
@@ -27,7 +31,6 @@
             "minecraft:despawn": {
                 "despawn_from_distance": {}
             },
-
             "minecraft:health": {
                 "value": 10,
                 "max": 10
@@ -44,25 +47,26 @@
             "minecraft:navigation.walk": {
                 "avoid_damage_blocks": true
             },
-			"minecraft:behavior.panic": {
-				"priority": 1,
-				"speed_multiplier": 1.6
-			},
+            "minecraft:behavior.panic": {
+                "priority": 1,
+                "speed_multiplier": 1.6
+            },
             "minecraft:behavior.random_stroll": {
                 "priority": 5,
                 "speed_multiplier": 1.2
             },
-			"minecraft:behavior.look_at_player": {
-				"priority": 4,
-				"target_distance": 6,
-				"probability": 0.15
-			},
-			"minecraft:behavior.random_look_around": {
-				"priority": 1
-			},
-			"minecraft:behavior.hurt_by_target": {
-				"priority": 1
-			}
+            "minecraft:behavior.look_at_player": {
+                "priority": 4,
+                "target_distance": 6,
+                "probability": 0.15
+            },
+            "minecraft:behavior.random_look_around": {
+                "priority": 1
+            },
+            "minecraft:behavior.hurt_by_target": {
+                "priority": 1
+            },
+            "minecraft:conditional_bandwidth_optimization": {}
         }
     }
 }

@@ -9,7 +9,11 @@
         },
         "components": {
             "minecraft:type_family": {
-                "family": ["frog", "amphibian", "animal"]
+                "family": [
+                    "frog",
+                    "amphibian",
+                    "animal"
+                ]
             },
             "minecraft:nameable": {},
             "minecraft:physics": {},
@@ -68,7 +72,8 @@
             },
             "minecraft:despawn": {
                 "despawn_from_distance": {}
-            }
+            },
+            "minecraft:conditional_bandwidth_optimization": {}
         }
     }
 }

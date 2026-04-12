@@ -29,7 +29,8 @@
 
             "scripts": {
                 "animate": [
-                    "look_at_target"
+                    "look_at_target",
+                    "main"
                 ]
             },
 

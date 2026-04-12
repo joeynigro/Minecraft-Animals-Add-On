@@ -28,6 +28,7 @@
       "scripts": {
         "animate": [
           "look_at_target",
+          "attack",
           {
             "baby_swim": "query.is_baby && query.is_in_water"
           },

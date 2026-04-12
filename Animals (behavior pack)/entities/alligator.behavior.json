@@ -7,7 +7,6 @@
             "is_summonable": true,
             "is_experimental": false
         },
-
         "component_groups": {
             "animals:adult": {
                 "minecraft:behavior.melee_attack": {
@@ -18,9 +17,9 @@
                 "minecraft:attack": {
                     "damage": 6
                 },
-				"minecraft:loot": {
-					"table": "loot_tables/entities/alligator.json"
-				}
+                "minecraft:loot": {
+                    "table": "loot_tables/entities/alligator.json"
+                }
             },
             "animals:baby": {
                 "minecraft:is_baby": {},
@@ -43,10 +42,14 @@
                 }
             }
         },
-
         "components": {
             "minecraft:type_family": {
-                "family": ["alligator", "reptile", "predator", "animal"]
+                "family": [
+                    "alligator",
+                    "reptile",
+                    "predator",
+                    "animal"
+                ]
             },
             "minecraft:nameable": {},
             "minecraft:health": {
@@ -83,41 +86,51 @@
             "minecraft:behavior.nearest_attackable_target": {
                 "priority": 1,
                 "must_see": true,
-                "entity_types": [{
+                "entity_types": [
+                    {
                         "filters": {
-                            "any_of": [{
+                            "any_of": [
+                                {
                                     "test": "is_family",
                                     "subject": "other",
                                     "value": "player"
-                                }, {
+                                },
+                                {
                                     "test": "is_family",
                                     "subject": "other",
                                     "value": "small_animal"
-                                }, {
+                                },
+                                {
                                     "test": "is_family",
                                     "subject": "other",
                                     "value": "chicken"
-                                }, {
+                                },
+                                {
                                     "test": "is_family",
                                     "subject": "other",
                                     "value": "rabbit"
-                                }, {
+                                },
+                                {
                                     "test": "is_family",
                                     "subject": "other",
                                     "value": "fish"
-                                }, {
+                                },
+                                {
                                     "test": "is_family",
                                     "subject": "other",
                                     "value": "frog"
-                                }, {
+                                },
+                                {
                                     "test": "is_family",
                                     "subject": "other",
                                     "value": "turtle"
-                                }, {
+                                },
+                                {
                                     "test": "is_family",
                                     "subject": "other",
                                     "value": "deer"
-                                }, {
+                                },
+                                {
                                     "test": "is_family",
                                     "subject": "other",
                                     "value": "raccoon"
@@ -155,7 +168,8 @@
                 "priority": 11
             },
             "minecraft:damage_sensor": {
-                "triggers": [{
+                "triggers": [
+                    {
                         "cause": "fall",
                         "deals_damage": false
                     }
@@ -163,19 +177,25 @@
             },
             "minecraft:experience_reward": {
                 "on_death": "query.last_hit_by_player ? 4 : 0"
-            }
+            },
+            "minecraft:pushable": {
+                "is_pushable": false,
+                "is_pushable_by_piston": false
+            },
+            "minecraft:conditional_bandwidth_optimization": {}
         },
-
         "events": {
             "minecraft:entity_spawned": {
-                "randomize": [{
+                "randomize": [
+                    {
                         "weight": 85,
                         "add": {
                             "component_groups": [
                                 "animals:adult"
                             ]
                         }
-                    }, {
+                    },
+                    {
                         "weight": 15,
                         "add": {
                             "component_groups": [
