@@ -20,7 +20,11 @@
                 "attack": "controller.animation.crab.attack"
             },
             "scripts": {
-                "animate": [{
+                "animate": [
+                    "attack",
+                    {
+                        "move": 1.0
+                    }, {
                         "walk": "query.modified_move_speed > 0.01"
                     }, {
                         "idle": "query.ground_speed <= 0.01"
