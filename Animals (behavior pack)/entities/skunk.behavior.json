@@ -25,7 +25,6 @@
                     }
                 }
             },
-
             "minecraft:adult": {
                 "minecraft:attack": {
                     "damage": 0
@@ -34,7 +33,8 @@
                     "priority": 3,
                     "must_see": true,
                     "within_radius": 4.0,
-                    "entity_types": [{
+                    "entity_types": [
+                        {
                             "filters": {
                                 "test": "is_family",
                                 "subject": "other",
@@ -67,7 +67,6 @@
                     "event": "animals:start_warning"
                 }
             },
-
             "animals:warning": {
                 "minecraft:timer": {
                     "looping": false,
@@ -78,7 +77,6 @@
                     }
                 }
             },
-
             "animals:spraying": {
                 "minecraft:area_attack": {
                     "damage_range": 2.5,
@@ -110,7 +108,6 @@
                 }
             }
         },
-
         "components": {
             "minecraft:type_family": {
                 "family": [
@@ -174,25 +171,30 @@
             "minecraft:follow_range": {
                 "value": 12
             },
-            "minecraft:nameable": {},
             "minecraft:despawn": {
                 "despawn_from_distance": {}
             },
             "minecraft:experience_reward": {
                 "on_death": "query.last_hit_by_player ? Math.Random(1,3) : 0"
-            }
+            },
+            "minecraft:pushable": {
+                "is_pushable": false,
+                "is_pushable_by_piston": false
+            },
+            "minecraft:conditional_bandwidth_optimization": {}
         },
-
         "events": {
             "minecraft:entity_spawned": {
-                "randomize": [{
+                "randomize": [
+                    {
                         "weight": 80,
                         "add": {
                             "component_groups": [
                                 "minecraft:adult"
                             ]
                         }
-                    }, {
+                    },
+                    {
                         "weight": 20,
                         "add": {
                             "component_groups": [
@@ -202,7 +204,6 @@
                     }
                 ]
             },
-
             "minecraft:ageable_grow_up": {
                 "remove": {
                     "component_groups": [
@@ -215,7 +216,6 @@
                     ]
                 }
             },
-
             "animals:start_warning": {
                 "add": {
                     "component_groups": [
@@ -223,7 +223,6 @@
                     ]
                 }
             },
-
             "animals:start_spraying": {
                 "remove": {
                     "component_groups": [
@@ -236,7 +235,6 @@
                     ]
                 }
             },
-
             "animals:stop_spraying": {
                 "remove": {
                     "component_groups": [
