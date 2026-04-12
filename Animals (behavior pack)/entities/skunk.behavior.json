@@ -119,6 +119,12 @@
                     "animal"
                 ]
             },
+            "minecraft:breathable": {
+                "total_supply": 15,
+                "suffocate_time": 0
+            },
+            "minecraft:nameable": {},
+            "minecraft:physics": {},
             "minecraft:collision_box": {
                 "width": 0.8,
                 "height": 0.9
