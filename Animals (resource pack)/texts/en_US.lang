@@ -26,6 +26,7 @@ entity.animals:hamster.name=Hamster
 item.spawn_egg.entity.animals:hamster.name=Hamster Spawn Egg
 entity.animals:hedgehog.name=Hedgehog
 item.spawn_egg.entity.animals:hedgehog.name=Hedgehog Spawn Egg
+item.animals:hide=Hide
 entity.animals:lemur.name=Lemur
 item.spawn_egg.entity.animals:lemur.name=Lemur Spawn Egg
 entity.animals:lizard.name=Lizard

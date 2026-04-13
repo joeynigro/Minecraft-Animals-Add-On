@@ -1,0 +1,15 @@
+{
+    "format_version": "1.20.50",
+    "minecraft:item": {
+        "description": {
+            "identifier": "animals:hide",
+            "category": "items"
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "hide"
+            },
+            "minecraft:max_stack_size": 64
+        }
+    }
+}

@@ -57,6 +57,9 @@
 		"hedgehog_spawn_egg": {
 			"textures": "textures/items/spawn_eggs/hedgehog_spawn_egg"
 		},
+		"hide": {
+			"textures": "textures/items/hide"
+		},
 		"lemur_spawn_egg": {
 			"textures": "textures/items/spawn_eggs/lemur_spawn_egg"
 		},
