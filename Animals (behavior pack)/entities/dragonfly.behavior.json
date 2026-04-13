@@ -7,75 +7,73 @@
             "is_summonable": true,
             "is_experimental": false
         },
-        "component_groups": {
-            "components": {
-                "minecraft:type_family": {
-                    "family": [
-                        "dragonfly",
-                        "insect",
-                        "animal"
-                    ]
-                },
-                "minecraft:collision_box": {
-                    "width": 0.35,
-                    "height": 0.3
-                },
-                "minecraft:health": {
-                    "value": 4,
-                    "max": 4
-                },
-                "minecraft:nameable": {},
-                "minecraft:movement": {
-                    "value": 0.18
-                },
-                "minecraft:navigation.fly": {
-                    "can_path_over_water": true,
-                    "can_open_doors": false,
-                    "avoid_water": false
-                },
-                "minecraft:movement.fly": {
-                    "value": 0.18
-                },
-                "minecraft:jump.static": {},
-                "minecraft:can_fly": {},
-                "minecraft:physics": {},
-                "minecraft:pushable": {
-                    "is_pushable": false,
-                    "is_pushable_by_piston": false
-                },
-                "minecraft:damage_sensor": {
-                    "triggers": {
-                        "cause": "fall",
-                        "deals_damage": false
-                    }
-                },
-                "minecraft:knockback_resistance": {
-                    "value": 0.0
-                },
-                "minecraft:despawn": {
-                    "despawn_from_distance": {}
-                },
-                "minecraft:behavior.float": {
-                    "priority": 0
-                },
-                "minecraft:behavior.panic": {
-                    "priority": 1,
-                    "speed_multiplier": 1.4
-                },
-                "minecraft:behavior.random_hover": {
-                    "priority": 2
-                },
-                "minecraft:behavior.random_fly": {
-                    "priority": 3,
-                    "speed_multiplier": 1.0,
-                    "can_land_on_trees": false
-                },
-                "minecraft:behavior.stroll_towards_village": {
-                    "priority": 4
-                },
-                "minecraft:behavior.idle": {
-                    "priority": 6
+        "components": {
+            "minecraft:type_family": {
+                "family": [
+                    "dragonfly",
+                    "insect",
+                    "animal"
+                ]
+            },
+            "minecraft:collision_box": {
+                "width": 0.35,
+                "height": 0.3
+            },
+            "minecraft:health": {
+                "value": 4,
+                "max": 4
+            },
+            "minecraft:nameable": {},
+            "minecraft:movement": {
+                "value": 0.18
+            },
+            "minecraft:navigation.fly": {
+                "can_path_over_water": true,
+                "can_open_doors": false,
+                "avoid_water": false
+            },
+            "minecraft:movement.fly": {
+                "value": 0.18
+            },
+            "minecraft:jump.static": {},
+            "minecraft:can_fly": {},
+            "minecraft:physics": {},
+            "minecraft:pushable": {
+                "is_pushable": false,
+                "is_pushable_by_piston": false
+            },
+            "minecraft:damage_sensor": {
+                "triggers": {
+                    "cause": "fall",
+                    "deals_damage": false
                 }
+            },
+            "minecraft:knockback_resistance": {
+                "value": 0.0
+            },
+            "minecraft:despawn": {
+                "despawn_from_distance": {}
+            },
+            "minecraft:behavior.float": {
+                "priority": 0
+            },
+            "minecraft:behavior.panic": {
+                "priority": 1,
+                "speed_multiplier": 1.4
+            },
+            "minecraft:behavior.random_hover": {
+                "priority": 2
+            },
+            "minecraft:behavior.random_fly": {
+                "priority": 3,
+                "speed_multiplier": 1.0,
+                "can_land_on_trees": false
+            },
+            "minecraft:behavior.stroll_towards_village": {
+                "priority": 4
+            },
+            "minecraft:behavior.idle": {
+                "priority": 6
             }
         }
     }
