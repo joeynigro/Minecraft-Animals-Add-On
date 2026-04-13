@@ -20,6 +20,9 @@
                 "suffocate_time": 0
             },
             "minecraft:nameable": {},
+            "minecraft:loot": {
+                "table": "loot_tables/entities/snake.json"
+            },
             "minecraft:physics": {},
             "minecraft:pushable": {
                 "is_pushable": true,

@@ -29,6 +29,9 @@
                 "minecraft:attack": {
                     "damage": 0
                 },
+                "minecraft:loot": {
+                    "table": "loot_tables/entities/skunk.json"
+                },
                 "minecraft:behavior.nearest_attackable_target": {
                     "priority": 3,
                     "must_see": true,
