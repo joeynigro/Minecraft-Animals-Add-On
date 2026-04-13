@@ -73,11 +73,6 @@
                 "minecraft:behavior.stroll_towards_village": {
                     "priority": 4
                 },
-                "minecraft:behavior.look_at_player": {
-                    "priority": 5,
-                    "look_distance": 4.0,
-                    "probability": 0.02
-                },
                 "minecraft:behavior.idle": {
                     "priority": 6
                 }
