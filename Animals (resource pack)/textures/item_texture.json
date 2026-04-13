@@ -36,6 +36,9 @@
 		"deer_spawn_egg": {
 			"textures": "textures/items/spawn_eggs/deer_spawn_egg"
 		},
+		"dragonfly_spawn_egg": {
+			"textures": "textures/items/spawn_eggs/dragonfly_spawn_egg"
+		},
 		"elephant_spawn_egg": {
 			"textures": "textures/items/spawn_eggs/elephant_spawn_egg"
 		},

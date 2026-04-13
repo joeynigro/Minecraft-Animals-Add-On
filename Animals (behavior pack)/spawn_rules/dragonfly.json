@@ -1,0 +1,81 @@
+{
+    "format_version": "1.8.0",
+    "minecraft:spawn_rules": {
+        "description": {
+            "identifier": "animals:dragonfly",
+            "population_control": "ambient"
+        },
+        "conditions": [{
+                "minecraft:weight": {
+                    "default": 70
+                },
+                "minecraft:herd": {
+                    "min_size": 2,
+                    "max_size": 4
+                },
+                "minecraft:biome_filter": {
+                    "test": "has_biome_tag",
+                    "operator": "==",
+                    "value": "overworld"
+                },
+                "minecraft:brightness_filter": {
+                    "min": 10,
+                    "max": 15,
+                    "adjust_for_weather": true
+                },
+                "minecraft:spawns_on_surface": {},
+                "minecraft:spawn_method": "ambient",
+                "minecraft:height_filter": {
+                    "min": 50,
+                    "max": 320
+                }
+            }, {
+                "minecraft:weight": {
+                    "default": 90
+                },
+                "minecraft:herd": {
+                    "min_size": 2,
+                    "max_size": 5
+                },
+                "minecraft:biome_filter": {
+                    "all_of": [{
+                            "test": "has_biome_tag",
+                            "operator": "==",
+                            "value": "overworld"
+                        }, {
+                            "any_of": [{
+                                    "test": "has_biome_tag",
+                                    "operator": "==",
+                                    "value": "forest"
+                                }, {
+                                    "test": "has_biome_tag",
+                                    "operator": "==",
+                                    "value": "plains"
+                                }, {
+                                    "test": "has_biome_tag",
+                                    "operator": "==",
+                                    "value": "swamp"
+                                }, {
+                                    "test": "has_biome_tag",
+                                    "operator": "==",
+                                    "value": "river"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "minecraft:brightness_filter": {
+                    "min": 10,
+                    "max": 15,
+                    "adjust_for_weather": true
+                },
+                "minecraft:spawns_on_surface": {},
+                "minecraft:spawn_method": "ambient",
+                "minecraft:height_filter": {
+                    "min": 50,
+                    "max": 320
+                }
+            }
+        ]
+    }
+}

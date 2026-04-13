@@ -1,0 +1,134 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.dragonfly.idle": {
+			"loop": true,
+			"animation_length": 0.4167,
+			"bones": {
+				"abdomen": {
+					"rotation": {
+						"0.0": [-2, 0, 0],
+						"0.2083": [2, 0, 0],
+						"0.4167": [-2, 0, 0]
+					}
+				},
+				"leg_front": {
+					"rotation": [15, 0, 0]
+				},
+				"leg_mid": {
+					"rotation": [10, 0, 0]
+				},
+				"leg_back": {
+					"rotation": [5, 0, 0]
+				},
+				"right_back_wing": {
+					"rotation": {
+						"0.0": [0, 0, -18],
+						"0.2083": [0, 0, -8],
+						"0.4167": [0, 0, -18]
+					}
+				},
+				"left_front_wing": {
+					"rotation": {
+						"0.0": [0, 0, -26],
+						"0.2083": [0, 0, -18],
+						"0.4167": [0, 0, -26]
+					}
+				},
+				"right_front_wing": {
+					"rotation": {
+						"0.0": [0, 0, 26],
+						"0.2083": [0, 0, 18],
+						"0.4167": [0, 0, 26]
+					}
+				},
+				"left_back_wing": {
+					"rotation": {
+						"0.0": [0, 0, 18],
+						"0.2083": [0, 0, 8],
+						"0.4167": [0, 0, 18]
+					}
+				}
+			}
+		},
+		"animation.dragonfly.fly": {
+			"loop": true,
+			"animation_length": 0.25,
+			"bones": {
+				"abdomen": {
+					"rotation": {
+						"0.0": [3, 0, 0],
+						"0.125": [-3, 0, 0],
+						"0.25": [3, 0, 0]
+					}
+				},
+				"leg_front": {
+					"rotation": [22, 0, 0]
+				},
+				"leg_mid": {
+					"rotation": [-3, 0, 0]
+				},
+				"leg_back": {
+					"rotation": [10, 0, 0]
+				},
+				"right_back_wing": {
+					"rotation": {
+						"0.0": [0, 0, 18],
+						"0.125": [0, 0, -6],
+						"0.25": [0, 0, 18]
+					}
+				},
+				"left_front_wing": {
+					"rotation": {
+						"0.0": [0, 0, -70],
+						"0.125": [0, 0, -10],
+						"0.25": [0, 0, -70]
+					}
+				},
+				"right_front_wing": {
+					"rotation": {
+						"0.0": [0, 0, 70],
+						"0.125": [0, 0, 10],
+						"0.25": [0, 0, 70]
+					}
+				},
+				"left_back_wing": {
+					"rotation": {
+						"0.0": [0, 0, -18],
+						"0.125": [0, 0, 6],
+						"0.25": [0, 0, -18]
+					}
+				}
+			}
+		},
+		"animation.dragonfly.land": {
+			"loop": true,
+			"bones": {
+				"abdomen": {
+					"rotation": [-15, 0, 0]
+				},
+				"leg_front": {
+					"rotation": [-12, 0, 0]
+				},
+				"leg_mid": {
+					"rotation": [-18, 0, 0]
+				},
+				"leg_back": {
+					"rotation": [-24, 0, 0]
+				},
+				"right_back_wing": {
+					"rotation": [0, 0, -12]
+				},
+				"left_front_wing": {
+					"rotation": [0, 0, -20]
+				},
+				"right_front_wing": {
+					"rotation": [0, 0, 20]
+				},
+				"left_back_wing": {
+					"rotation": [0, 0, 12]
+				}
+			}
+		}
+	}
+}
