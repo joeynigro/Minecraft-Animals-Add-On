@@ -38,7 +38,7 @@
                 "minecraft:behavior.melee_attack": {
                     "priority": 2,
                     "speed_multiplier": 1.1,
-                    "track_target": false,
+                    "track_target": true,
                     "reach_multiplier": 1.5
                 },
 				"minecraft:loot": {
