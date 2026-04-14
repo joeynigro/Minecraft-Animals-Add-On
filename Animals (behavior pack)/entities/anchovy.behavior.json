@@ -53,7 +53,9 @@
             "minecraft:navigation.swim": {
                 "can_path_over_water": false
             },
-            "minecraft:physics": {},
+            "minecraft:physics": {
+                "has_gravity": true
+            },
             "minecraft:pushable": {
                 "is_pushable": true,
                 "is_pushable_by_piston": true
@@ -86,6 +88,11 @@
                     }
                 ]
             },
+            "minecraft:behavior.move_to_water": {
+                "priority": 2,
+                "search_range": 16,
+                "search_height": 5
+            },
             "minecraft:navigation.generic": {
                 "is_amphibious": false,
                 "can_path_over_water": false,
@@ -112,6 +119,9 @@
                 "priority": 5,
                 "idle_time": 1,
                 "success_rate": 0.02
+            },
+            "minecraft:behavior.flop": {
+                "priority": 6
             },
             "minecraft:flocking": {
                 "in_water": true,
