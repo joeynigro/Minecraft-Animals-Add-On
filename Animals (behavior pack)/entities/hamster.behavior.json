@@ -70,7 +70,7 @@
                 "max": 6
             },
             "minecraft:scale": {
-                "value": 0.6
+                "value": 0.38
             },
             "minecraft:collision_box": {
                 "width": 0.35,
