@@ -7,7 +7,7 @@
         "default": {
           "transitions": [
             {
-              "bite": "query.is_angry"
+              "bite": "query.is_attacking"
             }
           ]
         },

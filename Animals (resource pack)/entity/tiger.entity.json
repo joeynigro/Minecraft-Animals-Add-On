@@ -30,6 +30,9 @@
             "scripts": {
                 "animate": [
                     "look_at_target",
+                    {
+                        "attack": "query.is_attacking"
+                    },
                     "main"
                 ]
             },
