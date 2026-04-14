@@ -85,15 +85,6 @@
                         "filters": {
                             "test": "is_family",
                             "subject": "other",
-                            "value": "player"
-                        },
-                        "max_dist": 6,
-                        "walk_speed_multiplier": 1.0,
-                        "sprint_speed_multiplier": 1.2
-                    }, {
-                        "filters": {
-                            "test": "is_family",
-                            "subject": "other",
                             "value": "cat"
                         },
                         "max_dist": 10,
