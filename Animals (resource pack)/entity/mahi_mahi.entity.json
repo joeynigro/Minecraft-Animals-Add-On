@@ -24,7 +24,7 @@
             },
             "render_controllers": ["controller.render.mahi_mahi"],
             "spawn_egg": {
-                "texture": "anchovy_spawn_egg"
+                "texture": "mahi_mahi_spawn_egg"
             }
         }
     }
