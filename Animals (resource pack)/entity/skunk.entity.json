@@ -27,9 +27,9 @@
                     "look_at_target", {
                         "baby_idle": "query.is_baby ? (1.0 - math.min(query.modified_move_speed, 1.0)) : 0.0"
                     }, {
-                        "spray": "!query.is_baby && query.is_angry && query.modified_move_speed < 0.05"
+                        "warn": "!query.is_baby && query.mark_variant == 1"
                     }, {
-                        "warn": "!query.is_baby && query.is_angry && query.modified_move_speed >= 0.05"
+                        "spray": "!query.is_baby && query.mark_variant == 2"
                     }, {
                         "idle": "!query.is_baby ? (1.0 - math.min(query.modified_move_speed, 1.0)) : 0.0"
                     }, {
