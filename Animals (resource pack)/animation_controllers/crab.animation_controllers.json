@@ -32,7 +32,7 @@
         "default": {
           "transitions": [
             {
-              "snap": "query.is_angry"
+              "snap": "query.attack_time > 0.0"
             }
           ]
         },
