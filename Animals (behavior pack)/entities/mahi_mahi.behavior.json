@@ -62,7 +62,7 @@
                 "can_sink": false
             },
             "minecraft:physics": {
-                "has_gravity": false
+                "has_gravity": true
             },
             "minecraft:pushable": {
                 "is_pushable": true,
@@ -91,6 +91,11 @@
                     }
                 ]
             },
+            "minecraft:behavior.move_to_water": {
+                "priority": 2,
+                "search_range": 16,
+                "search_height": 5
+            },
             "minecraft:behavior.random_swim": {
                 "priority": 3,
                 "speed_multiplier": 1.15,
@@ -109,6 +114,9 @@
                 "priority": 5,
                 "idle_time": 1.5,
                 "success_rate": 0.03
+            },
+            "minecraft:behavior.flop": {
+                "priority": 6
             },
             "minecraft:nameable": {},
             "minecraft:conditional_bandwidth_optimization": {}
