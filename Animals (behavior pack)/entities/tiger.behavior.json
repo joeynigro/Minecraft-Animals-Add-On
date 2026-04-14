@@ -12,7 +12,7 @@
             "minecraft:baby": {
                 "minecraft:is_baby": {},
                 "minecraft:scale": {
-                    "value": 0.55
+                    "value": 0.68
                 },
                 "minecraft:ageable": {
                     "duration": 1200,

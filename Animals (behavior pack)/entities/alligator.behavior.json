@@ -24,7 +24,7 @@
             "animals:baby": {
                 "minecraft:is_baby": {},
                 "minecraft:scale": {
-                    "value": 0.42
+                    "value": 0.52
                 },
                 "minecraft:ageable": {
                     "duration": 1200,
