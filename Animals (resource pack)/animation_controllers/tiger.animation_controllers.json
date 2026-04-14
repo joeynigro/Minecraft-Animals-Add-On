@@ -10,7 +10,7 @@
           ],
           "transitions": [
             {
-              "attack": "query.is_angry"
+              "attack": "query.attack_time > 0.0"
             },
             {
               "sleep": "query.is_sleeping"
@@ -27,7 +27,7 @@
           ],
           "transitions": [
             {
-              "attack": "query.is_angry"
+              "attack": "query.attack_time > 0.0"
             },
             {
               "sleep": "query.is_sleeping"
@@ -43,7 +43,7 @@
           ],
           "transitions": [
             {
-              "attack": "query.is_angry"
+              "attack": "query.attack_time > 0.0"
             },
             {
               "walk": "!query.is_sleeping && query.modified_move_speed > 0.01"
@@ -59,13 +59,13 @@
           ],
           "transitions": [
             {
-              "walk": "!query.is_angry && query.modified_move_speed > 0.01"
+              "walk": "query.attack_time <= 0.0 && query.modified_move_speed > 0.01"
             },
             {
-              "sleep": "!query.is_angry && query.is_sleeping"
+              "sleep": "query.attack_time <= 0.0 && query.is_sleeping"
             },
             {
-              "idle": "!query.is_angry && query.modified_move_speed <= 0.01"
+              "idle": "query.attack_time <= 0.0 && query.modified_move_speed <= 0.01"
             }
           ]
         }

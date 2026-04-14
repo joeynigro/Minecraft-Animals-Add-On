@@ -24,7 +24,11 @@
 
             "scripts": {
                 "animate": [
-                    "look_at_target", {
+                    "look_at_target",
+                    {
+                        "attack": "query.attack_time > 0.0"
+                    },
+                    {
                         "walk": "query.modified_move_speed > 0.01"
                     }
                 ]
