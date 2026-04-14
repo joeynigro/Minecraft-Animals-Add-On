@@ -16,8 +16,8 @@
                 ]
             },
             "minecraft:collision_box": {
-                "width": 0.35,
-                "height": 0.3
+                "width": 0.3,
+                "height": 0.25
             },
             "minecraft:health": {
                 "value": 4,
@@ -25,7 +25,7 @@
             },
             "minecraft:nameable": {},
             "minecraft:movement": {
-                "value": 0.18
+                "value": 0.24
             },
             "minecraft:navigation.fly": {
                 "can_path_over_water": true,
@@ -33,7 +33,7 @@
                 "avoid_water": false
             },
             "minecraft:movement.fly": {
-                "value": 0.18
+                "value": 0.24
             },
             "minecraft:jump.static": {},
             "minecraft:can_fly": {},
@@ -57,24 +57,37 @@
             "minecraft:behavior.float": {
                 "priority": 0
             },
-            "minecraft:behavior.panic": {
+            "minecraft:behavior.avoid_mob_type": {
                 "priority": 1,
-                "speed_multiplier": 1.4
+                "entity_types": [
+                    {
+                        "filters": {
+                            "test": "is_family",
+                            "subject": "other",
+                            "value": "player"
+                        },
+                        "max_dist": 7,
+                        "walk_speed_multiplier": 1.7,
+                        "sprint_speed_multiplier": 2.2
+                    }
+                ]
+            },
+            "minecraft:behavior.panic": {
+                "priority": 2,
+                "speed_multiplier": 1.6
             },
             "minecraft:behavior.random_hover": {
-                "priority": 2
+                "priority": 3
             },
             "minecraft:behavior.random_fly": {
-                "priority": 3,
-                "speed_multiplier": 1.0,
-                "can_land_on_trees": false
-            },
-            "minecraft:behavior.stroll_towards_village": {
-                "priority": 4
+                "priority": 4,
+                "speed_multiplier": 1.2,
+                "can_land_on_trees": true
             },
             "minecraft:behavior.idle": {
-                "priority": 6
-            }
+                "priority": 5
+            },
+            "minecraft:conditional_bandwidth_optimization": {}
         }
     }
 }
