@@ -7,7 +7,7 @@
         "default": {
           "transitions": [
             {
-              "bite": "variable.attack_time"
+              "bite": "variable.attack_time > 0.0"
             }
           ]
         },

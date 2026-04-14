@@ -31,7 +31,7 @@
                 "animate": [
                     "look_at_target",
                     {
-                        "attack": "variable.attack_time"
+                        "attack": "variable.attack_time > 0.0"
                     },
                     "main"
                 ]
