@@ -13,7 +13,7 @@ Fennec Fox ✔️
 Flamingo
 Giraffe ✔️
 Gorilla
-Great White Shark
+Great White Shark (in progress)
 Grizzly Bear ✔️
 Hamster ✔️
 Hedgehog ✔️
@@ -45,7 +45,7 @@ Squirrel ✔️
 Starfish
 Tiger ✔️
 
-Fish:
+Edible Fish:
 Anchovy ✔️
 Catfish
 Flounder
