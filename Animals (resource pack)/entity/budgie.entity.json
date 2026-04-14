@@ -1,0 +1,35 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "animals:budgie",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/budgie"
+      },
+      "geometry": {
+        "default": "geometry.budgie"
+      },
+      "animations": {
+        "idle": "animation.bird.idle",
+        "walk": "animation.bird.walk",
+        "fly": "animation.bird.fly",
+        "land": "animation.bird.land",
+        "general": "controller.animation.bird"
+      },
+      "scripts": {
+        "animate": [
+          "general"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.budgie"
+      ],
+      "spawn_egg": {
+        "texture": "budgie_spawn_egg"
+      }
+    }
+  }
+}

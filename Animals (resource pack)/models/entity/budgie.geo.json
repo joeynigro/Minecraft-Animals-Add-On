@@ -1,0 +1,62 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.budgie",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 1.5,
+				"visible_bounds_offset": [0, 0.25, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "body",
+					"parent": "root",
+					"pivot": [0, 3.5, 0],
+					"cubes": [
+						{"origin": [-1.5, 1, -1.5], "size": [3, 5, 3], "uv": [0, 0]},
+						{"origin": [-0.5, 3.5, -2.5], "size": [1, 2, 1], "uv": [12, 0]}
+					]
+				},
+				{
+					"name": "left_wing",
+					"parent": "body",
+					"pivot": [1.5, 3, 0],
+					"cubes": [
+						{"origin": [1.5, 1, -0.5], "size": [1, 2, 3], "uv": [0, 8]}
+					]
+				},
+				{
+					"name": "right_wing",
+					"parent": "body",
+					"pivot": [-1.5, 3, 0],
+					"cubes": [
+						{"origin": [-2.5, 1, -0.5], "size": [1, 2, 3], "uv": [8, 8]}
+					]
+				},
+				{
+					"name": "left_leg",
+					"parent": "body",
+					"pivot": [1, 1, -0.25],
+					"cubes": [
+						{"origin": [0.5, 0, -0.75], "size": [1, 1, 1], "uv": [12, 5]}
+					]
+				},
+				{
+					"name": "right_leg",
+					"parent": "body",
+					"pivot": [-1, 1, -0.25],
+					"cubes": [
+						{"origin": [-1.5, 0, -0.75], "size": [1, 1, 1], "uv": [12, 3]}
+					]
+				}
+			]
+		}
+	]
+}

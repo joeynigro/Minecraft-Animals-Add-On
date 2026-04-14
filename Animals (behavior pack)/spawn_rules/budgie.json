@@ -1,0 +1,92 @@
+{
+    "format_version": "1.8.0",
+    "minecraft:spawn_rules": {
+        "description": {
+            "identifier": "animals:budgie",
+            "population_control": "animal"
+        },
+        "conditions": [{
+                "minecraft:weight": {
+                    "default": 70
+                },
+                "minecraft:herd": {
+                    "min_size": 2,
+                    "max_size": 4
+                },
+                "minecraft:biome_filter": {
+                    "test": "has_biome_tag",
+                    "operator": "==",
+                    "value": "plains"
+                },
+                "minecraft:brightness_filter": {
+                    "min": 7,
+                    "max": 15,
+                    "adjust_for_weather": true
+                },
+                "minecraft:height_filter": {
+                    "min": 50,
+                    "max": 320
+                },
+                "minecraft:spawns_on_block_filter": [
+                    "grass",
+                    "dirt",
+                    "podzol"
+                ]
+            }, {
+                "minecraft:weight": {
+                    "default": 50
+                },
+                "minecraft:herd": {
+                    "min_size": 2,
+                    "max_size": 4
+                },
+                "minecraft:biome_filter": {
+                    "test": "has_biome_tag",
+                    "operator": "==",
+                    "value": "forest"
+                },
+                "minecraft:brightness_filter": {
+                    "min": 7,
+                    "max": 15,
+                    "adjust_for_weather": true
+                },
+                "minecraft:height_filter": {
+                    "min": 50,
+                    "max": 320
+                },
+                "minecraft:spawns_on_block_filter": [
+                    "grass",
+                    "dirt",
+                    "podzol"
+                ]
+            }, {
+                "minecraft:weight": {
+                    "default": 30
+                },
+                "minecraft:herd": {
+                    "min_size": 2,
+                    "max_size": 3
+                },
+                "minecraft:biome_filter": {
+                    "test": "has_biome_tag",
+                    "operator": "==",
+                    "value": "jungle"
+                },
+                "minecraft:brightness_filter": {
+                    "min": 7,
+                    "max": 15,
+                    "adjust_for_weather": true
+                },
+                "minecraft:height_filter": {
+                    "min": 50,
+                    "max": 320
+                },
+                "minecraft:spawns_on_block_filter": [
+                    "grass",
+                    "dirt",
+                    "podzol"
+                ]
+            }
+        ]
+    }
+}

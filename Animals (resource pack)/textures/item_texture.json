@@ -15,6 +15,9 @@
 		"beaver_spawn_egg": {
 			"textures": "textures/items/spawn_eggs/beaver_spawn_egg"
 		},
+		"budgie_spawn_egg": {
+			"textures": "textures/items/spawn_eggs/budgie_spawn_egg"
+		},
 		"cooked_anchovy": {
 			"textures": "textures/items/cooked_anchovy"
 		},

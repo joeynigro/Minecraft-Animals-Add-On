@@ -2,7 +2,7 @@ Miscellaneous Animals:
 Alligator ✔️
 Beaver ✔️
 Bluejay
-Budgie
+Budgie ✔️
 Butterfly
 Canary
 Capybara
