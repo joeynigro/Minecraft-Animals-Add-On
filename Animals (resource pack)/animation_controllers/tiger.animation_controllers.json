@@ -10,7 +10,7 @@
           ],
           "transitions": [
             {
-              "attack": "query.is_attacking"
+              "attack": "variable.attack_time"
             },
             {
               "sleep": "query.is_sleeping"
@@ -27,7 +27,7 @@
           ],
           "transitions": [
             {
-              "attack": "query.is_attacking"
+              "attack": "variable.attack_time"
             },
             {
               "sleep": "query.is_sleeping"
@@ -43,7 +43,7 @@
           ],
           "transitions": [
             {
-              "attack": "query.is_attacking"
+              "attack": "variable.attack_time"
             },
             {
               "walk": "!query.is_sleeping && query.modified_move_speed > 0.01"
@@ -59,13 +59,13 @@
           ],
           "transitions": [
             {
-              "walk": "!query.is_attacking && query.modified_move_speed > 0.01"
+              "walk": "!variable.attack_time && query.modified_move_speed > 0.01"
             },
             {
-              "sleep": "!query.is_attacking && query.is_sleeping"
+              "sleep": "!variable.attack_time && query.is_sleeping"
             },
             {
-              "idle": "!query.is_attacking && query.modified_move_speed <= 0.01"
+              "idle": "!variable.attack_time && query.modified_move_speed <= 0.01"
             }
           ]
         }

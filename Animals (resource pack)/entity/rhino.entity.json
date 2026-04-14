@@ -26,7 +26,7 @@
                 "animate": [
                     "look_at_target",
                     {
-                        "attack": "query.is_attacking"
+                        "attack": "variable.attack_time"
                     },
                     {
                         "walk": "query.modified_move_speed > 0.01"
