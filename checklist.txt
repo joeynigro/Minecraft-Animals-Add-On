@@ -49,7 +49,7 @@ Fish:
 Anchovy ✔️
 Catfish
 Flounder
-Mahi Mahi
+Mahi Mahi ✔️
 Rainbow Trout
 Sea Bass
 Swordfish

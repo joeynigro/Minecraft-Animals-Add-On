@@ -21,6 +21,9 @@
 		"cooked_crab": {
 			"textures": "textures/items/cooked_crab"
 		},
+		"cooked_mahi_mahi": {
+			"textures": "textures/items/cooked_mahi_mahi"
+		},
 		"cooked_turkey": {
 			"textures": "textures/items/cooked_turkey"
 		},
@@ -68,6 +71,12 @@
 		},
 		"lizard_spawn_egg": {
 			"textures": "textures/items/spawn_eggs/lizard_spawn_egg"
+		},
+		"mahi_mahi": {
+			"textures": "textures/items/mahi_mahi"
+		},
+		"mahi_mahi_spawn_egg": {
+			"textures": "textures/items/spawn_eggs/mahi_mahi_spawn_egg"
 		},
 		"penguin_spawn_egg": {
 			"textures": "textures/items/spawn_eggs/penguin_spawn_egg"

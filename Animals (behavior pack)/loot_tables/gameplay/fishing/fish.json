@@ -10,6 +10,11 @@
         },
         {
           "type": "item",
+          "name": "animals:mahi_mahi",
+          "weight": 60
+        },
+        {
+          "type": "item",
           "name": "minecraft:cod",
           "weight": 60
         },

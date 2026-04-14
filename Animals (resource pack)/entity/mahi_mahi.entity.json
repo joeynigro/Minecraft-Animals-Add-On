@@ -1,0 +1,31 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "animals:mahi_mahi",
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "textures": {
+                "default": "textures/entity/mahi_mahi"
+            },
+            "geometry": {
+                "default": "geometry.mahi_mahi"
+            },
+            "animations": {
+                "flop": "animation.mahi_mahi.flop",
+                "swim": "animation.mahi_mahi.swim",
+				"general": "controller.animation.fish.general"
+            },
+            "scripts": {
+                "animate": [
+                    "general"
+                ]
+            },
+            "render_controllers": ["controller.render.mahi_mahi"],
+            "spawn_egg": {
+                "texture": "anchovy_spawn_egg"
+            }
+        }
+    }
+}

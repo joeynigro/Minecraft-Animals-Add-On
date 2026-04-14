@@ -1,0 +1,58 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:spawn_rules": {
+    "description": {
+      "identifier": "animals:mahi_mahi",
+      "population_control": "water_animal"
+    },
+    "conditions": [
+      {
+        "minecraft:weight": {
+          "default": 30
+        },
+        "minecraft:herd": {
+          "min_size": 1,
+          "max_size": 2
+        },
+        "minecraft:biome_filter": {
+          "all_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "ocean"
+            },
+            {
+              "any_of": [
+                {
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "warm"
+                },
+                {
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "lukewarm"
+                }
+              ]
+            }
+          ]
+        },
+        "minecraft:brightness_filter": {
+          "min": 10,
+          "max": 15,
+          "adjust_for_weather": true
+        },
+        "minecraft:height_filter": {
+          "min": 50,
+          "max": 128
+        },
+        "minecraft:spawns_on_surface": {},
+        "minecraft:spawn_method": "water",
+        "minecraft:water_depth_filter": {
+          "min": 2,
+          "max": 8
+        }
+      }
+    ]
+  }
+}
