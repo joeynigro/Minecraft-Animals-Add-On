@@ -7,7 +7,7 @@
         "default": {
           "transitions": [
             {
-              "bite": "query.is_attacking"
+              "bite": "variable.attack_time"
             }
           ]
         },
