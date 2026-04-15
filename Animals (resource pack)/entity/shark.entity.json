@@ -15,17 +15,24 @@
             "animations": {
                 "flop": "animation.shark.flop",
                 "swim": "animation.shark.swim",
-                "bite": "animation.shark.bite",
-                "general": "controller.animation.fish.general"
+                "bite": "animation.shark.bite"
             },
             "scripts": {
                 "animate": [
-                    "general", {
-                        "bite": "variable.attack_time > 0.0"
+                    {
+                        "flop": "!query.is_in_water"
+                    },
+                    {
+                        "swim": "query.is_in_water && variable.attack_time <= 0.0"
+                    },
+                    {
+                        "bite": "query.is_in_water && variable.attack_time > 0.0"
                     }
                 ]
             },
-            "render_controllers": ["controller.render.shark"],
+            "render_controllers": [
+                "controller.render.shark"
+            ],
             "spawn_egg": {
                 "texture": "shark_spawn_egg"
             }
