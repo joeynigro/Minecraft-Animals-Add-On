@@ -102,6 +102,12 @@
                                 {
                                     "test": "is_family",
                                     "subject": "other",
+									"operator": "!="
+                                    "value": "shark"
+                                },
+                                {
+                                    "test": "is_family",
+                                    "subject": "other",
                                     "value": "squid"
                                 },
                                 {
