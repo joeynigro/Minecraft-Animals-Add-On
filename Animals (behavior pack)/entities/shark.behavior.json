@@ -21,8 +21,8 @@
                 "on_death": "query.last_hit_by_player ? Math.Random(3,6) : 0"
             },
             "minecraft:collision_box": {
-                "width": 1.35,
-                "height": 0.85
+                "width": 1.49,
+                "height": 0.99
             },
             "minecraft:health": {
                 "value": 32,
@@ -145,20 +145,27 @@
             "minecraft:behavior.random_swim": {
                 "priority": 5,
                 "speed_multiplier": 1.2,
-                "xz_dist": 28,
-                "y_dist": 1,
-                "interval": 40
+                "xz_dist": 24,
+                "y_dist": 2,
+                "interval": 0
             },
             "minecraft:behavior.swim_idle": {
-                "priority": 6,
-                "idle_time": 0.8,
-                "success_rate": 0.01
+                "priority": 7,
+                "idle_time": 1.2,
+                "success_rate": 0.02
             },
             "minecraft:behavior.flop": {
-                "priority": 7
+                "priority": 8
             },
             "minecraft:nameable": {},
-            "minecraft:conditional_bandwidth_optimization": {}
+            "minecraft:conditional_bandwidth_optimization": {},
+            "minecraft:behavior.swim_wander": {
+                "priority": 6,
+                "interval": 0.08,
+                "look_ahead": 6,
+                "speed_multiplier": 1.12,
+                "wander_time": 4
+            }
         }
     }
 }
