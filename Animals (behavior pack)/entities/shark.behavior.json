@@ -66,7 +66,7 @@
                 "can_swim": true,
                 "can_walk": false,
                 "can_breach": false,
-                "can_sink": false
+                "can_sink": true
             },
             "minecraft:physics": {
                 "has_gravity": true
@@ -79,7 +79,7 @@
                 "value": 36
             },
             "minecraft:movement.sway": {
-                "sway_amplitude": 0
+                "sway_amplitude": 0.06
             },
             "minecraft:despawn": {
                 "despawn_from_distance": {
@@ -143,16 +143,11 @@
                 "search_height": 6
             },
             "minecraft:behavior.random_swim": {
-                "priority": 5,
-                "speed_multiplier": 1.2,
-                "xz_dist": 24,
-                "y_dist": 2,
-                "interval": 0
-            },
-            "minecraft:behavior.swim_idle": {
-                "priority": 7,
-                "idle_time": 1.2,
-                "success_rate": 0.02
+                "priority": 6,
+                "speed_multiplier": 1.05,
+                "xz_dist": 40,
+                "y_dist": 6,
+                "interval": 24
             },
             "minecraft:behavior.flop": {
                 "priority": 8
@@ -160,11 +155,11 @@
             "minecraft:nameable": {},
             "minecraft:conditional_bandwidth_optimization": {},
             "minecraft:behavior.swim_wander": {
-                "priority": 6,
-                "interval": 0.08,
-                "look_ahead": 6,
-                "speed_multiplier": 1.12,
-                "wander_time": 4
+                "priority": 5,
+                "interval": 0.12,
+                "look_ahead": 14,
+                "speed_multiplier": 1.06,
+                "wander_time": 10
             }
         }
     }
