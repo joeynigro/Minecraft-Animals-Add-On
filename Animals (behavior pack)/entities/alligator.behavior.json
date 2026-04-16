@@ -8,7 +8,7 @@
             "is_experimental": false
         },
         "component_groups": {
-            "animals:adult": {
+            "minecraft:adult": {
                 "minecraft:behavior.melee_attack": {
                     "priority": 3,
                     "track_target": true,
@@ -21,7 +21,7 @@
                     "table": "loot_tables/entities/alligator.json"
                 }
             },
-            "animals:baby": {
+            "minecraft:baby": {
                 "minecraft:is_baby": {},
                 "minecraft:scale": {
                     "value": 0.9
@@ -191,7 +191,7 @@
                         "weight": 85,
                         "add": {
                             "component_groups": [
-                                "animals:adult"
+                                "minecraft:adult"
                             ]
                         }
                     },
@@ -199,7 +199,7 @@
                         "weight": 15,
                         "add": {
                             "component_groups": [
-                                "animals:baby"
+                                "minecraft:baby"
                             ]
                         }
                     }
@@ -208,12 +208,12 @@
             "minecraft:ageable_grow_up": {
                 "remove": {
                     "component_groups": [
-                        "animals:baby"
+                        "minecraft:baby"
                     ]
                 },
                 "add": {
                     "component_groups": [
-                        "animals:adult"
+                        "minecraft:adult"
                     ]
                 }
             }
