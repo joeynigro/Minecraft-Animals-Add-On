@@ -2005,7 +2005,6 @@
                 }
             ]
         },
-    },
     "penguin.idle": {
         "category": "neutral",
         "__use_legacy_max_distance": true,
@@ -3605,4 +3604,5 @@
             }
         ]
     }
+}
 }

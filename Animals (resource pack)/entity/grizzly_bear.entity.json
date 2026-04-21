@@ -41,7 +41,7 @@
         "hurt.baby": "grizzly_bear.hurt",
         "death": "grizzly_bear.death",
         "death.baby": "grizzly_bear.death",
-        "step": "grizzlybear.step",
+        "step": "mob.polarbear.step",
         "tempt": "grizzly_bear.sniff",
         "eat": "grizzly_bear.eat",
         "sleep": "grizzly_bear.sleep"
