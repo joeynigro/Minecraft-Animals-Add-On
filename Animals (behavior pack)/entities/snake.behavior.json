@@ -21,8 +21,11 @@
             },
             "minecraft:nameable": {},
             "minecraft:ambient_sound_interval": {
-                "value": 8,
-                "range": 16
+                "event_name": "ambient",
+                "range": [
+                    3.0,
+                    5.0
+                ]
             },
             "minecraft:loot": {
                 "table": "loot_tables/entities/snake.json"

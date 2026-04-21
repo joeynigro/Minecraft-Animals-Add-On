@@ -29,6 +29,11 @@
       ],
       "spawn_egg": {
         "texture": "budgie_spawn_egg"
+      },
+      "sound_effects": {
+        "ambient": "budgie.idle",
+        "hurt": "budgie.hurt",
+        "death": "budgie.death"
       }
     }
   }

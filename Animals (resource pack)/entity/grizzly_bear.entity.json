@@ -1,36 +1,51 @@
 {
-    "format_version": "1.8.0",
-    "minecraft:client_entity": {
-        "description": {
-            "identifier": "animals:grizzly_bear",
-            "materials": {
-                "default": "entity_alphatest"
-            },
-            "textures": {
-                "default": "textures/entity/grizzly_bear",
-                "baby": "textures/entity/grizzly_bear_baby"
-            },
-            "geometry": {
-                "default": "geometry.polarbear",
-                "baby": "geometry.polar_bear.baby"
-            },
-            "animations": {
-                "walk": "animation.quadruped.walk",
-                "move": "animation.polarbear.move",
-                "look_at_target": "animation.common.look_at_target",
-                "baby_transform": "animation.polarbear.baby_transform"
-            },
-            "scripts": {
-                "scale": "query.is_baby ? 2.0 : 1.2"
-            },
-            "animation_controllers": [{
-                    "move": "controller.animation.polar_bear.move"
-                }
-            ],
-            "render_controllers": ["controller.render.polar_bear.v2"],
-            "spawn_egg": {
-                "texture": "grizzly_bear_spawn_egg"
-            }
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "animals:grizzly_bear",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/grizzly_bear",
+        "baby": "textures/entity/grizzly_bear_baby"
+      },
+      "geometry": {
+        "default": "geometry.polarbear",
+        "baby": "geometry.polar_bear.baby"
+      },
+      "animations": {
+        "walk": "animation.quadruped.walk",
+        "move": "animation.polarbear.move",
+        "look_at_target": "animation.common.look_at_target",
+        "baby_transform": "animation.polarbear.baby_transform"
+      },
+      "scripts": {
+        "scale": "query.is_baby ? 2.0 : 1.2"
+      },
+      "animation_controllers": [
+        {
+          "move": "controller.animation.polar_bear.move"
         }
+      ],
+      "render_controllers": [
+        "controller.render.polar_bear.v2"
+      ],
+      "spawn_egg": {
+        "texture": "grizzly_bear_spawn_egg"
+      },
+      "sound_effects": {
+        "ambient": "grizzly_bear.idle",
+        "ambient.baby": "grizzly_bear.idle",
+        "hurt": "grizzly_bear.hurt",
+        "hurt.baby": "grizzly_bear.hurt",
+        "death": "grizzly_bear.death",
+        "death.baby": "grizzly_bear.death",
+        "step": "grizzlybear.step",
+        "tempt": "grizzly_bear.sniff",
+        "eat": "grizzly_bear.eat",
+        "sleep": "grizzly_bear.sleep"
+      }
     }
+  }
 }

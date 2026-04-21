@@ -1,38 +1,51 @@
 {
-	"format_version": "1.10.0",
-	"minecraft:client_entity": {
-		"description": {
-			"identifier": "animals:lemur",
-			"materials": {
-				"default": "entity_alphatest"
-			},
-			"textures": {
-				"default": "textures/entity/lemur"
-			},
-			"geometry": {
-				"default": "geometry.lemur"
-			},
-            "animations": {
-                "idle": "animation.lemur.idle",
-                "walk": "animation.lemur.walk",
-                "jump": "animation.lemur.jump",
-                "look_at_target": "animation.common.look_at_target"
-            },
-            "scripts": {
-                "animate": [
-                    "look_at_target", {
-                        "jump": "query.is_jumping"
-                    }, {
-                        "walk": "query.modified_move_speed > 0.01"
-                    }, {
-                        "idle": "query.modified_move_speed <= 0.01"
-                    }
-                ]
-            },
-			"render_controllers": ["controller.render.lemur"],
-			"spawn_egg": {
-				"texture": "lemur_spawn_egg"
-			}
-		}
-	}
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "animals:lemur",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/lemur"
+      },
+      "geometry": {
+        "default": "geometry.lemur"
+      },
+      "animations": {
+        "idle": "animation.lemur.idle",
+        "walk": "animation.lemur.walk",
+        "jump": "animation.lemur.jump",
+        "look_at_target": "animation.common.look_at_target"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          {
+            "jump": "query.is_jumping"
+          },
+          {
+            "walk": "query.modified_move_speed > 0.01"
+          },
+          {
+            "idle": "query.modified_move_speed <= 0.01"
+          }
+        ]
+      },
+      "render_controllers": [
+        "controller.render.lemur"
+      ],
+      "spawn_egg": {
+        "texture": "lemur_spawn_egg"
+      },
+      "sound_effects": {
+        "ambient": "monkey.idle",
+        "ambient.baby": "monkey.idle",
+        "hurt": "monkey.hurt",
+        "hurt.baby": "monkey.hurt",
+        "death": "monkey.death",
+        "death.baby": "monkey.death"
+      }
+    }
+  }
 }
