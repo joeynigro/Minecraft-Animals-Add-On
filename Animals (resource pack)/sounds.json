@@ -1,0 +1,536 @@
+{
+  "entity_sounds": {
+    "entities": {
+      "animals:alligator": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "alligator.idle",
+          "ambient.baby": {
+            "sound": "alligator.idle",
+            "pitch": 1.5
+          },
+          "hurt": "alligator.hurt",
+          "hurt.baby": {
+            "sound": "alligator.hurt",
+            "pitch": 1.5
+          },
+          "death": "alligator.death",
+          "death.baby": {
+            "sound": "alligator.death",
+            "pitch": 1.5
+          },
+          "step": ""
+        }
+      },
+      "animals:beaver": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "beaver.idle",
+          "ambient.baby": {
+            "sound": "beaver.idle",
+            "pitch": 1.5
+          },
+          "hurt": "beaver.hurt",
+          "hurt.baby": {
+            "sound": "beaver.hurt",
+            "pitch": 1.5
+          },
+          "death": "beaver.death",
+          "death.baby": {
+            "sound": "beaver.death",
+            "pitch": 1.5
+          },
+          "step": ""
+        }
+      },
+      "animals:budgie": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "budgie.idle",
+          "hurt": "budgie.hurt",
+          "death": "budgie.death",
+          "step": ""
+        }
+      },
+      "animals:crab": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "crab.idle",
+          "hurt": "crab.hurt",
+          "death": "crab.death",
+          "step": ""
+        }
+      },
+      "animals:deer": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "deer.idle",
+          "ambient.baby": {
+            "sound": "deer_baby.idle",
+            "pitch": 1.0
+          },
+          "hurt": "deer.hurt",
+          "hurt.baby": {
+            "sound": "deer_baby.hurt",
+            "pitch": 1
+          },
+          "death": "deer.death",
+          "death.baby": {
+            "sound": "deer_baby.death",
+            "pitch": 1
+          },
+          "step": ""
+        }
+      },
+      "animals:dragonfly": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "",
+          "hurt": "dragonfly.hurt",
+          "death": "dragonfly.death",
+          "step": ""
+        }
+      },
+      "animals:elephant": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "elephant.idle",
+          "ambient.baby": {
+            "sound": "elephant_baby.idle"
+          },
+          "hurt": "elephant.hurt",
+          "hurt.baby": {
+            "sound": "elephant_baby.hurt"
+          },
+          "death": "elephant.death",
+          "death.baby": {
+            "sound": "elephant_baby.death"
+          },
+          "step": "",
+          "mob.warning": "elephant.trumpet"
+        }
+      },
+      "animals:fennec_fox": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "fennec_fox.idle",
+          "hurt": "fennec_fox.hurt",
+          "death": "fennec_fox.death",
+          "eat": "fennec_fox.eat",
+          "attack": "fennec_fox.bite",
+          "screech": "fennec_fox.screech",
+          "step": ""
+        }
+      },
+      "animals:giraffe": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "giraffe.idle",
+          "ambient.baby": {
+            "sound": "giraffe.idle",
+            "pitch": 1.5
+          },
+          "hurt": "giraffe.hurt",
+          "hurt.baby": {
+            "sound": "giraffe.hurt",
+            "pitch": 1.5
+          },
+          "death": "giraffe.death",
+          "death.baby": {
+            "sound": "giraffe.death",
+            "pitch": 1.5
+          },
+          "step": "",
+          "mad": "giraffe.mad",
+          "eat": "giraffe.eat"
+        }
+      },
+      "animals:grizzly_bear": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "grizzly_bear.idle",
+          "ambient.baby": {
+            "sound": "grizzly_bear.idle",
+            "pitch": 1.5
+          },
+          "hurt": "grizzly_bear.hurt",
+          "hurt.baby": {
+            "sound": "grizzly_bear.hurt",
+            "pitch": 1.5
+          },
+          "death": "grizzly_bear.death",
+          "death.baby": {
+            "sound": "grizzly_bear.death",
+            "pitch": 1.5
+          },
+          "step": {
+            "sound": "grizzly_grizzly_bear.step",
+            "pitch": 1.0
+          },
+          "tempt": "grizzly_grizzly_bear.sniff",
+          "eat": "grizzly_grizzly_bear.eat",
+          "sleep": {
+            "sound": "grizzly_grizzly_bear.sleep"
+          }
+        }
+      },
+      "animals:hamster": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "hamster.idle",
+          "hurt": "hamster.hurt",
+          "death": "hamster.death",
+          "step": ""
+        }
+      },
+      "animals:hedgehog": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "hedgehog.idle",
+          "hurt": "hedgehog.hurt",
+          "death": "hedgehog.death",
+          "step": ""
+        }
+      },
+      "animals:lemur": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "monkey.idle",
+          "ambient.baby": {
+            "sound": "monkey.idle",
+            "pitch": 1.5
+          },
+          "hurt": "monkey.hurt",
+          "hurt.baby": {
+            "sound": "monkey.hurt",
+            "pitch": 1.5
+          },
+          "death": "monkey.death",
+          "death.baby": {
+            "sound": "monkey.death",
+            "pitch": 1.5
+          },
+          "step": ""
+        }
+      },
+      "animals:lizard": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "lizard.idle",
+          "hurt": "lizard.hurt",
+          "death": "lizard.death",
+          "step": ""
+        }
+      },
+      "animals:penguin": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "penguin.idle",
+          "ambient.baby": {
+            "sound": "penguin.idle",
+            "pitch": 1.5
+          },
+          "hurt": "penguin.hurt",
+          "hurt.baby": {
+            "sound": "penguin.hurt",
+            "pitch": 1.5
+          },
+          "death": "penguin.death",
+          "death.baby": {
+            "sound": "penguin.death",
+            "pitch": 1.5
+          },
+          "step": ""
+        }
+      },
+      "animals:platypus": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "ambient": "platypus.idle",
+          "hurt": {
+            "sound": "platypus.hurt",
+            "pitch": [
+              0.8,
+              1.0
+            ]
+          },
+          "death": {
+            "sound": "platypus.death",
+            "pitch": [
+              0.8,
+              1.0
+            ]
+          }
+        }
+      },
+      "animals:raccoon": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "raccoon.idle",
+          "ambient.baby": {
+            "sound": "raccoon.idle",
+            "pitch": 1.5
+          },
+          "hurt": "raccoon.hurt",
+          "hurt.baby": {
+            "sound": "raccoon.hurt",
+            "pitch": 1.5
+          },
+          "death": "raccoon.death",
+          "death.baby": {
+            "sound": "raccoon.death",
+            "pitch": 1.5
+          },
+          "step": ""
+        }
+      },
+      "animals:rhino": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "rhino.idle",
+          "ambient.baby": {
+            "sound": "rhino.idle",
+            "pitch": 4.0
+          },
+          "hurt": "rhino.hurt",
+          "hurt.baby": {
+            "sound": "rhino.hurt",
+            "pitch": 4.0
+          },
+          "death": "rhino.death",
+          "death.baby": {
+            "sound": "rhino.death",
+            "pitch": 4.0
+          },
+          "step": "",
+          "stun": "rhino.stun"
+        }
+      },
+      "animals:secretary_bird": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "secretary_bird.idle",
+          "ambient.baby": {
+            "sound": "secretary_bird.idle",
+            "pitch": 1.5
+          },
+          "hurt": "secretary_bird.hurt",
+          "hurt.baby": {
+            "sound": "secretary_bird.hurt",
+            "pitch": 1.5
+          },
+          "death": "secretary_bird.death",
+          "death.baby": {
+            "sound": "secretary_bird.death",
+            "pitch": 1.5
+          },
+          "step": ""
+        }
+      },
+      "animals:shark": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "shark.idle",
+          "hurt": "shark.hurt",
+          "death": "shark.death",
+          "step": ""
+        }
+      },
+      "animals:skunk": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "skunk.idle",
+          "ambient.baby": {
+            "sound": "skunk.idle",
+            "pitch": 1.5
+          },
+          "hurt": "skunk.hurt",
+          "hurt.baby": {
+            "sound": "skunk.hurt",
+            "pitch": 1.5
+          },
+          "death": "skunk.death",
+          "death.baby": {
+            "sound": "skunk.death",
+            "pitch": 1.5
+          },
+          "step": ""
+        }
+      },
+      "animals:slug": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "slug.idle",
+          "hurt": {
+            "sound": "slug.hurt",
+            "volume": 1.0
+          },
+          "death": {
+            "sound": "slug.death",
+            "volume": 1.0
+          },
+          "step": ""
+        }
+      },
+      "animals:snake": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "snake.idle",
+          "hurt": "snake.hurt",
+          "death": "snake.death",
+          "step": ""
+        }
+      },
+      "animals:squirrel": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "squirrel.idle",
+          "hurt": "squirrel.hurt",
+          "death": "squirrel.death",
+          "step": ""
+        }
+      },
+      "animals:tiger": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "tiger.idle",
+          "hurt": "tiger.hurt",
+          "death": "tiger.death",
+          "step": "",
+          "mob.warning": "tiger.attack"
+        }
+      },
+      "animals:tree_frog": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "tree_frog.idle",
+          "hurt": "tree_frog.hurt",
+          "death": "tree_frog.death",
+          "step": ""
+        }
+      },
+      "animals:turkey": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "ambient": "turkey.idle",
+          "hurt": {
+            "sound": "turkey.hurt",
+            "pitch": [
+              0.8,
+              1.0
+            ]
+          },
+          "death": {
+            "sound": "turkey.death",
+            "pitch": [
+              0.8,
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,3608 @@
+{
+    "format_version": "1.20.20",
+    "sound_definitions": {
+        "alligator.idle": {
+            "category": "neutral",
+            "__use_legacy_max_distance": true,
+            "sounds": [{
+                    "name": "sounds/mob/alligator/idle1",
+                    "volume": 0.78,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/alligator/idle2",
+                    "volume": 0.78,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/alligator/idle3",
+                    "volume": 0.78,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/alligator/idle4",
+                    "volume": 0.78,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/alligator/idle5",
+                    "volume": 0.78,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }
+            ]
+        },
+        "alligator.swim": {
+            "category": "neutral",
+            "max_distance": 8.0,
+            "sounds": [{
+                    "name": "sounds/mob/alligator/swim1",
+                    "volume": 0.25,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/alligator/swim2",
+                    "volume": 0.25,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/alligator/swim3",
+                    "volume": 0.25,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/alligator/swim4",
+                    "volume": 0.25,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/alligator/swim5",
+                    "volume": 0.25,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }
+            ]
+        },
+        "alligator.bite": {
+            "category": "neutral",
+            "max_distance": 8.0,
+            "sounds": [{
+                    "name": "sounds/mob/alligator/bite1",
+                    "volume": 0.78,
+                    "stream": false,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/alligator/bite2",
+                    "volume": 0.78,
+                    "stream": false,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/alligator/bite3",
+                    "volume": 0.78,
+                    "stream": false,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }
+            ]
+        },
+        "alligator.hurt": {
+            "category": "neutral",
+            "__use_legacy_max_distance": true,
+            "sounds": [{
+                    "name": "sounds/mob/alligator/hurt1",
+                    "volume": 0.78,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/alligator/hurt2",
+                    "volume": 0.78,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }, {
+                    "name": "sounds/mob/alligator/hurt3",
+                    "volume": 0.78,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }, {
+                    "name": "sounds/mob/alligator/hurt4",
+                    "volume": 0.78,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }, {
+                    "name": "sounds/mob/alligator/hurt5",
+                    "volume": 0.78,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }
+            ]
+        },
+        "alligator.death": {
+            "category": "neutral",
+            "__use_legacy_max_distance": true,
+            "sounds": [{
+                    "name": "sounds/mob/alligator/death1",
+                    "volume": 0.78,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/alligator/death2",
+                    "volume": 0.78,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }
+            ]
+        },
+        "beaver.idle": {
+            "category": "neutral",
+            "__use_legacy_max_distance": true,
+            "sounds": [{
+                    "name": "sounds/mob/beaver/idle1",
+                    "volume": 1.1,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/beaver/idle2",
+                    "volume": 1.1,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }, {
+                    "name": "sounds/mob/beaver/idle4",
+                    "volume": 1.1,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }, {
+                    "name": "sounds/mob/beaver/idle5",
+                    "volume": 1.1,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }
+            ]
+        },
+        "beaver.swim": {
+            "category": "neutral",
+            "max_distance": 8.0,
+            "sounds": [{
+                    "name": "sounds/mob/beaver/swim1",
+                    "volume": 1.1,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/beaver/swim2",
+                    "volume": 1.1,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }, {
+                    "name": "sounds/mob/beaver/swim3",
+                    "volume": 1.1,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }, {
+                    "name": "sounds/mob/beaver/swim4",
+                    "volume": 1.1,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }
+            ]
+        },
+        "beaver.tailslap": {
+            "category": "neutral",
+            "max_distance": 8.0,
+            "sounds": [{
+                    "name": "sounds/mob/beaver/tailslap1",
+                    "volume": 1.1,
+                    "pitch": 1.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/beaver/tailslap2",
+                    "volume": 1.1,
+                    "pitch": 1.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }
+            ]
+        },
+        "beaver.nibble": {
+            "category": "neutral",
+            "max_distance": 8.0,
+            "sounds": [{
+                    "name": "sounds/mob/beaver/nibble1",
+                    "volume": 0.34,
+                    "pitch": 1.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/beaver/nibble2",
+                    "volume": 0.34,
+                    "pitch": 1.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }
+            ]
+        },
+        "beaver.hurt": {
+            "category": "neutral",
+            "__use_legacy_max_distance": true,
+            "sounds": [{
+                    "name": "sounds/mob/beaver/hurt1",
+                    "volume": 1.1,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/beaver/hurt2",
+                    "volume": 1.1,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }, {
+                    "name": "sounds/mob/beaver/hurt3",
+                    "volume": 1.1,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }
+            ]
+        },
+        "beaver.death": {
+            "category": "neutral",
+            "__use_legacy_max_distance": true,
+            "sounds": [{
+                    "name": "sounds/mob/beaver/death1",
+                    "volume": 1.1,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/beaver/death2",
+                    "volume": 1.1,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }, {
+                    "name": "sounds/mob/beaver/death3",
+                    "volume": 1.1,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }
+            ]
+        },
+        "budgie.idle": {
+            "category": "neutral",
+            "__use_legacy_max_distance": true,
+            "sounds": [{
+                    "name": "sounds/mob/budgie/idle1",
+                    "volume": 0.9,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/budgie/idle2",
+                    "volume": 0.9,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }, {
+                    "name": "sounds/mob/budgie/idle3",
+                    "volume": 0.9,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }, {
+                    "name": "sounds/mob/budgie/idle4",
+                    "volume": 0.9,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }
+            ]
+        },
+        "budgie.pet": {
+            "category": "neutral",
+            "__use_legacy_max_distance": true,
+            "sounds": [{
+                    "name": "sounds/mob/budgie/pet1",
+                    "volume": 0.9,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/budgie/pet2",
+                    "volume": 0.9,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }, {
+                    "name": "sounds/mob/budgie/pet3",
+                    "volume": 0.9,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }, {
+                    "name": "sounds/mob/budgie/pet4",
+                    "volume": 0.9,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }
+            ]
+        },
+        "budgie.hurt": {
+            "category": "neutral",
+            "__use_legacy_max_distance": true,
+            "sounds": [{
+                    "name": "sounds/mob/budgie/hurt1",
+                    "volume": 0.9,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/budgie/hurt2",
+                    "volume": 0.9,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }, {
+                    "name": "sounds/mob/budgie/hurt3",
+                    "volume": 0.9,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }
+            ]
+        },
+        "budgie.death": {
+            "category": "neutral",
+            "__use_legacy_max_distance": true,
+            "sounds": [{
+                    "name": "sounds/mob/budgie/death1",
+                    "volume": 0.9,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/budgie/death2",
+                    "volume": 0.9,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }
+            ]
+        },
+        "crab.idle": {
+            "category": "neutral",
+            "__use_legacy_max_distance": true,
+            "sounds": [{
+                    "name": "sounds/mob/crab/idle1",
+                    "volume": 1.1,
+                    "stream": false,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/crab/idle2",
+                    "volume": 1.1,
+                    "stream": false,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }, {
+                    "name": "sounds/mob/crab/idle3",
+                    "volume": 1.1,
+                    "stream": false,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }
+            ]
+        },
+        "crab.run": {
+            "category": "neutral",
+            "max_distance": 8.0,
+            "sounds": [{
+                    "name": "sounds/mob/crab/run1",
+                    "volume": 0.66,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/crab/run2",
+                    "volume": 0.66,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }, {
+                    "name": "sounds/mob/crab/run3",
+                    "volume": 0.66,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }
+            ]
+        },
+        "crab.pincer": {
+            "category": "neutral",
+            "max_distance": 8.0,
+            "sounds": [{
+                    "name": "sounds/mob/crab/pincer1",
+                    "volume": 0.66,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/crab/pincer2",
+                    "volume": 0.66,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }
+            ]
+        },
+        "crab.hurt": {
+            "category": "neutral",
+            "__use_legacy_max_distance": true,
+            "sounds": [{
+                    "name": "sounds/mob/crab/hurt1",
+                    "volume": 1.1,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/crab/hurt2",
+                    "volume": 1.1,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }, {
+                    "name": "sounds/mob/crab/hurt3",
+                    "volume": 1.1,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }
+            ]
+        },
+        "crab.death": {
+            "category": "neutral",
+            "__use_legacy_max_distance": true,
+            "sounds": [{
+                    "name": "sounds/mob/crab/death1",
+                    "volume": 1.1,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/crab/death2",
+                    "volume": 1.1,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }
+            ]
+        },
+        "deer.idle": {
+            "category": "neutral",
+            "__use_legacy_max_distance": true,
+            "sounds": [{
+                    "name": "sounds/mob/deer/idle1",
+                    "volume": 1.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/deer/idle2",
+                    "volume": 1.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/deer/idle3",
+                    "volume": 1.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }
+            ]
+        },
+        "deer.eat": {
+            "category": "neutral",
+            "max_distance": 8.0,
+            "sounds": [{
+                    "name": "sounds/mob/deer/eat1",
+                    "volume": 1.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/deer/eat2",
+                    "volume": 1.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/deer/eat3",
+                    "volume": 1.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }
+            ]
+        },
+        "deer.hurt": {
+            "category": "neutral",
+            "__use_legacy_max_distance": true,
+            "sounds": [{
+                    "name": "sounds/mob/deer/hurt1",
+                    "volume": 1.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/deer/hurt2",
+                    "volume": 1.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }
+            ]
+        },
+        "deer.death": {
+            "category": "neutral",
+            "__use_legacy_max_distance": true,
+            "sounds": [{
+                    "name": "sounds/mob/deer/death1",
+                    "volume": 1.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/deer/death2",
+                    "volume": 1.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }
+            ]
+        },
+        "deer_baby.idle": {
+            "category": "neutral",
+            "__use_legacy_max_distance": true,
+            "sounds": [{
+                    "name": "sounds/mob/deer/idle_fawn1",
+                    "volume": 0.75,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/deer/idle_fawn2",
+                    "volume": 0.75,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }
+            ]
+        },
+        "deer_baby.hurt": {
+            "category": "neutral",
+            "__use_legacy_max_distance": true,
+            "sounds": [{
+                    "name": "sounds/mob/deer/hurt_fawn1",
+                    "volume": 0.75,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/deer/hurt_fawn2",
+                    "volume": 0.75,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }
+            ]
+        },
+        "deer_baby.death": {
+            "category": "neutral",
+            "__use_legacy_max_distance": true,
+            "sounds": [{
+                    "name": "sounds/mob/deer/death_fawn1",
+                    "volume": 0.75,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/deer/death_fawn2",
+                    "volume": 0.75,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }
+            ]
+        },
+        "dragonfly.fly": {
+            "category": "neutral",
+            "max_distance": 8.0,
+            "sounds": [{
+                    "name": "sounds/mob/dragonfly/fly",
+                    "volume": 0.9,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }
+            ]
+        },
+        "dragonfly.hurt": {
+            "category": "neutral",
+            "__use_legacy_max_distance": true,
+            "sounds": [{
+                    "name": "sounds/mob/dragonfly/hurt1",
+                    "volume": 0.66,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }
+            ]
+        },
+        "dragonfly.death": {
+            "category": "neutral",
+            "__use_legacy_max_distance": true,
+            "sounds": [{
+                    "name": "sounds/mob/dragonfly/death1",
+                    "volume": 0.66,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }
+            ]
+        },
+        "elephant.idle": {
+            "category": "neutral",
+            "__use_legacy_max_distance": true,
+            "sounds": [{
+                    "name": "sounds/mob/elephant/idle1",
+                    "volume": 1.15,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/elephant/idle2",
+                    "volume": 1.15,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/elephant/idle3",
+                    "volume": 1.15,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }
+            ]
+        },
+        "elephant.trumpet": {
+            "category": "neutral",
+            "max_distance": 8.0,
+            "sounds": [{
+                    "name": "sounds/mob/elephant/trumpet1",
+                    "volume": 0.92,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/elephant/trumpet2",
+                    "volume": 0.92,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/elephant/trumpet3",
+                    "volume": 0.92,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }
+            ]
+        },
+        "elephant.water": {
+            "category": "neutral",
+            "max_distance": 8.0,
+            "sounds": [{
+                    "name": "sounds/mob/elephant/water1",
+                    "volume": 1.15,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/elephant/water2",
+                    "volume": 1.15,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }
+            ]
+        },
+        "elephant.drink": {
+            "category": "neutral",
+            "max_distance": 8.0,
+            "sounds": [{
+                    "name": "sounds/mob/elephant/drink1",
+                    "volume": 1.15,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/elephant/drink2",
+                    "volume": 1.15,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }
+            ]
+        },
+        "elephant.attack": {
+            "category": "neutral",
+            "max_distance": 8.0,
+            "sounds": [{
+                    "name": "sounds/mob/elephant/attack1",
+                    "volume": 1.15,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/elephant/attack2",
+                    "volume": 1.15,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }
+            ]
+        },
+        "elephant.hurt": {
+            "category": "neutral",
+            "__use_legacy_max_distance": true,
+            "sounds": [{
+                    "name": "sounds/mob/elephant/hurt1",
+                    "volume": 1.15,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/elephant/hurt2",
+                    "volume": 1.15,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }
+            ]
+        },
+        "elephant.death": {
+            "category": "neutral",
+            "__use_legacy_max_distance": true,
+            "sounds": [{
+                    "name": "sounds/mob/elephant/death1",
+                    "volume": 1.15,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/elephant/death2",
+                    "volume": 1.15,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }
+            ]
+        },
+        "elephant_baby.idle": {
+            "category": "neutral",
+            "__use_legacy_max_distance": true,
+            "sounds": [{
+                    "name": "sounds/mob/elephant/idle_baby1",
+                    "volume": 1.15,
+                    "pitch": 0.75,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/elephant/idle_baby2",
+                    "volume": 1.15,
+                    "pitch": 0.75,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }
+            ]
+        },
+        "elephant_baby.hurt": {
+            "category": "neutral",
+            "__use_legacy_max_distance": true,
+            "sounds": [{
+                    "name": "sounds/mob/elephant/hurt_baby1",
+                    "volume": 1.15,
+                    "pitch": 0.75,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/elephant/hurt_baby2",
+                    "volume": 1.15,
+                    "pitch": 0.75,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }
+            ]
+        },
+        "elephant_baby.death": {
+            "category": "neutral",
+            "__use_legacy_max_distance": true,
+            "sounds": [{
+                    "name": "sounds/mob/elephant/death_baby1",
+                    "volume": 1.15,
+                    "pitch": 0.75,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }
+            ]
+        },
+        "fennec_fox.idle": {
+            "category": "neutral",
+            "__use_legacy_max_distance": true,
+            "sounds": [{
+                    "name": "sounds/mob/fennec_fox/idle1",
+                    "volume": 1.25,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/fennec_fox/idle2",
+                    "volume": 1.25,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }, {
+                    "name": "sounds/mob/fennec_fox/idle3",
+                    "volume": 1.25,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }
+            ]
+        },
+        "fennec_fox.dig": {
+            "category": "neutral",
+            "max_distance": 8.0,
+            "sounds": [{
+                    "name": "sounds/mob/tortoise/dig1",
+                    "volume": 0.125,
+                    "pitch": 2.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/tortoise/dig2",
+                    "volume": 0.125,
+                    "pitch": 2.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/tortoise/dig3",
+                    "volume": 0.125,
+                    "pitch": 2.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }
+            ]
+        },
+        "fennec_fox.shake": {
+            "category": "neutral",
+            "max_distance": 8.0,
+            "sounds": [{
+                    "name": "sounds/mob/fennec_fox/shake1",
+                    "volume": 1.25,
+                    "stream": false,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }
+            ]
+        },
+        "fennec_fox.aggro": {
+            "category": "neutral",
+            "max_distance": 8.0,
+            "sounds": [{
+                    "name": "sounds/mob/fennec_fox/aggro1",
+                    "volume": 1.25,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/fennec_fox/aggro2",
+                    "volume": 1.25,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }
+            ]
+        },
+        "fennec_fox.eat": {
+            "category": "neutral",
+            "max_distance": 8.0,
+            "sounds": [{
+                    "name": "sounds/mob/fennec_fox/eat1",
+                    "volume": 1.25,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }
+            ]
+        },
+        "fennec_fox.bite": {
+            "category": "neutral",
+            "max_distance": 8.0,
+            "sounds": [{
+                    "name": "sounds/mob/fennec_fox/bite1",
+                    "volume": 1.25,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/fennec_fox/bite2",
+                    "volume": 1.25,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }
+            ]
+        },
+        "fennec_fox.screech": {
+            "category": "neutral",
+            "max_distance": 8.0,
+            "sounds": [{
+                    "name": "sounds/mob/fennec_fox/screech1",
+                    "volume": 1.25,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/fennec_fox/screech2",
+                    "volume": 1.25,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }
+            ]
+        },
+        "fennec_fox.sleep": {
+            "category": "neutral",
+            "max_distance": 8.0,
+            "sounds": [{
+                    "name": "sounds/mob/fennec_fox/sleep1",
+                    "volume": 1.25,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/fennec_fox/sleep1",
+                    "volume": 0.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/fennec_fox/sleep1",
+                    "volume": 0.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/fennec_fox/sleep1",
+                    "volume": 0.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/fennec_fox/sleep1",
+                    "volume": 0.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }
+            ]
+        },
+        "fennec_fox.hurt": {
+            "category": "neutral",
+            "__use_legacy_max_distance": true,
+            "sounds": [{
+                    "name": "sounds/mob/fennec_fox/hurt1",
+                    "volume": 1.25,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/fennec_fox/hurt2",
+                    "volume": 1.25,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }
+            ]
+        },
+        "fennec_fox.death": {
+            "category": "neutral",
+            "__use_legacy_max_distance": true,
+            "sounds": [{
+                    "name": "sounds/mob/fennec_fox/death1",
+                    "volume": 1.25,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/fennec_fox/death2",
+                    "volume": 1.25,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }
+            ]
+        },
+        "giraffe.idle": {
+            "category": "neutral",
+            "__use_legacy_max_distance": true,
+            "sounds": [{
+                    "name": "sounds/mob/giraffe/idle1",
+                    "volume": 1.25,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/giraffe/idle2",
+                    "volume": 1.25,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/giraffe/idle3",
+                    "volume": 1.25,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/giraffe/idle1",
+                    "volume": 0.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/giraffe/idle2",
+                    "volume": 0.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/giraffe/idle3",
+                    "volume": 0.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/giraffe/idle1",
+                    "volume": 0.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/giraffe/idle2",
+                    "volume": 0.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }
+            ]
+        },
+        "giraffe.mad": {
+            "category": "neutral",
+            "__use_legacy_max_distance": true,
+            "sounds": [{
+                    "name": "sounds/mob/giraffe/mad1",
+                    "volume": 1.25,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }
+            ]
+        },
+        "giraffe.eat": {
+            "category": "neutral",
+            "__use_legacy_max_distance": true,
+            "sounds": [{
+                    "name": "sounds/mob/giraffe/eat1",
+                    "volume": 1.25,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/giraffe/eat2",
+                    "volume": 1.25,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }
+            ]
+        },
+        "giraffe.hurt": {
+            "category": "neutral",
+            "__use_legacy_max_distance": true,
+            "sounds": [{
+                    "name": "sounds/mob/giraffe/hurt1",
+                    "volume": 1.25,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/giraffe/hurt2",
+                    "volume": 1.25,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }
+            ]
+        },
+        "giraffe.death": {
+            "category": "neutral",
+            "__use_legacy_max_distance": true,
+            "sounds": [{
+                    "name": "sounds/mob/giraffe/death1",
+                    "volume": 1.25,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/giraffe/death2",
+                    "volume": 1.25,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }
+            ]
+        },
+        "grizzly_bear.idle": {
+            "category": "neutral",
+            "__use_legacy_max_distance": true,
+            "sounds": [{
+                    "name": "sounds/mob/grizzly_bear/idle1",
+                    "volume": 1.3,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/grizzly_bear/idle2",
+                    "volume": 1.3,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/grizzly_bear/idle3",
+                    "volume": 1.3,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }
+            ]
+        },
+        "grizzly_bear.spit": {
+            "category": "neutral",
+            "max_distance": 8.0,
+            "sounds": [{
+                    "name": "sounds/mob/fox/spit1",
+                    "volume": 0.7,
+                    "pitch": 0.75
+                }, {
+                    "name": "sounds/mob/fox/spit2",
+                    "volume": 0.7,
+                    "pitch": 0.75
+                }, {
+                    "name": "sounds/mob/fox/spit3",
+                    "volume": 0.7,
+                    "pitch": 0.75
+                }
+            ]
+        },
+        "grizzly_bear.sleep": {
+            "category": "neutral",
+            "max_distance": 8.0,
+            "sounds": [{
+                    "name": "sounds/mob/grizzly_bear/sleep1",
+                    "volume": 0.75,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/grizzly_bear/sleep2",
+                    "volume": 0.75,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/grizzly_bear/sleep1",
+                    "volume": 0.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/grizzly_bear/sleep2",
+                    "volume": 0.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/grizzly_bear/sleep1",
+                    "volume": 0.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/grizzly_bear/sleep2",
+                    "volume": 0.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/grizzly_bear/sleep1",
+                    "volume": 0.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/grizzly_bear/sleep2",
+                    "volume": 0.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/grizzly_bear/sleep1",
+                    "volume": 0.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/grizzly_bear/sleep2",
+                    "volume": 0.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/grizzly_bear/sleep1",
+                    "volume": 0.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/grizzly_bear/sleep2",
+                    "volume": 0.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }
+            ]
+        },
+        "grizzly_bear.sniff": {
+            "category": "neutral",
+            "max_distance": 8.0,
+            "sounds": [{
+                    "name": "sounds/mob/grizzly_bear/sniff1",
+                    "volume": 0.475,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/grizzly_bear/sniff2",
+                    "volume": 0.475,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }
+            ]
+        },
+        "grizzly_bear.eat": {
+            "category": "neutral",
+            "max_distance": 8.0,
+            "sounds": [{
+                    "name": "sounds/mob/grizzly_bear/eat1",
+                    "volume": 1.3,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }
+            ]
+        },
+        "grizzly_bear.attack": {
+            "category": "neutral",
+            "max_distance": 8.0,
+            "sounds": [{
+                    "name": "sounds/mob/grizzly_bear/attack1",
+                    "volume": 0.75,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/grizzly_bear/attack2",
+                    "volume": 0.75,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/grizzly_bear/attack3",
+                    "volume": 0.75,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }
+            ]
+        },
+        "grizzly_bear.hurt": {
+            "category": "neutral",
+            "__use_legacy_max_distance": true,
+            "sounds": [{
+                    "name": "sounds/mob/grizzly_bear/hurt1",
+                    "volume": 1.3,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/grizzly_bear/hurt2",
+                    "volume": 1.3,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }, {
+                    "name": "sounds/mob/grizzly_bear/hurt3",
+                    "volume": 1.3,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }
+            ]
+        },
+        "grizzly_bear.death": {
+            "category": "neutral",
+            "__use_legacy_max_distance": true,
+            "sounds": [{
+                    "name": "sounds/mob/grizzly_bear/death1",
+                    "volume": 1.3,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/grizzly_bear/death2",
+                    "volume": 1.3,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }, {
+                    "name": "sounds/mob/grizzly_bear/death3",
+                    "volume": 1.3,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }
+            ]
+        },
+        "hamster.idle": {
+            "category": "neutral",
+            "__use_legacy_max_distance": true,
+            "sounds": [{
+                    "name": "sounds/mob/hamster/idle1",
+                    "volume": 1.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/hamster/idle2",
+                    "volume": 1.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }, {
+                    "name": "sounds/mob/hamster/idle3",
+                    "volume": 1.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }, {
+                    "name": "sounds/mob/hamster/idle4",
+                    "volume": 1.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }
+            ]
+        },
+        "hamster.standing": {
+            "category": "neutral",
+            "__use_legacy_max_distance": true,
+            "sounds": [{
+                    "name": "sounds/mob/hamster/standing1",
+                    "volume": 1.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/hamster/standing2",
+                    "volume": 1.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/hamster/standing3",
+                    "volume": 1.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/hamster/standing1",
+                    "volume": 0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/hamster/standing2",
+                    "volume": 0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/hamster/standing3",
+                    "volume": 0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/hamster/standing1",
+                    "volume": 0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/hamster/standing2",
+                    "volume": 0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/hamster/standing3",
+                    "volume": 0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }
+            ]
+        },
+        "hamster.sleep": {
+            "category": "neutral",
+            "max_distance": 8.0,
+            "sounds": [{
+                    "name": "sounds/mob/hamster/sleep1",
+                    "volume": 1.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/hamster/sleep2",
+                    "volume": 1.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/hamster/sleep3",
+                    "volume": 1.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }
+            ]
+        },
+        "hamster.hurt": {
+            "category": "neutral",
+            "__use_legacy_max_distance": true,
+            "sounds": [{
+                    "name": "sounds/mob/hamster/hurt1",
+                    "volume": 1.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/hamster/hurt2",
+                    "volume": 1.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }, {
+                    "name": "sounds/mob/hamster/hurt3",
+                    "volume": 1.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }
+            ]
+        },
+        "hamster.death": {
+            "category": "neutral",
+            "__use_legacy_max_distance": true,
+            "sounds": [{
+                    "name": "sounds/mob/hamster/death1",
+                    "volume": 1.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/hamster/death2",
+                    "volume": 1.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }, {
+                    "name": "sounds/mob/hamster/death3",
+                    "volume": 1.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }
+            ]
+        },
+        "hamster.eat": {
+            "category": "neutral",
+            "__use_legacy_max_distance": true,
+            "sounds": [{
+                    "name": "sounds/mob/hamster/eat1",
+                    "volume": 1.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/hamster/eat2",
+                    "volume": 1.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }, {
+                    "name": "sounds/mob/hamster/eat3",
+                    "volume": 1.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }
+            ]
+        },
+        "hamster.tamed": {
+            "category": "neutral",
+            "__use_legacy_max_distance": true,
+            "sounds": [{
+                    "name": "sounds/mob/hamster/tamed1",
+                    "volume": 1.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/hamster/tamed2",
+                    "volume": 1.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }, {
+                    "name": "sounds/mob/hamster/tamed3",
+                    "volume": 1.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }
+            ]
+        },
+        "hamster.attack": {
+            "category": "neutral",
+            "__use_legacy_max_distance": true,
+            "sounds": [{
+                    "name": "sounds/mob/hamster/attack1",
+                    "volume": 1.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/hamster/attack2",
+                    "volume": 1.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }, {
+                    "name": "sounds/mob/hamster/attack3",
+                    "volume": 1.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }, {
+                    "name": "sounds/mob/hamster/attack4",
+                    "volume": 1.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }
+            ]
+        },
+        "hamster.squish": {
+            "category": "neutral",
+            "__use_legacy_max_distance": true,
+            "sounds": [{
+                    "name": "sounds/mob/hamster/squish1",
+                    "volume": 1.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/hamster/squish2",
+                    "volume": 1.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }, {
+                    "name": "sounds/mob/hamster/squish3",
+                    "volume": 1.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }
+            ]
+        },
+        "hamster.overfed": {
+            "category": "neutral",
+            "__use_legacy_max_distance": true,
+            "sounds": [{
+                    "name": "sounds/mob/hamster/overfed1",
+                    "volume": 1.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/hamster/overfed2",
+                    "volume": 1.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }
+            ]
+        },
+        "hedgehog.idle": {
+            "category": "neutral",
+            "__use_legacy_max_distance": true,
+            "sounds": [{
+                    "name": "sounds/mob/hedgehog/idle1",
+                    "volume": 0.9,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/hedgehog/idle2",
+                    "volume": 0.9,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }, {
+                    "name": "sounds/mob/hedgehog/idle3",
+                    "volume": 0.9,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }
+            ]
+        },
+        "hedgehog.hide": {
+            "category": "neutral",
+            "__use_legacy_max_distance": true,
+            "sounds": [{
+                    "name": "sounds/mob/hedgehog/hide1",
+                    "volume": 0.9,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/hedgehog/hide2",
+                    "volume": 0.9,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }, {
+                    "name": "sounds/mob/hedgehog/hide3",
+                    "volume": 0.9,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }
+            ]
+        },
+        "hedgehog.unhide": {
+            "category": "neutral",
+            "__use_legacy_max_distance": true,
+            "sounds": [{
+                    "name": "sounds/mob/hedgehog/unhide1",
+                    "volume": 0.9,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/hedgehog/unhide2",
+                    "volume": 0.9,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }
+            ]
+        },
+        "hedgehog.hurt": {
+            "category": "neutral",
+            "__use_legacy_max_distance": true,
+            "sounds": [{
+                    "name": "sounds/mob/hedgehog/hurt1",
+                    "volume": 0.9,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/hedgehog/hurt2",
+                    "volume": 0.9,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }, {
+                    "name": "sounds/mob/hedgehog/hurt3",
+                    "volume": 0.9,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }
+            ]
+        },
+        "hedgehog.death": {
+            "category": "neutral",
+            "__use_legacy_max_distance": true,
+            "sounds": [{
+                    "name": "sounds/mob/hedgehog/death1",
+                    "volume": 0.9,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/hedgehog/death2",
+                    "volume": 0.9,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }
+            ]
+        },
+        "lizard.idle": {
+            "category": "neutral",
+            "__use_legacy_max_distance": true,
+            "sounds": [{
+                    "name": "sounds/mob/lizard/idle1",
+                    "volume": 1.25,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/lizard/idle2",
+                    "volume": 1.25,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/lizard/idle3",
+                    "volume": 1.25,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }
+            ]
+        },
+        "lizard.sleep": {
+            "category": "neutral",
+            "max_distance": 8.0,
+            "sounds": [{
+                    "name": "sounds/mob/lizard/sleep1",
+                    "volume": 1.25,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/lizard/sleep2",
+                    "volume": 1.25,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }
+            ]
+        },
+        "lizard.hurt": {
+            "category": "neutral",
+            "__use_legacy_max_distance": true,
+            "sounds": [{
+                    "name": "sounds/mob/lizard/hurt1",
+                    "volume": 1.25,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/lizard/hurt2",
+                    "volume": 1.25,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }
+            ]
+        },
+        "lizard.death": {
+            "category": "neutral",
+            "__use_legacy_max_distance": true,
+            "sounds": [{
+                    "name": "sounds/mob/lizard/death1",
+                    "volume": 1.25,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/lizard/death3",
+                    "volume": 1.25,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }
+            ]
+        },
+        "monkey.idle": {
+            "category": "neutral",
+            "__use_legacy_max_distance": true,
+            "sounds": [{
+                    "name": "sounds/mob/monkey/idle1",
+                    "volume": 1.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/monkey/idle2",
+                    "volume": 1.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }, {
+                    "name": "sounds/mob/monkey/idle3",
+                    "volume": 1.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }
+            ]
+        },
+        "monkey.idle_event": {
+            "category": "neutral",
+            "max_distance": 8.0,
+            "sounds": [{
+                    "name": "sounds/mob/monkey/idle_event1",
+                    "volume": 1.0,
+                    "stream": false,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/monkey/idle_event2",
+                    "volume": 1.0,
+                    "stream": false,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }, {
+                    "name": "sounds/mob/monkey/idle_event3",
+                    "volume": 1.0,
+                    "stream": false,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }
+            ]
+        },
+        "monkey.throw": {
+            "category": "neutral",
+            "max_distance": 8.0,
+            "sounds": [{
+                    "name": "sounds/mob/monkey/throw1",
+                    "volume": 1.0,
+                    "stream": false,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/monkey/throw2",
+                    "volume": 1.0,
+                    "stream": false,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }, {
+                    "name": "sounds/mob/monkey/throw3",
+                    "volume": 1.0,
+                    "stream": false,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }
+            ]
+        },
+        "monkey.hurt": {
+            "category": "neutral",
+            "__use_legacy_max_distance": true,
+            "sounds": [{
+                    "name": "sounds/mob/monkey/hurt1",
+                    "volume": 1.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/monkey/hurt2",
+                    "volume": 1.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }, {
+                    "name": "sounds/mob/monkey/hurt3",
+                    "volume": 1.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }
+            ]
+        },
+        "monkey.death": {
+            "category": "neutral",
+            "__use_legacy_max_distance": true,
+            "sounds": [{
+                    "name": "sounds/mob/monkey/death1",
+                    "volume": 1.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": true
+                }, {
+                    "name": "sounds/mob/monkey/death2",
+                    "volume": 1.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }, {
+                    "name": "sounds/mob/monkey/death3",
+                    "volume": 1.0,
+                    "stream": true,
+                    "is3D": true,
+                    "load_on_low_memory": false
+                }
+            ]
+        },
+    },
+    "penguin.idle": {
+        "category": "neutral",
+        "__use_legacy_max_distance": true,
+        "sounds": [{
+                "name": "sounds/mob/penguin/idle1",
+                "volume": 0.56,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/penguin/idle2",
+                "volume": 0.56,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }, {
+                "name": "sounds/mob/penguin/idle3",
+                "volume": 0.56,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }
+        ]
+    },
+    "penguin.extra": {
+        "category": "neutral",
+        "max_distance": 8.0,
+        "sounds": [{
+                "name": "sounds/mob/penguin/extra1",
+                "volume": 0.56,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/penguin/extra2",
+                "volume": 0.56,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }, {
+                "name": "sounds/mob/penguin/extra1",
+                "volume": 0.0,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/penguin/extra2",
+                "volume": 0.0,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }, {
+                "name": "sounds/mob/penguin/extra1",
+                "volume": 0.0,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/penguin/extra2",
+                "volume": 0.0,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }
+        ]
+    },
+    "penguin.fall": {
+        "category": "neutral",
+        "max_distance": 8.0,
+        "sounds": [{
+                "name": "sounds/mob/penguin/fall1",
+                "volume": 0.75,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }
+        ]
+    },
+    "penguin.hurt": {
+        "category": "neutral",
+        "__use_legacy_max_distance": true,
+        "sounds": [{
+                "name": "sounds/mob/penguin/hurt1",
+                "volume": 0.56,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/penguin/hurt2",
+                "volume": 0.56,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }
+        ]
+    },
+    "penguin.death": {
+        "category": "neutral",
+        "__use_legacy_max_distance": true,
+        "sounds": [{
+                "name": "sounds/mob/penguin/death1",
+                "volume": 0.56,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/penguin/death2",
+                "volume": 0.56,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }
+        ]
+    },
+    "platypus.idle": {
+        "category": "neutral",
+        "__use_legacy_max_distance": true,
+        "sounds": [{
+                "name": "sounds/mob/platypus/idle1",
+                "volume": 1.65,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/platypus/idle2",
+                "volume": 1.65,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }, {
+                "name": "sounds/mob/platypus/idle3",
+                "volume": 1.65,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }
+        ]
+    },
+    "platypus.swim": {
+        "category": "neutral",
+        "__use_legacy_max_distance": true,
+        "sounds": [{
+                "name": "sounds/mob/platypus/swim1",
+                "volume": 1.65,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/platypus/swim2",
+                "volume": 1.65,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }, {
+                "name": "sounds/mob/platypus/swim3",
+                "volume": 1.65,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }
+        ]
+    },
+    "platypus.hurt": {
+        "category": "neutral",
+        "__use_legacy_max_distance": true,
+        "sounds": [{
+                "name": "sounds/mob/platypus/hurt1",
+                "volume": 1.65,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/platypus/hurt2",
+                "volume": 1.65,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }, {
+                "name": "sounds/mob/platypus/hurt3",
+                "volume": 1.65,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }
+        ]
+    },
+    "platypus.death": {
+        "category": "neutral",
+        "__use_legacy_max_distance": true,
+        "sounds": [{
+                "name": "sounds/mob/platypus/death1",
+                "volume": 1.65,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/platypus/death2",
+                "volume": 1.65,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }, {
+                "name": "sounds/mob/platypus/death3",
+                "volume": 1.65,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }
+        ]
+    },
+    "raccoon.idle": {
+        "category": "neutral",
+        "__use_legacy_max_distance": true,
+        "sounds": [{
+                "name": "sounds/mob/raccoon/idle1",
+                "volume": 0.92,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/raccoon/idle2",
+                "volume": 0.92,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }, {
+                "name": "sounds/mob/raccoon/idle3",
+                "volume": 0.92,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }
+        ]
+    },
+    "raccoon.sleep": {
+        "category": "neutral",
+        "max_distance": 8.0,
+        "sounds": [{
+                "name": "sounds/mob/raccoon/sleep1",
+                "volume": 0.92,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/raccoon/sleep2",
+                "volume": 0.92,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }
+        ]
+    },
+    "raccoon.search": {
+        "category": "neutral",
+        "max_distance": 8.0,
+        "sounds": [{
+                "name": "sounds/mob/raccoon/search1",
+                "volume": 0.92,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/raccoon/search2",
+                "volume": 0.92,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }
+        ]
+    },
+    "raccoon.rummage": {
+        "category": "neutral",
+        "max_distance": 8.0,
+        "sounds": [{
+                "name": "sounds/mob/raccoon/rummage1",
+                "volume": 0.6,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/raccoon/rummage2",
+                "volume": 0.92,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }, {
+                "name": "sounds/mob/raccoon/rummage1",
+                "volume": 0,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/raccoon/rummage2",
+                "volume": 0,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }, {
+                "name": "sounds/mob/raccoon/rummage1",
+                "volume": 0,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/raccoon/rummage2",
+                "volume": 0,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }
+        ]
+    },
+    "raccoon.hurt": {
+        "category": "neutral",
+        "__use_legacy_max_distance": true,
+        "sounds": [{
+                "name": "sounds/mob/raccoon/hurt1",
+                "volume": 0.92,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/raccoon/hurt2",
+                "volume": 0.92,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }, {
+                "name": "sounds/mob/raccoon/hurt3",
+                "volume": 0.92,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }
+        ]
+    },
+    "raccoon.death": {
+        "category": "neutral",
+        "__use_legacy_max_distance": true,
+        "sounds": [{
+                "name": "sounds/mob/raccoon/death1",
+                "volume": 0.92,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/raccoon/death2",
+                "volume": 0.92,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }, {
+                "name": "sounds/mob/raccoon/death3",
+                "volume": 0.92,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }
+        ]
+    },
+    "rhino.idle": {
+        "category": "neutral",
+        "__use_legacy_max_distance": true,
+        "sounds": [{
+                "name": "sounds/mob/rhino/idle1",
+                "volume": 1.15,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/rhino/idle2",
+                "volume": 1.15,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/rhino/idle3",
+                "volume": 1.15,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }
+        ]
+    },
+    "rhino.attack": {
+        "category": "neutral",
+        "max_distance": 8.0,
+        "sounds": [{
+                "name": "sounds/mob/rhino/attack1",
+                "volume": 1.15,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/rhino/attack2",
+                "volume": 1.15,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/rhino/attack3",
+                "volume": 1.15,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }
+        ]
+    },
+    "rhino.scrape": {
+        "category": "neutral",
+        "max_distance": 8.0,
+        "sounds": [{
+                "name": "sounds/mob/rhino/scrape1",
+                "volume": 1.15,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/rhino/scrape2",
+                "volume": 1.15,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }
+        ]
+    },
+    "rhino.charge": {
+        "category": "neutral",
+        "max_distance": 8.0,
+        "sounds": [{
+                "name": "sounds/mob/rhino/charge1",
+                "volume": 1.15,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }
+        ]
+    },
+    "rhino.stun": {
+        "category": "neutral",
+        "max_distance": 8.0,
+        "sounds": [{
+                "name": "sounds/mob/rhino/stunned1",
+                "volume": 1.15,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }
+        ]
+    },
+    "rhino.hurt": {
+        "category": "neutral",
+        "__use_legacy_max_distance": true,
+        "sounds": [{
+                "name": "sounds/mob/rhino/hurt1",
+                "volume": 1.15,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/rhino/hurt2",
+                "volume": 1.15,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }, {
+                "name": "sounds/mob/rhino/hurt3",
+                "volume": 1.15,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }
+        ]
+    },
+    "rhino.death": {
+        "category": "neutral",
+        "__use_legacy_max_distance": true,
+        "sounds": [{
+                "name": "sounds/mob/rhino/death1",
+                "volume": 1.15,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/rhino/death2",
+                "volume": 1.15,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }
+        ]
+    },
+    "secretary_bird.idle": {
+        "category": "neutral",
+        "__use_legacy_max_distance": true,
+        "sounds": [{
+                "name": "sounds/mob/secretary_bird/idle1",
+                "volume": 0.9,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/secretary_bird/idle2",
+                "volume": 0.9,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }, {
+                "name": "sounds/mob/secretary_bird/idle3",
+                "volume": 0.9,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }
+        ]
+    },
+    "secretary_bird.attack": {
+        "category": "neutral",
+        "__use_legacy_max_distance": true,
+        "sounds": [{
+                "name": "sounds/mob/secretary_bird/attack1",
+                "volume": 0.9,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/secretary_bird/attack2",
+                "volume": 0.9,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }, {
+                "name": "sounds/mob/secretary_bird/attack3",
+                "volume": 0.9,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }
+        ]
+    },
+    "secretary_bird.peck": {
+        "category": "neutral",
+        "__use_legacy_max_distance": true,
+        "sounds": [{
+                "name": "sounds/mob/bird/peck1",
+                "volume": 0.9,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/bird/peck2",
+                "volume": 0.9,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }, {
+                "name": "sounds/mob/bird/peck3",
+                "volume": 0.9,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }
+        ]
+    },
+    "secretary_bird.hurt": {
+        "category": "neutral",
+        "__use_legacy_max_distance": true,
+        "sounds": [{
+                "name": "sounds/mob/secretary_bird/hurt1",
+                "volume": 0.9,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/secretary_bird/hurt2",
+                "volume": 0.9,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }
+        ]
+    },
+    "secretary_bird.death": {
+        "category": "neutral",
+        "__use_legacy_max_distance": true,
+        "sounds": [{
+                "name": "sounds/mob/secretary_bird/death1",
+                "volume": 0.9,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/secretary_bird/death2",
+                "volume": 0.9,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }
+        ]
+    },
+    "shark.idle": {
+        "category": "neutral",
+        "__use_legacy_max_distance": true,
+        "sounds": [{
+                "name": "sounds/mob/shark/idle1",
+                "volume": 0.75,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/shark/idle3",
+                "volume": 0.75,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }, {
+                "name": "sounds/mob/shark/idle4",
+                "volume": 0.75,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }
+        ]
+    },
+    "shark.swim": {
+        "category": "neutral",
+        "max_distance": 8.0,
+        "sounds": [{
+                "name": "sounds/mob/shark/swim1",
+                "volume": 0.75,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/shark/swim2",
+                "volume": 0.75,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }, {
+                "name": "sounds/mob/shark/swim3",
+                "volume": 0.75,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }, {
+                "name": "sounds/mob/shark/swim4",
+                "volume": 0.75,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }, {
+                "name": "sounds/mob/shark/swim5",
+                "volume": 0.75,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }
+        ]
+    },
+    "shark.swim_fast": {
+        "category": "neutral",
+        "max_distance": 8.0,
+        "sounds": [{
+                "name": "sounds/mob/shark/swim_fast1",
+                "volume": 0.75,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/shark/swim_fast2",
+                "volume": 0.75,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }, {
+                "name": "sounds/mob/shark/swim_fast3",
+                "volume": 0.75,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }, {
+                "name": "sounds/mob/shark/swim_fast4",
+                "volume": 0.75,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }, {
+                "name": "sounds/mob/shark/swim_fast5",
+                "volume": 0.75,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }
+        ]
+    },
+    "shark.attack": {
+        "category": "neutral",
+        "max_distance": 8.0,
+        "sounds": [{
+                "name": "sounds/mob/shark/attack1",
+                "volume": 0.75,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/shark/attack2",
+                "volume": 0.75,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }
+        ]
+    },
+    "shark.flop": {
+        "category": "neutral",
+        "max_distance": 8.0,
+        "sounds": [{
+                "name": "sounds/mob/shark/flop1",
+                "volume": 0.45,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/shark/flop3",
+                "volume": 0.45,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/shark/flop4",
+                "volume": 0.45,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/shark/flop5",
+                "volume": 0.45,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }
+        ]
+    },
+    "shark.hurt": {
+        "category": "neutral",
+        "__use_legacy_max_distance": true,
+        "sounds": [{
+                "name": "sounds/mob/shark/hurt1",
+                "volume": 0.75,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/shark/hurt2",
+                "volume": 0.75,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }, {
+                "name": "sounds/mob/shark/hurt3",
+                "volume": 0.75,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }
+        ]
+    },
+    "shark.death": {
+        "category": "neutral",
+        "__use_legacy_max_distance": true,
+        "sounds": [{
+                "name": "sounds/mob/shark/death1",
+                "volume": 0.75,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/shark/death2",
+                "volume": 0.75,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }
+        ]
+    },
+    "skunk.idle": {
+        "category": "neutral",
+        "__use_legacy_max_distance": true,
+        "sounds": [{
+                "name": "sounds/mob/skunk/idle1",
+                "volume": 0.9,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/skunk/idle2",
+                "volume": 0.9,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }, {
+                "name": "sounds/mob/skunk/idle3",
+                "volume": 0.9,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }
+        ]
+    },
+    "skunk.spray": {
+        "category": "neutral",
+        "__use_legacy_max_distance": true,
+        "sounds": [{
+                "name": "sounds/mob/skunk/spray1",
+                "volume": 0.9,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/skunk/spray2",
+                "volume": 0.9,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }, {
+                "name": "sounds/mob/skunk/spray3",
+                "volume": 0.9,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }
+        ]
+    },
+    "skunk.sniff": {
+        "category": "neutral",
+        "max_distance": 8.0,
+        "sounds": [{
+                "name": "sounds/mob/skunk/sniff1",
+                "volume": 0.9,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/skunk/sniff3",
+                "volume": 0.9,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/skunk/sniff4",
+                "volume": 0.9,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/skunk/sniff5",
+                "volume": 0.9,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }
+        ]
+    },
+    "skunk.hurt": {
+        "category": "neutral",
+        "__use_legacy_max_distance": true,
+        "sounds": [{
+                "name": "sounds/mob/skunk/hurt1",
+                "volume": 0.9,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/skunk/hurt2",
+                "volume": 0.9,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }, {
+                "name": "sounds/mob/skunk/hurt3",
+                "volume": 0.9,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }
+        ]
+    },
+    "skunk.death": {
+        "category": "neutral",
+        "__use_legacy_max_distance": true,
+        "sounds": [{
+                "name": "sounds/mob/skunk/death1",
+                "volume": 0.9,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/skunk/death2",
+                "volume": 0.9,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }
+        ]
+    },
+    "slug.idle": {
+        "category": "neutral",
+        "__use_legacy_max_distance": true,
+        "sounds": [{
+                "name": "sounds/mob/slug/idle",
+                "volume": 0.7,
+                "pitch": 0.75,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/slug/idle2",
+                "volume": 0.7,
+                "pitch": 0.75,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/slug/idle3",
+                "volume": 0.7,
+                "pitch": 0.75,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/slug/idle4",
+                "volume": 0.7,
+                "pitch": 0.75,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }
+        ]
+    },
+    "slug.forward": {
+        "category": "neutral",
+        "max_distance": 8.0,
+        "sounds": [{
+                "name": "sounds/mob/slug/forward1",
+                "volume": 0.7,
+                "pitch": 0.75,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/slug/forward2",
+                "volume": 0.7,
+                "pitch": 0.75,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/slug/forward3",
+                "volume": 0.7,
+                "pitch": 0.75,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/slug/forward4",
+                "volume": 0.7,
+                "pitch": 0.75,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }
+        ]
+    },
+    "slug.back": {
+        "category": "neutral",
+        "max_distance": 8.0,
+        "sounds": [{
+                "name": "sounds/mob/slug/back1",
+                "volume": 0.7,
+                "pitch": 0.75,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/slug/back2",
+                "volume": 0.7,
+                "pitch": 0.75,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/slug/back3",
+                "volume": 0.7,
+                "pitch": 0.75,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/slug/back4",
+                "volume": 0.7,
+                "pitch": 0.75,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }
+        ]
+    },
+    "slug.bounce": {
+        "category": "neutral",
+        "max_distance": 8.0,
+        "sounds": [{
+                "name": "sounds/mob/slug/bounce1",
+                "volume": 0.5,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/slug/bounce2",
+                "volume": 0.5,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/slug/bounce3",
+                "volume": 0.5,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }
+        ]
+    },
+    "slug.hurt": {
+        "category": "neutral",
+        "__use_legacy_max_distance": true,
+        "sounds": [{
+                "name": "sounds/mob/slug/hurt1",
+                "volume": 1.15,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/slug/hurt2",
+                "volume": 1.15,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }, {
+                "name": "sounds/mob/slug/hurt3",
+                "volume": 1.15,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }, {
+                "name": "sounds/mob/slug/hurt4",
+                "volume": 1.15,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }, {
+                "name": "sounds/mob/slug/hurt5",
+                "volume": 1.15,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }
+        ]
+    },
+    "slug.death": {
+        "category": "neutral",
+        "__use_legacy_max_distance": true,
+        "sounds": [{
+                "name": "sounds/mob/slug/death1",
+                "volume": 1.35,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/slug/death2",
+                "volume": 1.35,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }, {
+                "name": "sounds/mob/slug/death3",
+                "volume": 1.35,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }, {
+                "name": "sounds/mob/slug/death4",
+                "volume": 1.35,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }, {
+                "name": "sounds/mob/slug/death5",
+                "volume": 1.35,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }
+        ]
+    },
+    "snake.idle": {
+        "category": "neutral",
+        "__use_legacy_max_distance": true,
+        "sounds": [{
+                "name": "sounds/mob/snake/idle1",
+                "volume": 1.1,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/snake/idle2",
+                "volume": 1.1,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/snake/idle3",
+                "volume": 1.1,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }
+        ]
+    },
+    "snake.rattle": {
+        "category": "neutral",
+        "max_distance": 8.0,
+        "sounds": [{
+                "name": "sounds/mob/snake/rattle",
+                "volume": 0.325,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }
+        ]
+    },
+    "snake.rattleshort": {
+        "category": "neutral",
+        "max_distance": 8.0,
+        "sounds": [{
+                "name": "sounds/mob/snake/rattleshort",
+                "volume": 0.45,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }
+        ]
+    },
+    "snake.attack": {
+        "category": "neutral",
+        "max_distance": 8.0,
+        "sounds": [{
+                "name": "sounds/mob/snake/attack1",
+                "volume": 1.1,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/snake/attack2",
+                "volume": 1.1,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/snake/attack3",
+                "volume": 1.1,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }
+        ]
+    },
+    "snake.hurt": {
+        "category": "neutral",
+        "__use_legacy_max_distance": true,
+        "sounds": [{
+                "name": "sounds/mob/snake/hurt1",
+                "volume": 1.1,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/snake/hurt2",
+                "volume": 1.1,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }, {
+                "name": "sounds/mob/snake/hurt3",
+                "volume": 1.1,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }
+        ]
+    },
+    "snake.death": {
+        "category": "neutral",
+        "__use_legacy_max_distance": true,
+        "sounds": [{
+                "name": "sounds/mob/snake/death1",
+                "volume": 1.1,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/snake/death2",
+                "volume": 1.1,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }
+        ]
+    },
+    "squirrel.idle": {
+        "category": "neutral",
+        "__use_legacy_max_distance": true,
+        "sounds": [{
+                "name": "sounds/mob/squirrel/idle1",
+                "volume": 0.91,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/squirrel/idle2",
+                "volume": 0.91,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }, {
+                "name": "sounds/mob/squirrel/idle5",
+                "volume": 0.91,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }
+        ]
+    },
+    "squirrel.hurt": {
+        "category": "neutral",
+        "__use_legacy_max_distance": true,
+        "sounds": [{
+                "name": "sounds/mob/squirrel/hurt1",
+                "volume": 0.91,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/squirrel/hurt2",
+                "volume": 0.91,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }, {
+                "name": "sounds/mob/squirrel/hurt3",
+                "volume": 0.91,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }
+        ]
+    },
+    "squirrel.death": {
+        "category": "neutral",
+        "__use_legacy_max_distance": true,
+        "sounds": [{
+                "name": "sounds/mob/squirrel/death1",
+                "volume": 0.91,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/squirrel/death2",
+                "volume": 0.91,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }
+        ]
+    },
+    "squirrel.clean": {
+        "category": "neutral",
+        "max_distance": 8.0,
+        "sounds": [{
+                "name": "sounds/mob/squirrel/clean",
+                "volume": 0.91,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }
+        ]
+    },
+    "tiger.idle": {
+        "category": "neutral",
+        "__use_legacy_max_distance": true,
+        "sounds": [{
+                "name": "sounds/mob/tiger/idle1",
+                "volume": 1.0,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/tiger/idle2",
+                "volume": 1.0,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }, {
+                "name": "sounds/mob/tiger/idle3",
+                "volume": 1.0,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }
+        ]
+    },
+    "tiger.attack": {
+        "category": "neutral",
+        "max_distance": 8.0,
+        "sounds": [{
+                "name": "sounds/mob/tiger/attack1",
+                "volume": 0.85,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/tiger/attack2",
+                "volume": 0.85,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }
+        ]
+    },
+    "tiger.prey": {
+        "category": "neutral",
+        "max_distance": 8.0,
+        "sounds": [{
+                "name": "sounds/mob/tiger/prey1",
+                "volume": 0.85,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/tiger/prey2",
+                "volume": 0.85,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }
+        ]
+    },
+    "tiger.sleep": {
+        "category": "neutral",
+        "max_distance": 8.0,
+        "sounds": [{
+                "name": "sounds/mob/tiger/sleep1",
+                "volume": 0.85,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/tiger/sleep2",
+                "volume": 0.85,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }
+        ]
+    },
+    "tiger.hurt": {
+        "category": "neutral",
+        "__use_legacy_max_distance": true,
+        "sounds": [{
+                "name": "sounds/mob/tiger/hurt1",
+                "volume": 0.85,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/tiger/hurt2",
+                "volume": 0.85,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }, {
+                "name": "sounds/mob/tiger/hurt3",
+                "volume": 0.85,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }
+        ]
+    },
+    "tiger.death": {
+        "category": "neutral",
+        "__use_legacy_max_distance": true,
+        "sounds": [{
+                "name": "sounds/mob/tiger/death1",
+                "volume": 0.85,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/tiger/death2",
+                "volume": 0.85,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }
+        ]
+    },
+    "tree_frog.idle": {
+        "category": "neutral",
+        "__use_legacy_max_distance": true,
+        "sounds": [{
+                "name": "sounds/mob/tree_frog/idle1",
+                "volume": 0.8,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/tree_frog/idle2",
+                "volume": 0.8,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }
+        ]
+    },
+    "tree_frog.jump": {
+        "category": "neutral",
+        "max_distance": 8.0,
+        "sounds": [{
+                "name": "sounds/mob/tree_frog/jump1",
+                "volume": 0.8,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/tree_frog/jump2",
+                "volume": 0.8,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }
+        ]
+    },
+    "tree_frog.idle_event": {
+        "category": "neutral",
+        "max_distance": 8.0,
+        "sounds": [{
+                "name": "sounds/mob/tree_frog/idle_event1",
+                "volume": 0.8,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }
+        ]
+    },
+    "tree_frog.hurt": {
+        "category": "neutral",
+        "__use_legacy_max_distance": true,
+        "sounds": [{
+                "name": "sounds/mob/tree_frog/hurt1",
+                "volume": 0.8,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/tree_frog/hurt2",
+                "volume": 0.8,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }
+        ]
+    },
+    "tree_frog.death": {
+        "category": "neutral",
+        "__use_legacy_max_distance": true,
+        "sounds": [{
+                "name": "sounds/mob/tree_frog/death1",
+                "volume": 0.8,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/tree_frog/death2",
+                "volume": 0.8,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }
+        ]
+    },
+    "turkey.idle": {
+        "category": "neutral",
+        "__use_legacy_max_distance": true,
+        "sounds": [{
+                "name": "sounds/mob/turkey/idle1",
+                "volume": 1.25,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/turkey/idle2",
+                "volume": 1.25,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }, {
+                "name": "sounds/mob/turkey/idle3",
+                "volume": 1.25,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }
+        ]
+    },
+    "turkey.peck": {
+        "category": "neutral",
+        "max_distance": 8.0,
+        "sounds": [{
+                "name": "sounds/mob/bird/peck1",
+                "volume": 0.6,
+                "pitch": 0.9,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/bird/peck2",
+                "volume": 0.6,
+                "pitch": 0.9,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }, {
+                "name": "sounds/mob/bird/peck3",
+                "volume": 0.6,
+                "pitch": 0.9,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }
+        ]
+    },
+    "turkey.hurt": {
+        "category": "neutral",
+        "__use_legacy_max_distance": true,
+        "sounds": [{
+                "name": "sounds/mob/turkey/hurt1",
+                "volume": 1.25,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/turkey/hurt2",
+                "volume": 1.25,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }, {
+                "name": "sounds/mob/turkey/hurt3",
+                "volume": 1.25,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }
+        ]
+    },
+    "turkey.death": {
+        "category": "neutral",
+        "__use_legacy_max_distance": true,
+        "sounds": [{
+                "name": "sounds/mob/turkey/death1",
+                "volume": 1.25,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": true
+            }, {
+                "name": "sounds/mob/turkey/death2",
+                "volume": 1.25,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }, {
+                "name": "sounds/mob/turkey/death3",
+                "volume": 1.25,
+                "stream": true,
+                "is3D": true,
+                "load_on_low_memory": false
+            }
+        ]
+    }
+}
