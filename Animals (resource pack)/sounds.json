@@ -204,13 +204,13 @@
             "pitch": 1.5
           },
           "step": {
-            "sound": "grizzly_grizzly_bear.step",
+            "sound": "grizzlybear.step",
             "pitch": 1.0
           },
-          "tempt": "grizzly_grizzly_bear.sniff",
-          "eat": "grizzly_grizzly_bear.eat",
+          "tempt": "grizzly_bear.sniff",
+          "eat": "grizzly_bear.eat",
           "sleep": {
-            "sound": "grizzly_grizzly_bear.sleep"
+            "sound": "grizzly_bear.sleep"
           }
         }
       },
