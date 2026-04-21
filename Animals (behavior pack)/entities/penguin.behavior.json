@@ -54,6 +54,10 @@
                 "breathes_water": true
             },
             "minecraft:nameable": {},
+            "minecraft:ambient_sound_interval": {
+                "value": 8,
+                "range": 16
+            },
             "minecraft:health": {
                 "value": 12
             },

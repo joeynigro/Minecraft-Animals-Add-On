@@ -106,6 +106,10 @@
                 "value": 16
             },
             "minecraft:nameable": {},
+            "minecraft:ambient_sound_interval": {
+                "value": 8,
+                "range": 16
+            },
             "minecraft:despawn": {
                 "despawn_from_distance": {}
             },
