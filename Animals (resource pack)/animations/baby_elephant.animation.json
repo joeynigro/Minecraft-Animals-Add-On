@@ -3,7 +3,7 @@
 	"animations": {
 		"animation.elephant.baby.idle": {
 			"loop": true,
-			"animation_length": 4,
+			"animation_length": 3,
 			"bones": {
 				"tail": {
 					"rotation": {
