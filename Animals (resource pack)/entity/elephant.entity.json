@@ -17,6 +17,7 @@
       "animations": {
         "idle": "animation.elephant.idle",
         "walk": "animation.quadruped.walk",
+        "trumpet": "animation.elephtant.trumpet",
         "look_at_target": "animation.common.look_at_target",
         "baby_idle": "animation.elephant.baby.idle"
       },
@@ -28,6 +29,9 @@
           },
           {
             "idle": "!query.is_baby ? (1.0 - math.min(query.modified_move_speed, 1.0)) : 0.0"
+          },
+          {
+            "trumpet": "!query.is_baby && query.is_angry ? 1.0 : 0.0""
           },
           {
             "baby_idle": "query.is_baby ? (1.0 - math.min(query.modified_move_speed, 1.0)) : 0.0"
