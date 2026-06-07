@@ -8,25 +8,29 @@
     "conditions": [
       {
         "minecraft:spawns_on_surface": {},
-                "minecraft:spawns_on_block_filter": [{
-                        "name": "minecraft:grass_block"
-                    }, {
-                        "name": "minecraft:dirt"
-                    }, {
-                        "name": "minecraft:coarse_dirt"
-                    }, {
-                        "name": "minecraft:sand"
-                    }
-                ],
+        "minecraft:spawns_on_block_filter": [
+          {
+            "name": "minecraft:grass_block"
+          },
+          {
+            "name": "minecraft:dirt"
+          },
+          {
+            "name": "minecraft:coarse_dirt"
+          },
+          {
+            "name": "minecraft:sand"
+          }
+        ],
         "minecraft:spawns_on_block_prevented_filter": [
           "minecraft:water",
           "minecraft:lava",
           "minecraft:leaves"
         ],
         "minecraft:brightness_filter": {
-          "min": 62,
-          "max": 100,
-          "adjust_for_weather": false
+          "min": 7,
+          "max": 15,
+          "adjust_for_weather": true
         },
         "minecraft:weight": {
           "default": 15
@@ -34,17 +38,27 @@
         "minecraft:herd": {
           "min_size": 2,
           "max_size": 3,
-          "event":"minecraft:entity_born",
+          "event": "minecraft:entity_born",
           "event_skip_count": 1
         },
         "minecraft:density_limit": {
           "surface": 3,
           "underground": 0
         },
-        "minecraft:biome_filter": [
-          {"test": "has_biome_tag", "operator":"==", "value": "savanna"},
-          {"test": "has_biome_tag", "operator":"==", "value": "plains"}
-		]
+        "minecraft:biome_filter": {
+          "any_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "savanna"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "plains"
+            }
+          ]
+        }
       }
     ]
   }

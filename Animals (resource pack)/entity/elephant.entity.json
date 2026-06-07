@@ -17,7 +17,7 @@
       "animations": {
         "idle": "animation.elephant.idle",
         "walk": "animation.quadruped.walk",
-        "trumpet": "animation.elephtant.trumpet",
+        "trumpet": "animation.elephant.trumpet",
         "look_at_target": "animation.common.look_at_target",
         "baby_idle": "animation.elephant.baby.idle"
       },
