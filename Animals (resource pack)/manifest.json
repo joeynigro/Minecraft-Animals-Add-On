@@ -2,14 +2,14 @@
 	"format_version": 2,
 	"header": {
 		"name": "Animals",
-		"description": "by Kidz Play Zone",
+		"description": "by Joey Nigro",
 		"uuid": "b13c37ea-ee99-727f-a2e4-9c0783672a92",
 		"version": [1, 0, 0],
 		"min_engine_version": [1, 16, 0]
 	},
 	"modules": [
 		{
-			"description": "by Kidz Play Zone",
+			"description": "by Joey Nigro",
 			"type": "resources",
 			"uuid": "3d0dfd06-2348-0200-ab39-71196c46c0e3",
 			"version": [1, 0, 0]
